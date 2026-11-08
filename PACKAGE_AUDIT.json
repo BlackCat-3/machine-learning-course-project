@@ -8,6 +8,9 @@
   "credential_pattern_matches": [],
   "source_algorithms_unchanged": true,
   "full_training_rerun": false,
-  "github_uploaded": false,
-  "visibility_requested": "public"
+  "github_uploaded": true,
+  "visibility_requested": "public",
+  "github_url": "https://github.com/BlackCat-3/machine-learning-course-project",
+  "remote_file_count_verified": 758,
+  "remote_public_access_verified": true
 }
