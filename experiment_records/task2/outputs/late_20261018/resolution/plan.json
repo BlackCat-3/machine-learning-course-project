@@ -1,0 +1,122 @@
+{
+  "common_arguments": [
+    "--architecture",
+    "resnet18",
+    "--no-maxpool",
+    "--epochs",
+    "6",
+    "--batch-size",
+    "128",
+    "--lr",
+    "0.00003",
+    "--head-lr-multiplier",
+    "3",
+    "--warmup-epochs",
+    "1",
+    "--weight-decay",
+    "0.001",
+    "--label-smoothing",
+    "0.05",
+    "--dropout",
+    "0.3",
+    "--seed",
+    "44",
+    "--mixup-alpha",
+    "0.2",
+    "--mixup-prob",
+    "1",
+    "--ema-decay",
+    "0.995",
+    "--erasing-prob",
+    "0",
+    "--device",
+    "cuda",
+    "--log-every",
+    "0"
+  ],
+  "image_sizes": {
+    "tune112": 112,
+    "tune160": 160
+  },
+  "candidate_models": [
+    [
+      "old_mixup",
+      "detail_seed43",
+      "resnet34",
+      "detail_seed44"
+    ],
+    [
+      "tune112"
+    ],
+    [
+      "tune160"
+    ],
+    [
+      "old_mixup",
+      "detail_seed43",
+      "resnet34",
+      "tune112"
+    ],
+    [
+      "old_mixup",
+      "detail_seed43",
+      "resnet34",
+      "tune160"
+    ],
+    [
+      "old_mixup",
+      "detail_seed43",
+      "resnet34",
+      "detail_seed44",
+      "tune112"
+    ],
+    [
+      "old_mixup",
+      "detail_seed43",
+      "resnet34",
+      "detail_seed44",
+      "tune160"
+    ],
+    [
+      "detail_seed44",
+      "tune160"
+    ]
+  ],
+  "baseline_models": [
+    "old_mixup",
+    "detail_seed43",
+    "resnet34",
+    "detail_seed44"
+  ],
+  "baseline_validation_correct": 2973,
+  "dataset_fingerprint": "7bcd01fe884e0d31ef63381045181a87207760af85c60224613446e99863a0fa",
+  "initialization": {
+    "holdout": {
+      "path": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\seed_erasing_20261016\\detail_seed44\\best.pt",
+      "sha256": "fec1fc1b6305e645afe8971a68dfaacbf41853f298ece0353d33c106efbd0c26"
+    },
+    "full": {
+      "path": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\seed_erasing_20261016\\full\\detail_seed44\\final.pt",
+      "sha256": "a18a109bd37761fdc50a4cb0d84a5eeb57b83f75d34954e3ad7e6c72c60e8661"
+    }
+  },
+  "old_holdout_checkpoint_hashes": {
+    "old_mixup": "0282f41d474f521cfda5dae794ebb494384c364700a62c9f72c56e9d46e69e53",
+    "detail_seed43": "b39eb86c696836e39fd72ba113855909f5d933d99de13b8cdc7b479291a4472d",
+    "resnet34": "05280a8b3ff2a271c0b958f7980079b46fc0ce7975f9df634e7cd33c2f841516",
+    "detail_seed44": "fec1fc1b6305e645afe8971a68dfaacbf41853f298ece0353d33c106efbd0c26"
+  },
+  "protected_submission_hashes": {
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\submission.csv": "4414f84a494aedb722eafaa3f9ce75ef2991286a8e869792d1cb7974d2bc8f09",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\submission_improved.csv": "1be9b64328089eb25de1959d79c5a6c6d1e4eeea50838f358a53f21d7ba47bfa",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\seed_erasing_20261016\\submission_improved.csv": "b889290cc001ca7e5c3d8c375693b85e183656f3f81c63ac3cc843a1788ce80a"
+  },
+  "single_factor_comparison": "Both new runs start from the same selected seed44 weights and use the same fresh six-epoch low-LR schedule. Only image_size differs (112 versus 160).",
+  "checkpoint_rule": "Best raw/EMA no-TTA validation accuracy, then horizontal-flip TTA.",
+  "selection_rule": "Fixed equal-weight candidates; highest correct count, then fewer models, then declared order. Keep baseline on a tie with baseline.",
+  "reported_kaggle_score": {
+    "value": 0.722,
+    "source": "user reported; not independently retrieved"
+  },
+  "scope": "Repeated model-selection holdout, not an untouched test. No guarantee of Kaggle improvement."
+}

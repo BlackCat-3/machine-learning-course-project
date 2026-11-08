@@ -1,0 +1,7 @@
+{
+  "state": "completed",
+  "nested_models": 12,
+  "coarse_steps_each": 320,
+  "native_cache_size": 768,
+  "best_submission_unchanged": true
+}

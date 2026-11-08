@@ -1,0 +1,626 @@
+{
+  "passed": true,
+  "stage": "validation_only",
+  "improved": true,
+  "single_factor_changes": {
+    "detail_seed44": {
+      "seed": [
+        43,
+        44
+      ]
+    },
+    "detail_erasing": {
+      "erasing_prob": [
+        0.0,
+        0.25
+      ]
+    }
+  },
+  "previous_submissions_preserved": [
+    {
+      "path": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\submission.csv",
+      "sha256": "4414f84a494aedb722eafaa3f9ce75ef2991286a8e869792d1cb7974d2bc8f09"
+    },
+    {
+      "path": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\submission_improved.csv",
+      "sha256": "1be9b64328089eb25de1959d79c5a6c6d1e4eeea50838f358a53f21d7ba47bfa"
+    }
+  ],
+  "dataset_fingerprint": "7bcd01fe884e0d31ef63381045181a87207760af85c60224613446e99863a0fa",
+  "candidate_scores": [
+    {
+      "models": [
+        "old_mixup",
+        "detail_seed43",
+        "resnet34"
+      ],
+      "correct": 2953,
+      "accuracy": 0.696298042914407
+    },
+    {
+      "models": [
+        "detail_seed43"
+      ],
+      "correct": 2916,
+      "accuracy": 0.6875736854515444
+    },
+    {
+      "models": [
+        "detail_seed44"
+      ],
+      "correct": 2948,
+      "accuracy": 0.6951190756896958
+    },
+    {
+      "models": [
+        "detail_erasing"
+      ],
+      "correct": 2940,
+      "accuracy": 0.693232728130158
+    },
+    {
+      "models": [
+        "detail_seed43",
+        "detail_seed44"
+      ],
+      "correct": 2968,
+      "accuracy": 0.6998349445885405
+    },
+    {
+      "models": [
+        "detail_seed43",
+        "detail_erasing"
+      ],
+      "correct": 2942,
+      "accuracy": 0.6937043150200425
+    },
+    {
+      "models": [
+        "old_mixup",
+        "detail_seed43",
+        "resnet34",
+        "detail_seed44"
+      ],
+      "correct": 2973,
+      "accuracy": 0.7010139118132516
+    },
+    {
+      "models": [
+        "old_mixup",
+        "detail_seed43",
+        "resnet34",
+        "detail_erasing"
+      ],
+      "correct": 2971,
+      "accuracy": 0.7005423249233671
+    },
+    {
+      "models": [
+        "old_mixup",
+        "detail_seed43",
+        "resnet34",
+        "detail_seed44",
+        "detail_erasing"
+      ],
+      "correct": 2969,
+      "accuracy": 0.7000707380334826
+    }
+  ],
+  "selected": {
+    "models": [
+      "old_mixup",
+      "detail_seed43",
+      "resnet34",
+      "detail_seed44"
+    ],
+    "correct": 2973,
+    "accuracy": 0.7010139118132516
+  },
+  "gain_percentage_points": 0.47158688988445663,
+  "paired_counts": {
+    "old_wrong_new_correct": 66,
+    "old_correct_new_wrong": 46
+  },
+  "holdout_models": [
+    {
+      "model": "old_mixup",
+      "checkpoint_sha256": "0282f41d474f521cfda5dae794ebb494384c364700a62c9f72c56e9d46e69e53",
+      "epoch": 12,
+      "source": "ema",
+      "tta_metrics": {
+        "correct": 2909,
+        "samples": 4241,
+        "accuracy": 0.6859231313369488,
+        "confusion_matrix": [
+          [
+            361,
+            44,
+            29,
+            66,
+            13,
+            81
+          ],
+          [
+            90,
+            284,
+            20,
+            100,
+            46,
+            75
+          ],
+          [
+            16,
+            13,
+            974,
+            16,
+            17,
+            43
+          ],
+          [
+            64,
+            68,
+            31,
+            396,
+            14,
+            156
+          ],
+          [
+            26,
+            48,
+            21,
+            8,
+            360,
+            17
+          ],
+          [
+            26,
+            27,
+            55,
+            99,
+            3,
+            534
+          ]
+        ],
+        "confusion_matrix_axes": {
+          "rows": "true",
+          "columns": "predicted"
+        },
+        "per_class": {
+          "Angry": {
+            "support": 594,
+            "correct": 361,
+            "recall": 0.6077441077441077
+          },
+          "Fear": {
+            "support": 615,
+            "correct": 284,
+            "recall": 0.46178861788617886
+          },
+          "Happy": {
+            "support": 1079,
+            "correct": 974,
+            "recall": 0.9026876737720111
+          },
+          "Sad": {
+            "support": 729,
+            "correct": 396,
+            "recall": 0.5432098765432098
+          },
+          "Surprise": {
+            "support": 480,
+            "correct": 360,
+            "recall": 0.75
+          },
+          "Neutral": {
+            "support": 744,
+            "correct": 534,
+            "recall": 0.717741935483871
+          }
+        }
+      },
+      "strict_cpu_loaded_tensors": 122,
+      "skipped_optimizer_steps": 0
+    },
+    {
+      "model": "detail_seed43",
+      "checkpoint_sha256": "b39eb86c696836e39fd72ba113855909f5d933d99de13b8cdc7b479291a4472d",
+      "epoch": 11,
+      "source": "ema",
+      "tta_metrics": {
+        "correct": 2916,
+        "samples": 4241,
+        "accuracy": 0.6875736854515444,
+        "confusion_matrix": [
+          [
+            367,
+            40,
+            31,
+            60,
+            16,
+            80
+          ],
+          [
+            84,
+            274,
+            21,
+            105,
+            55,
+            76
+          ],
+          [
+            18,
+            14,
+            974,
+            18,
+            17,
+            38
+          ],
+          [
+            87,
+            62,
+            29,
+            401,
+            6,
+            144
+          ],
+          [
+            16,
+            44,
+            19,
+            7,
+            369,
+            25
+          ],
+          [
+            42,
+            19,
+            64,
+            84,
+            4,
+            531
+          ]
+        ],
+        "confusion_matrix_axes": {
+          "rows": "true",
+          "columns": "predicted"
+        },
+        "per_class": {
+          "Angry": {
+            "support": 594,
+            "correct": 367,
+            "recall": 0.6178451178451179
+          },
+          "Fear": {
+            "support": 615,
+            "correct": 274,
+            "recall": 0.44552845528455287
+          },
+          "Happy": {
+            "support": 1079,
+            "correct": 974,
+            "recall": 0.9026876737720111
+          },
+          "Sad": {
+            "support": 729,
+            "correct": 401,
+            "recall": 0.5500685871056241
+          },
+          "Surprise": {
+            "support": 480,
+            "correct": 369,
+            "recall": 0.76875
+          },
+          "Neutral": {
+            "support": 744,
+            "correct": 531,
+            "recall": 0.7137096774193549
+          }
+        }
+      },
+      "strict_cpu_loaded_tensors": 122,
+      "skipped_optimizer_steps": 0
+    },
+    {
+      "model": "resnet34",
+      "checkpoint_sha256": "05280a8b3ff2a271c0b958f7980079b46fc0ce7975f9df634e7cd33c2f841516",
+      "epoch": 9,
+      "source": "ema",
+      "tta_metrics": {
+        "correct": 2878,
+        "samples": 4241,
+        "accuracy": 0.6786135345437397,
+        "confusion_matrix": [
+          [
+            369,
+            39,
+            20,
+            67,
+            12,
+            87
+          ],
+          [
+            86,
+            277,
+            20,
+            90,
+            56,
+            86
+          ],
+          [
+            20,
+            10,
+            959,
+            18,
+            21,
+            51
+          ],
+          [
+            76,
+            72,
+            31,
+            395,
+            6,
+            149
+          ],
+          [
+            23,
+            45,
+            24,
+            7,
+            361,
+            20
+          ],
+          [
+            38,
+            29,
+            64,
+            90,
+            6,
+            517
+          ]
+        ],
+        "confusion_matrix_axes": {
+          "rows": "true",
+          "columns": "predicted"
+        },
+        "per_class": {
+          "Angry": {
+            "support": 594,
+            "correct": 369,
+            "recall": 0.6212121212121212
+          },
+          "Fear": {
+            "support": 615,
+            "correct": 277,
+            "recall": 0.4504065040650406
+          },
+          "Happy": {
+            "support": 1079,
+            "correct": 959,
+            "recall": 0.8887859128822985
+          },
+          "Sad": {
+            "support": 729,
+            "correct": 395,
+            "recall": 0.541838134430727
+          },
+          "Surprise": {
+            "support": 480,
+            "correct": 361,
+            "recall": 0.7520833333333333
+          },
+          "Neutral": {
+            "support": 744,
+            "correct": 517,
+            "recall": 0.6948924731182796
+          }
+        }
+      },
+      "strict_cpu_loaded_tensors": 218,
+      "skipped_optimizer_steps": 0
+    },
+    {
+      "model": "detail_seed44",
+      "checkpoint_sha256": "fec1fc1b6305e645afe8971a68dfaacbf41853f298ece0353d33c106efbd0c26",
+      "epoch": 13,
+      "source": "ema",
+      "tta_metrics": {
+        "correct": 2948,
+        "samples": 4241,
+        "accuracy": 0.6951190756896958,
+        "confusion_matrix": [
+          [
+            377,
+            51,
+            26,
+            59,
+            9,
+            72
+          ],
+          [
+            84,
+            296,
+            18,
+            96,
+            46,
+            75
+          ],
+          [
+            15,
+            13,
+            967,
+            22,
+            20,
+            42
+          ],
+          [
+            81,
+            70,
+            28,
+            409,
+            7,
+            134
+          ],
+          [
+            19,
+            50,
+            20,
+            10,
+            368,
+            13
+          ],
+          [
+            40,
+            24,
+            56,
+            89,
+            4,
+            531
+          ]
+        ],
+        "confusion_matrix_axes": {
+          "rows": "true",
+          "columns": "predicted"
+        },
+        "per_class": {
+          "Angry": {
+            "support": 594,
+            "correct": 377,
+            "recall": 0.6346801346801347
+          },
+          "Fear": {
+            "support": 615,
+            "correct": 296,
+            "recall": 0.4813008130081301
+          },
+          "Happy": {
+            "support": 1079,
+            "correct": 967,
+            "recall": 0.8962001853568119
+          },
+          "Sad": {
+            "support": 729,
+            "correct": 409,
+            "recall": 0.5610425240054869
+          },
+          "Surprise": {
+            "support": 480,
+            "correct": 368,
+            "recall": 0.7666666666666667
+          },
+          "Neutral": {
+            "support": 744,
+            "correct": 531,
+            "recall": 0.7137096774193549
+          }
+        }
+      },
+      "strict_cpu_loaded_tensors": 122,
+      "skipped_optimizer_steps": 0
+    },
+    {
+      "model": "detail_erasing",
+      "checkpoint_sha256": "2c2a15d15cb421af053b0477f7914503da5746eeaa89393e3371519e88b7892e",
+      "epoch": 12,
+      "source": "ema",
+      "tta_metrics": {
+        "correct": 2940,
+        "samples": 4241,
+        "accuracy": 0.693232728130158,
+        "confusion_matrix": [
+          [
+            375,
+            45,
+            26,
+            67,
+            12,
+            69
+          ],
+          [
+            83,
+            283,
+            22,
+            102,
+            49,
+            76
+          ],
+          [
+            17,
+            10,
+            972,
+            20,
+            18,
+            42
+          ],
+          [
+            77,
+            63,
+            30,
+            406,
+            7,
+            146
+          ],
+          [
+            17,
+            38,
+            19,
+            10,
+            380,
+            16
+          ],
+          [
+            34,
+            23,
+            60,
+            99,
+            4,
+            524
+          ]
+        ],
+        "confusion_matrix_axes": {
+          "rows": "true",
+          "columns": "predicted"
+        },
+        "per_class": {
+          "Angry": {
+            "support": 594,
+            "correct": 375,
+            "recall": 0.6313131313131313
+          },
+          "Fear": {
+            "support": 615,
+            "correct": 283,
+            "recall": 0.46016260162601624
+          },
+          "Happy": {
+            "support": 1079,
+            "correct": 972,
+            "recall": 0.9008341056533827
+          },
+          "Sad": {
+            "support": 729,
+            "correct": 406,
+            "recall": 0.5569272976680384
+          },
+          "Surprise": {
+            "support": 480,
+            "correct": 380,
+            "recall": 0.7916666666666666
+          },
+          "Neutral": {
+            "support": 744,
+            "correct": 524,
+            "recall": 0.7043010752688172
+          }
+        }
+      },
+      "strict_cpu_loaded_tensors": 122,
+      "skipped_optimizer_steps": 0
+    }
+  ],
+  "full_models": [],
+  "new_submission": null,
+  "scope": "CPU audit of saved predictions and checkpoint provenance; repeated model-selection holdout, not an untouched test.",
+  "new_kaggle_score": null,
+  "audit_source_sha256": "9ed3ee85b843464ac794009eb9db2bdd0a8314df2dad0863e016c384429458e5"
+}

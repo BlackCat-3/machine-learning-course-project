@@ -1,0 +1,144 @@
+{
+  "selection": {
+    "selected": "equal_mean",
+    "metrics": {
+      "heatmap": {
+        "rmse": 30.187920844293064,
+        "rmse_x": 33.9098503739476,
+        "rmse_y": 25.937293178338663
+      },
+      "regression": {
+        "rmse": 38.26572076012685,
+        "rmse_x": 41.57924219098444,
+        "rmse_y": 34.63664806830282
+      },
+      "equal_mean": {
+        "rmse": 28.153703785912082,
+        "rmse_x": 32.154138366137595,
+        "rmse_y": 23.481342799359645
+      }
+    },
+    "fold_metrics": {
+      "heatmap": [
+        {
+          "rmse": 55.03074396534931,
+          "rmse_x": 63.35569119725621,
+          "rmse_y": 45.19758794092411
+        },
+        {
+          "rmse": 9.363168864903649,
+          "rmse_x": 6.8387163214655455,
+          "rmse_y": 11.338863323099142
+        },
+        {
+          "rmse": 17.52285015008854,
+          "rmse_x": 17.378605373819873,
+          "rmse_y": 17.66591718609467
+        },
+        {
+          "rmse": 14.904370823695512,
+          "rmse_x": 15.387795059316497,
+          "rmse_y": 14.404731948666273
+        }
+      ],
+      "regression": [
+        {
+          "rmse": 34.32581958694272,
+          "rmse_x": 39.94153980324332,
+          "rmse_y": 27.589802079330152
+        },
+        {
+          "rmse": 31.097434889239878,
+          "rmse_x": 32.419044367980966,
+          "rmse_y": 29.717107457622934
+        },
+        {
+          "rmse": 31.884859376240136,
+          "rmse_x": 35.41669812500902,
+          "rmse_y": 27.909604239530143
+        },
+        {
+          "rmse": 51.91440009014404,
+          "rmse_x": 54.90601040907046,
+          "rmse_y": 48.739510608931454
+        }
+      ]
+    },
+    "best_epochs": {
+      "heatmap": [
+        5,
+        19,
+        23,
+        5
+      ],
+      "regression": [
+        47,
+        80,
+        39,
+        29
+      ]
+    },
+    "refit_epochs": {
+      "heatmap": 12,
+      "regression": 43
+    },
+    "constant_baseline": {
+      "rmse": 116.12815302819612,
+      "rmse_x": 157.87451829683718,
+      "rmse_y": 45.2452464245902
+    },
+    "plan": {
+      "candidate_names": [
+        "heatmap",
+        "regression",
+        "equal_mean"
+      ],
+      "folds": 4,
+      "seed": 42,
+      "selection": "lowest pooled original-pixel scalar OOF RMSE",
+      "refit": "two new seeds, all 80 training records, median best epoch across four folds",
+      "augmentation": "same geometric and photometric augmentation for both architectures",
+      "public_leaderboard_used": false,
+      "caution": "Checkpoint and candidate selection use these folds; this is model-selection validation, not an untouched test."
+    }
+  },
+  "models": [
+    {
+      "architecture": "heatmap",
+      "seed": 43,
+      "epochs": 12,
+      "checkpoint": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\study\\full_heatmap_seed43\\best.pt",
+      "checkpoint_sha256": "1f2ed353bdcd01ebf5e3905c71c8139a890c7ee964a39c253c3d04cebaedde70"
+    },
+    {
+      "architecture": "heatmap",
+      "seed": 44,
+      "epochs": 12,
+      "checkpoint": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\study\\full_heatmap_seed44\\best.pt",
+      "checkpoint_sha256": "ffa86aadf719292a567360c1e78d21e7aad20fbc3e2001611c22051a14cdc138"
+    },
+    {
+      "architecture": "regression",
+      "seed": 43,
+      "epochs": 43,
+      "checkpoint": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\study\\full_regression_seed43\\best.pt",
+      "checkpoint_sha256": "67e08721e9af4dc6b12a23b714f4df6237f1a00bb26b146b504775f3469ce56c"
+    },
+    {
+      "architecture": "regression",
+      "seed": 44,
+      "epochs": 43,
+      "checkpoint": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\study\\full_regression_seed44\\best.pt",
+      "checkpoint_sha256": "3c08c1a2397d62a6ca7468ce2c9cf8237f712a9d270430d652d00d2f1d1eb75a"
+    }
+  ],
+  "refit_train_count": 80,
+  "submission_rows": 40,
+  "submission_sha256": "a76ad7db2a9e8b78b4680bcb1630e930a8b57d1651c45d79cc8fc9dbe863377d",
+  "online_score": null,
+  "limitations": [
+    "No patient identifiers supplied; exact-duplicate grouping is not patient grouping.",
+    "No invisible training examples: absence detection is not trained or validated."
+  ],
+  "refit_note": "Final two-seed refit ensemble is not itself evaluated on a held-out set; OOF scores belong to validation models."
+}

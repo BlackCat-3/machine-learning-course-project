@@ -1,0 +1,50 @@
+{
+  "method": "frozen coarse global context + native 640px residual heatmap",
+  "outer_folds": 4,
+  "seeds": [
+    43,
+    44
+  ],
+  "coarse_inner_steps": 320,
+  "coarse_inner_schedule_steps": 320,
+  "coarse_inner_split": "leave two original folds out; choose on inner fold only, never outer fold",
+  "coarse_inner_candidate_steps": [
+    40,
+    80,
+    120,
+    160,
+    240,
+    320
+  ],
+  "refiner_steps": 240,
+  "candidate_steps": [
+    40,
+    80,
+    120,
+    160,
+    240
+  ],
+  "batch_size": 8,
+  "local_patch_pixels": 640,
+  "unresized_cache_pixels": 768,
+  "refiner_encoder_lr": 1e-05,
+  "refiner_head_lr": 0.0005,
+  "weight_decay": 0.001,
+  "ema_decay": 0.95,
+  "coordinate_loss": "original pixel MSE / 1024",
+  "heatmap_ce_weight": 0.2,
+  "heatmap_sigma_cells": 2,
+  "center_prior_sigma_original_pixels": 64,
+  "extra_center_jitter_sd_pixels": 8,
+  "selection": "one shared step count, averaged two seeds; residual weights 1 and 0.5",
+  "gate": {
+    "relative_rmse_reduction": 0.05,
+    "minimum_improved_folds": 3
+  },
+  "baseline_sha256": "20d24c207d73e8ef0af3de589e9e3becd0416b14c8b30c02068815451f136a8b",
+  "manifest_sha256": "1db1f5ad6394ce48671dea87d82dc130a991874fe048af26ec3ba9ac83050401",
+  "validation_note": "Same model-selection folds as previous work, not an independent test.",
+  "full_refit": "same selected update count, frozen full-data coarse ensemble; outer OOF fit centers",
+  "external_data": false,
+  "manual_test_labels": false
+}

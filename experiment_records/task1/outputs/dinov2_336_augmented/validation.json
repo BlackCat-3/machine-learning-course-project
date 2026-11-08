@@ -1,0 +1,428 @@
+{
+  "backbone": "dinov2_vits14",
+  "image_size": 336,
+  "method": "frozen pretrained deep features + learned linear softmax head",
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "configs": [
+    {
+      "representation": "last_cls_patch",
+      "start": 1152,
+      "stop": 1920,
+      "C": 0.01,
+      "training_views": "augmented"
+    },
+    {
+      "representation": "last_cls_patch",
+      "start": 1152,
+      "stop": 1920,
+      "C": 0.1,
+      "training_views": "augmented"
+    },
+    {
+      "representation": "last_cls_patch",
+      "start": 1152,
+      "stop": 1920,
+      "C": 1.0,
+      "training_views": "augmented"
+    },
+    {
+      "representation": "last4_cls_patch",
+      "start": 0,
+      "stop": 1920,
+      "C": 0.01,
+      "training_views": "augmented"
+    },
+    {
+      "representation": "last4_cls_patch",
+      "start": 0,
+      "stop": 1920,
+      "C": 0.1,
+      "training_views": "augmented"
+    },
+    {
+      "representation": "last4_cls_patch",
+      "start": 0,
+      "stop": 1920,
+      "C": 1.0,
+      "training_views": "augmented"
+    }
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "macro_f1": 0.9006546854942232,
+      "config": {
+        "representation": "last_cls_patch",
+        "start": 1152,
+        "stop": 1920,
+        "C": 1.0,
+        "training_views": "augmented"
+      },
+      "inner_scores": [
+        0.8924371732109926,
+        0.8948734026087608,
+        0.8970418217494004,
+        0.8899751435218357,
+        0.8924635609076803,
+        0.892098493494759
+      ],
+      "per_class_f1": [
+        0.8292682926829268,
+        0.8947368421052632,
+        0.8292682926829268,
+        1.0,
+        0.95
+      ],
+      "confusion_matrix_rows_true": [
+        [
+          17,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          1,
+          17,
+          1,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          17,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          20,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          19
+        ]
+      ]
+    },
+    {
+      "fold": 1,
+      "macro_f1": 0.9176655952606037,
+      "config": {
+        "representation": "last_cls_patch",
+        "start": 1152,
+        "stop": 1920,
+        "C": 1.0,
+        "training_views": "augmented"
+      },
+      "inner_scores": [
+        0.8720841929357336,
+        0.8898065218484472,
+        0.8952076814416197,
+        0.869414890889523,
+        0.8746679861585289,
+        0.8816100134496214
+      ],
+      "per_class_f1": [
+        0.7777777777777778,
+        0.926829268292683,
+        0.8837209302325582,
+        1.0,
+        1.0
+      ],
+      "confusion_matrix_rows_true": [
+        [
+          14,
+          2,
+          4,
+          0,
+          0
+        ],
+        [
+          1,
+          19,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          19,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          20,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          20
+        ]
+      ]
+    },
+    {
+      "fold": 2,
+      "macro_f1": 0.9300773203570468,
+      "config": {
+        "representation": "last_cls_patch",
+        "start": 1152,
+        "stop": 1920,
+        "C": 0.1,
+        "training_views": "augmented"
+      },
+      "inner_scores": [
+        0.8886716373410186,
+        0.8986351416865567,
+        0.8985949557688688,
+        0.8853348495777909,
+        0.897747362964753,
+        0.8951648962324924
+      ],
+      "per_class_f1": [
+        0.8780487804878049,
+        0.9302325581395349,
+        0.8947368421052632,
+        1.0,
+        0.9473684210526315
+      ],
+      "confusion_matrix_rows_true": [
+        [
+          18,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          17,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          20,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          18
+        ]
+      ]
+    },
+    {
+      "fold": 3,
+      "macro_f1": 0.9292245153220762,
+      "config": {
+        "representation": "last_cls_patch",
+        "start": 1152,
+        "stop": 1920,
+        "C": 0.1,
+        "training_views": "augmented"
+      },
+      "inner_scores": [
+        0.8899675730582903,
+        0.9051541001651074,
+        0.8975049301583177,
+        0.872972164528154,
+        0.8748984670658,
+        0.87233335010024
+      ],
+      "per_class_f1": [
+        0.8205128205128205,
+        0.975609756097561,
+        0.85,
+        1.0,
+        1.0
+      ],
+      "confusion_matrix_rows_true": [
+        [
+          16,
+          1,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          17,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          20,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          20
+        ]
+      ]
+    },
+    {
+      "fold": 4,
+      "macro_f1": 0.9094908862350722,
+      "config": {
+        "representation": "last_cls_patch",
+        "start": 1152,
+        "stop": 1920,
+        "C": 1.0,
+        "training_views": "augmented"
+      },
+      "inner_scores": [
+        0.9074544266954507,
+        0.9251019313323159,
+        0.927766675370642,
+        0.912963973256543,
+        0.9202626079143716,
+        0.9106209658037674
+      ],
+      "per_class_f1": [
+        0.7567567567567568,
+        1.0,
+        0.7906976744186046,
+        1.0,
+        1.0
+      ],
+      "confusion_matrix_rows_true": [
+        [
+          14,
+          0,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          17,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          20,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          20
+        ]
+      ]
+    }
+  ],
+  "nested_oof_macro_f1": 0.9177648530350705,
+  "per_class_f1": {
+    "Black-grass": 0.8144329896907216,
+    "Common wheat": 0.9458128078817734,
+    "Loose Silky-bent": 0.848780487804878,
+    "Scentless Mayweed": 1.0,
+    "Sugar beet": 0.9797979797979798
+  },
+  "confusion_matrix_rows_true": [
+    [
+      79,
+      4,
+      17,
+      0,
+      0
+    ],
+    [
+      2,
+      96,
+      1,
+      0,
+      1
+    ],
+    [
+      13,
+      0,
+      87,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      100,
+      0
+    ],
+    [
+      0,
+      3,
+      0,
+      0,
+      97
+    ]
+  ],
+  "full_head_config": {
+    "representation": "last_cls_patch",
+    "start": 1152,
+    "stop": 1920,
+    "C": 1.0,
+    "training_views": "augmented"
+  },
+  "classes": [
+    "Black-grass",
+    "Common wheat",
+    "Loose Silky-bent",
+    "Scentless Mayweed",
+    "Sugar beet"
+  ],
+  "training_labels": "provided 500 images only"
+}

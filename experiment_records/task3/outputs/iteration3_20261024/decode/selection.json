@@ -1,0 +1,62 @@
+{
+  "selected": null,
+  "candidates": {
+    "peak_local": {
+      "metrics": {
+        "rmse": 16.718445402319208,
+        "rmse_x": 20.314662740790173,
+        "rmse_y": 12.09658261942637
+      },
+      "fold_rmse": [
+        26.79343299755681,
+        9.109494260362473,
+        10.81776402493187,
+        14.1467561903095
+      ],
+      "passed_gate": false
+    },
+    "peak_half": {
+      "metrics": {
+        "rmse": 16.326937523163267,
+        "rmse_x": 20.07746511610911,
+        "rmse_y": 11.40320885899996
+      },
+      "fold_rmse": [
+        26.725787929492487,
+        8.926768173671078,
+        10.810252925916766,
+        12.468322130108017
+      ],
+      "passed_gate": false
+    }
+  },
+  "baseline_rmse": 16.334263567891036,
+  "baseline_folds": [
+    26.663118020108456,
+    8.789727876083791,
+    10.803049338792066,
+    12.741491730371182
+  ],
+  "sources": {
+    "script": "a8262291365327d24473aa0d2caed012df1cdc204246ae0cee8f97d6ae6efed1",
+    "baseline_oof": "63fc8cb239b50a1beefa3f3ef7d7123623b404bba0a58382db7399ee939de060",
+    "radius_cells": 6,
+    "candidates": [
+      "peak_local",
+      "peak_half"
+    ],
+    "gate": {
+      "relative_reduction": 0.05,
+      "improved_folds": 3
+    },
+    "fold0_seed43": "7ae26f26ea84f2c7c0e9343ab3c17f2f4aae7c8f0f4227e2b4b0a25917057aca",
+    "fold1_seed43": "45664229c06a967eb44d0b86a6941a7c479253e94e563d302fe926c33425cb99",
+    "fold2_seed43": "c7e8db3ed1df017d9b75497f546d33c79576aa97770c8e494a1734b45861e3e6",
+    "fold3_seed43": "f20d867d4a60cb00bc1cc92b859ef35ddeacbf96aa967695e42b48af0fcb69c2",
+    "fold0_seed44": "48fd6c0e35e9a6184467f96cbe624a14b9c7aa5b542bb36c9d6db1eba89375c4",
+    "fold1_seed44": "d4fab676fdbdc9374da7707cb985eba936f514ea777f61519ce43c055c1ce3f4",
+    "fold2_seed44": "dbc5ea96209863c98365ffdad4be4f7027ecae20e8cbcbe36bf8d65ba00411ba",
+    "fold3_seed44": "6c514699baa7365679f1ea6add35a5d9f8ff25e972f5ab6435fd17498ba200ef"
+  },
+  "note": "Same folds used in prior model/epoch selection; not independent test performance."
+}

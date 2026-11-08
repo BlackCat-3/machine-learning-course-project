@@ -1,0 +1,1274 @@
+{
+  "split": "val",
+  "schemes": {
+    "full": 2,
+    "center": 4,
+    "five": 12
+  },
+  "crop_coordinates_top_left_height_width": [
+    [
+      0,
+      0,
+      48,
+      48
+    ],
+    [
+      2,
+      2,
+      44,
+      44
+    ],
+    [
+      0,
+      0,
+      44,
+      44
+    ],
+    [
+      0,
+      4,
+      44,
+      44
+    ],
+    [
+      4,
+      0,
+      44,
+      44
+    ],
+    [
+      4,
+      4,
+      44,
+      44
+    ]
+  ],
+  "crop_order": "full, center, top-left, top-right, bottom-left, bottom-right",
+  "averaging": "equal probabilities across views including flips, then equal across four models",
+  "class_to_index": {
+    "Angry": 0,
+    "Fear": 1,
+    "Happy": 2,
+    "Sad": 3,
+    "Surprise": 4,
+    "Neutral": 5
+  },
+  "rows": 4241,
+  "dataset_fingerprint": "7bcd01fe884e0d31ef63381045181a87207760af85c60224613446e99863a0fa",
+  "script_sha256": "5e75f9882772da55b55102883913f79319ce6fc0bcb0dcebfd785c73abf45265",
+  "model_source_sha256": "18899c062da54a03da3ec5de8d0df48b5d7d9eec71543a1350ce4478aacf9e1e",
+  "batch_size": 256,
+  "amp": true,
+  "models": {
+    "old_mixup": {
+      "checkpoint": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\resnet18_mixup_s43\\best.pt",
+      "checkpoint_sha256": "0282f41d474f521cfda5dae794ebb494384c364700a62c9f72c56e9d46e69e53",
+      "epoch": 12,
+      "source": "ema",
+      "schemes": {
+        "full": {
+          "npz": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_old_mixup_full.npz",
+          "csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_old_mixup_full.csv",
+          "csv_sha256": "019d554f6e3a8dd5a499934b763fd49027cfdf9708474d38ce74cbce1f3ab8dc",
+          "correct": 2909,
+          "metrics": {
+            "accuracy": 0.6859231313369488,
+            "num_samples": 4241,
+            "class_to_index": {
+              "Angry": 0,
+              "Fear": 1,
+              "Happy": 2,
+              "Sad": 3,
+              "Surprise": 4,
+              "Neutral": 5
+            },
+            "confusion_matrix": [
+              [
+                361,
+                44,
+                29,
+                66,
+                13,
+                81
+              ],
+              [
+                90,
+                284,
+                20,
+                100,
+                46,
+                75
+              ],
+              [
+                16,
+                13,
+                974,
+                16,
+                17,
+                43
+              ],
+              [
+                64,
+                68,
+                31,
+                396,
+                14,
+                156
+              ],
+              [
+                26,
+                48,
+                21,
+                8,
+                360,
+                17
+              ],
+              [
+                26,
+                27,
+                55,
+                99,
+                3,
+                534
+              ]
+            ],
+            "confusion_matrix_axes": {
+              "rows": "true",
+              "columns": "predicted"
+            },
+            "per_class": {
+              "Angry": {
+                "support": 594,
+                "recall": 0.6077441077441077
+              },
+              "Fear": {
+                "support": 615,
+                "recall": 0.46178861788617886
+              },
+              "Happy": {
+                "support": 1079,
+                "recall": 0.9026876737720111
+              },
+              "Sad": {
+                "support": 729,
+                "recall": 0.5432098765432098
+              },
+              "Surprise": {
+                "support": 480,
+                "recall": 0.75
+              },
+              "Neutral": {
+                "support": 744,
+                "recall": 0.717741935483871
+              }
+            }
+          }
+        },
+        "center": {
+          "npz": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_old_mixup_center.npz",
+          "csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_old_mixup_center.csv",
+          "csv_sha256": "71dfc64e9222ad9ffda2a73f64ff7aafa34ea6335b930ad5e37a3204c431890d",
+          "correct": 2924,
+          "metrics": {
+            "accuracy": 0.6894600330110823,
+            "num_samples": 4241,
+            "class_to_index": {
+              "Angry": 0,
+              "Fear": 1,
+              "Happy": 2,
+              "Sad": 3,
+              "Surprise": 4,
+              "Neutral": 5
+            },
+            "confusion_matrix": [
+              [
+                369,
+                45,
+                26,
+                63,
+                12,
+                79
+              ],
+              [
+                85,
+                290,
+                15,
+                105,
+                46,
+                74
+              ],
+              [
+                16,
+                12,
+                977,
+                18,
+                17,
+                39
+              ],
+              [
+                62,
+                71,
+                31,
+                404,
+                12,
+                149
+              ],
+              [
+                25,
+                51,
+                17,
+                6,
+                361,
+                20
+              ],
+              [
+                36,
+                29,
+                57,
+                96,
+                3,
+                523
+              ]
+            ],
+            "confusion_matrix_axes": {
+              "rows": "true",
+              "columns": "predicted"
+            },
+            "per_class": {
+              "Angry": {
+                "support": 594,
+                "recall": 0.6212121212121212
+              },
+              "Fear": {
+                "support": 615,
+                "recall": 0.4715447154471545
+              },
+              "Happy": {
+                "support": 1079,
+                "recall": 0.9054680259499537
+              },
+              "Sad": {
+                "support": 729,
+                "recall": 0.5541838134430727
+              },
+              "Surprise": {
+                "support": 480,
+                "recall": 0.7520833333333333
+              },
+              "Neutral": {
+                "support": 744,
+                "recall": 0.7029569892473119
+              }
+            }
+          }
+        },
+        "five": {
+          "npz": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_old_mixup_five.npz",
+          "csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_old_mixup_five.csv",
+          "csv_sha256": "5bf91ed550c2f296ee858a028ced76c8cd5baad17ecce9ab26becbf94a4b94a7",
+          "correct": 2913,
+          "metrics": {
+            "accuracy": 0.6868663051167178,
+            "num_samples": 4241,
+            "class_to_index": {
+              "Angry": 0,
+              "Fear": 1,
+              "Happy": 2,
+              "Sad": 3,
+              "Surprise": 4,
+              "Neutral": 5
+            },
+            "confusion_matrix": [
+              [
+                366,
+                52,
+                27,
+                60,
+                12,
+                77
+              ],
+              [
+                76,
+                276,
+                16,
+                120,
+                50,
+                77
+              ],
+              [
+                13,
+                13,
+                975,
+                19,
+                17,
+                42
+              ],
+              [
+                73,
+                71,
+                25,
+                407,
+                13,
+                140
+              ],
+              [
+                19,
+                49,
+                20,
+                6,
+                368,
+                18
+              ],
+              [
+                38,
+                29,
+                59,
+                95,
+                2,
+                521
+              ]
+            ],
+            "confusion_matrix_axes": {
+              "rows": "true",
+              "columns": "predicted"
+            },
+            "per_class": {
+              "Angry": {
+                "support": 594,
+                "recall": 0.6161616161616161
+              },
+              "Fear": {
+                "support": 615,
+                "recall": 0.44878048780487806
+              },
+              "Happy": {
+                "support": 1079,
+                "recall": 0.9036144578313253
+              },
+              "Sad": {
+                "support": 729,
+                "recall": 0.5582990397805213
+              },
+              "Surprise": {
+                "support": 480,
+                "recall": 0.7666666666666667
+              },
+              "Neutral": {
+                "support": 744,
+                "recall": 0.7002688172043011
+              }
+            }
+          }
+        }
+      }
+    },
+    "detail_seed43": {
+      "checkpoint": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\resnet18_detail\\best.pt",
+      "checkpoint_sha256": "b39eb86c696836e39fd72ba113855909f5d933d99de13b8cdc7b479291a4472d",
+      "epoch": 11,
+      "source": "ema",
+      "schemes": {
+        "full": {
+          "npz": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_detail_seed43_full.npz",
+          "csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_detail_seed43_full.csv",
+          "csv_sha256": "be7a17e9dea67c23684c8142811ae7cc66f954a7f9074873ca02eac821fdda2a",
+          "correct": 2916,
+          "metrics": {
+            "accuracy": 0.6875736854515444,
+            "num_samples": 4241,
+            "class_to_index": {
+              "Angry": 0,
+              "Fear": 1,
+              "Happy": 2,
+              "Sad": 3,
+              "Surprise": 4,
+              "Neutral": 5
+            },
+            "confusion_matrix": [
+              [
+                367,
+                40,
+                31,
+                60,
+                16,
+                80
+              ],
+              [
+                84,
+                274,
+                21,
+                105,
+                55,
+                76
+              ],
+              [
+                18,
+                14,
+                974,
+                18,
+                17,
+                38
+              ],
+              [
+                87,
+                62,
+                29,
+                401,
+                6,
+                144
+              ],
+              [
+                16,
+                44,
+                19,
+                7,
+                369,
+                25
+              ],
+              [
+                42,
+                19,
+                64,
+                84,
+                4,
+                531
+              ]
+            ],
+            "confusion_matrix_axes": {
+              "rows": "true",
+              "columns": "predicted"
+            },
+            "per_class": {
+              "Angry": {
+                "support": 594,
+                "recall": 0.6178451178451179
+              },
+              "Fear": {
+                "support": 615,
+                "recall": 0.44552845528455287
+              },
+              "Happy": {
+                "support": 1079,
+                "recall": 0.9026876737720111
+              },
+              "Sad": {
+                "support": 729,
+                "recall": 0.5500685871056241
+              },
+              "Surprise": {
+                "support": 480,
+                "recall": 0.76875
+              },
+              "Neutral": {
+                "support": 744,
+                "recall": 0.7137096774193549
+              }
+            }
+          }
+        },
+        "center": {
+          "npz": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_detail_seed43_center.npz",
+          "csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_detail_seed43_center.csv",
+          "csv_sha256": "3adddbecc4aec6d9ef73e16dedcd1d64fb65c2f1d5abc334d0d3e7fb9d04dfb7",
+          "correct": 2924,
+          "metrics": {
+            "accuracy": 0.6894600330110823,
+            "num_samples": 4241,
+            "class_to_index": {
+              "Angry": 0,
+              "Fear": 1,
+              "Happy": 2,
+              "Sad": 3,
+              "Surprise": 4,
+              "Neutral": 5
+            },
+            "confusion_matrix": [
+              [
+                362,
+                45,
+                30,
+                64,
+                16,
+                77
+              ],
+              [
+                80,
+                275,
+                16,
+                112,
+                56,
+                76
+              ],
+              [
+                17,
+                10,
+                974,
+                17,
+                18,
+                43
+              ],
+              [
+                81,
+                64,
+                30,
+                411,
+                5,
+                138
+              ],
+              [
+                13,
+                43,
+                19,
+                5,
+                380,
+                20
+              ],
+              [
+                43,
+                20,
+                64,
+                91,
+                4,
+                522
+              ]
+            ],
+            "confusion_matrix_axes": {
+              "rows": "true",
+              "columns": "predicted"
+            },
+            "per_class": {
+              "Angry": {
+                "support": 594,
+                "recall": 0.6094276094276094
+              },
+              "Fear": {
+                "support": 615,
+                "recall": 0.44715447154471544
+              },
+              "Happy": {
+                "support": 1079,
+                "recall": 0.9026876737720111
+              },
+              "Sad": {
+                "support": 729,
+                "recall": 0.5637860082304527
+              },
+              "Surprise": {
+                "support": 480,
+                "recall": 0.7916666666666666
+              },
+              "Neutral": {
+                "support": 744,
+                "recall": 0.7016129032258065
+              }
+            }
+          }
+        },
+        "five": {
+          "npz": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_detail_seed43_five.npz",
+          "csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_detail_seed43_five.csv",
+          "csv_sha256": "008c6c4ab1aedc1c03b2cc4b130d7eeff433bd85336427b9571fbbb58af481fa",
+          "correct": 2928,
+          "metrics": {
+            "accuracy": 0.6904032067908512,
+            "num_samples": 4241,
+            "class_to_index": {
+              "Angry": 0,
+              "Fear": 1,
+              "Happy": 2,
+              "Sad": 3,
+              "Surprise": 4,
+              "Neutral": 5
+            },
+            "confusion_matrix": [
+              [
+                358,
+                45,
+                27,
+                63,
+                21,
+                80
+              ],
+              [
+                75,
+                279,
+                16,
+                114,
+                57,
+                74
+              ],
+              [
+                16,
+                14,
+                969,
+                20,
+                18,
+                42
+              ],
+              [
+                74,
+                68,
+                31,
+                418,
+                4,
+                134
+              ],
+              [
+                13,
+                46,
+                20,
+                6,
+                379,
+                16
+              ],
+              [
+                40,
+                23,
+                60,
+                93,
+                3,
+                525
+              ]
+            ],
+            "confusion_matrix_axes": {
+              "rows": "true",
+              "columns": "predicted"
+            },
+            "per_class": {
+              "Angry": {
+                "support": 594,
+                "recall": 0.6026936026936027
+              },
+              "Fear": {
+                "support": 615,
+                "recall": 0.45365853658536587
+              },
+              "Happy": {
+                "support": 1079,
+                "recall": 0.8980537534754403
+              },
+              "Sad": {
+                "support": 729,
+                "recall": 0.5733882030178327
+              },
+              "Surprise": {
+                "support": 480,
+                "recall": 0.7895833333333333
+              },
+              "Neutral": {
+                "support": 744,
+                "recall": 0.7056451612903226
+              }
+            }
+          }
+        }
+      }
+    },
+    "resnet34": {
+      "checkpoint": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\resnet34\\best.pt",
+      "checkpoint_sha256": "05280a8b3ff2a271c0b958f7980079b46fc0ce7975f9df634e7cd33c2f841516",
+      "epoch": 9,
+      "source": "ema",
+      "schemes": {
+        "full": {
+          "npz": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_resnet34_full.npz",
+          "csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_resnet34_full.csv",
+          "csv_sha256": "036f7901187af688bf31f988d1c0400c1c8cd6dc921c1f401050e2e33971de88",
+          "correct": 2878,
+          "metrics": {
+            "accuracy": 0.6786135345437397,
+            "num_samples": 4241,
+            "class_to_index": {
+              "Angry": 0,
+              "Fear": 1,
+              "Happy": 2,
+              "Sad": 3,
+              "Surprise": 4,
+              "Neutral": 5
+            },
+            "confusion_matrix": [
+              [
+                369,
+                39,
+                20,
+                67,
+                12,
+                87
+              ],
+              [
+                86,
+                277,
+                20,
+                90,
+                56,
+                86
+              ],
+              [
+                20,
+                10,
+                959,
+                18,
+                21,
+                51
+              ],
+              [
+                76,
+                72,
+                31,
+                395,
+                6,
+                149
+              ],
+              [
+                23,
+                45,
+                24,
+                7,
+                361,
+                20
+              ],
+              [
+                38,
+                29,
+                64,
+                90,
+                6,
+                517
+              ]
+            ],
+            "confusion_matrix_axes": {
+              "rows": "true",
+              "columns": "predicted"
+            },
+            "per_class": {
+              "Angry": {
+                "support": 594,
+                "recall": 0.6212121212121212
+              },
+              "Fear": {
+                "support": 615,
+                "recall": 0.4504065040650406
+              },
+              "Happy": {
+                "support": 1079,
+                "recall": 0.8887859128822985
+              },
+              "Sad": {
+                "support": 729,
+                "recall": 0.541838134430727
+              },
+              "Surprise": {
+                "support": 480,
+                "recall": 0.7520833333333333
+              },
+              "Neutral": {
+                "support": 744,
+                "recall": 0.6948924731182796
+              }
+            }
+          }
+        },
+        "center": {
+          "npz": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_resnet34_center.npz",
+          "csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_resnet34_center.csv",
+          "csv_sha256": "0dc01efdde1b353b667b0e8cb78031008c1b7470d354d6a3286e64aec7ee45c7",
+          "correct": 2891,
+          "metrics": {
+            "accuracy": 0.6816788493279887,
+            "num_samples": 4241,
+            "class_to_index": {
+              "Angry": 0,
+              "Fear": 1,
+              "Happy": 2,
+              "Sad": 3,
+              "Surprise": 4,
+              "Neutral": 5
+            },
+            "confusion_matrix": [
+              [
+                373,
+                45,
+                17,
+                65,
+                15,
+                79
+              ],
+              [
+                83,
+                278,
+                18,
+                101,
+                54,
+                81
+              ],
+              [
+                19,
+                10,
+                960,
+                19,
+                21,
+                50
+              ],
+              [
+                79,
+                73,
+                35,
+                397,
+                6,
+                139
+              ],
+              [
+                22,
+                46,
+                20,
+                6,
+                367,
+                19
+              ],
+              [
+                37,
+                30,
+                59,
+                97,
+                5,
+                516
+              ]
+            ],
+            "confusion_matrix_axes": {
+              "rows": "true",
+              "columns": "predicted"
+            },
+            "per_class": {
+              "Angry": {
+                "support": 594,
+                "recall": 0.6279461279461279
+              },
+              "Fear": {
+                "support": 615,
+                "recall": 0.45203252032520325
+              },
+              "Happy": {
+                "support": 1079,
+                "recall": 0.8897126969416126
+              },
+              "Sad": {
+                "support": 729,
+                "recall": 0.5445816186556928
+              },
+              "Surprise": {
+                "support": 480,
+                "recall": 0.7645833333333333
+              },
+              "Neutral": {
+                "support": 744,
+                "recall": 0.6935483870967742
+              }
+            }
+          }
+        },
+        "five": {
+          "npz": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_resnet34_five.npz",
+          "csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_resnet34_five.csv",
+          "csv_sha256": "e55ebb4879418aa0a9cb15aa5e74da374eec62d021d65316e0925d93f6d275cc",
+          "correct": 2902,
+          "metrics": {
+            "accuracy": 0.6842725772223532,
+            "num_samples": 4241,
+            "class_to_index": {
+              "Angry": 0,
+              "Fear": 1,
+              "Happy": 2,
+              "Sad": 3,
+              "Surprise": 4,
+              "Neutral": 5
+            },
+            "confusion_matrix": [
+              [
+                371,
+                50,
+                18,
+                63,
+                16,
+                76
+              ],
+              [
+                80,
+                275,
+                18,
+                111,
+                55,
+                76
+              ],
+              [
+                19,
+                11,
+                964,
+                18,
+                20,
+                47
+              ],
+              [
+                81,
+                69,
+                30,
+                406,
+                8,
+                135
+              ],
+              [
+                20,
+                44,
+                20,
+                6,
+                370,
+                20
+              ],
+              [
+                38,
+                21,
+                59,
+                104,
+                6,
+                516
+              ]
+            ],
+            "confusion_matrix_axes": {
+              "rows": "true",
+              "columns": "predicted"
+            },
+            "per_class": {
+              "Angry": {
+                "support": 594,
+                "recall": 0.6245791245791246
+              },
+              "Fear": {
+                "support": 615,
+                "recall": 0.44715447154471544
+              },
+              "Happy": {
+                "support": 1079,
+                "recall": 0.8934198331788693
+              },
+              "Sad": {
+                "support": 729,
+                "recall": 0.5569272976680384
+              },
+              "Surprise": {
+                "support": 480,
+                "recall": 0.7708333333333334
+              },
+              "Neutral": {
+                "support": 744,
+                "recall": 0.6935483870967742
+              }
+            }
+          }
+        }
+      }
+    },
+    "detail_seed44": {
+      "checkpoint": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\seed_erasing_20261016\\detail_seed44\\best.pt",
+      "checkpoint_sha256": "fec1fc1b6305e645afe8971a68dfaacbf41853f298ece0353d33c106efbd0c26",
+      "epoch": 13,
+      "source": "ema",
+      "schemes": {
+        "full": {
+          "npz": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_detail_seed44_full.npz",
+          "csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_detail_seed44_full.csv",
+          "csv_sha256": "4d04b27530ec330b949f43423aa8cc6379a0be229485a29ecd9e3f7264a29fca",
+          "correct": 2948,
+          "metrics": {
+            "accuracy": 0.6951190756896958,
+            "num_samples": 4241,
+            "class_to_index": {
+              "Angry": 0,
+              "Fear": 1,
+              "Happy": 2,
+              "Sad": 3,
+              "Surprise": 4,
+              "Neutral": 5
+            },
+            "confusion_matrix": [
+              [
+                377,
+                51,
+                26,
+                59,
+                9,
+                72
+              ],
+              [
+                84,
+                296,
+                18,
+                96,
+                46,
+                75
+              ],
+              [
+                15,
+                13,
+                967,
+                22,
+                20,
+                42
+              ],
+              [
+                81,
+                70,
+                28,
+                409,
+                7,
+                134
+              ],
+              [
+                19,
+                50,
+                20,
+                10,
+                368,
+                13
+              ],
+              [
+                40,
+                24,
+                56,
+                89,
+                4,
+                531
+              ]
+            ],
+            "confusion_matrix_axes": {
+              "rows": "true",
+              "columns": "predicted"
+            },
+            "per_class": {
+              "Angry": {
+                "support": 594,
+                "recall": 0.6346801346801347
+              },
+              "Fear": {
+                "support": 615,
+                "recall": 0.4813008130081301
+              },
+              "Happy": {
+                "support": 1079,
+                "recall": 0.8962001853568119
+              },
+              "Sad": {
+                "support": 729,
+                "recall": 0.5610425240054869
+              },
+              "Surprise": {
+                "support": 480,
+                "recall": 0.7666666666666667
+              },
+              "Neutral": {
+                "support": 744,
+                "recall": 0.7137096774193549
+              }
+            }
+          }
+        },
+        "center": {
+          "npz": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_detail_seed44_center.npz",
+          "csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_detail_seed44_center.csv",
+          "csv_sha256": "b7ed75b63603e3361e4805b24a0e5a83ba610d867c7dee75491aac89bff77484",
+          "correct": 2946,
+          "metrics": {
+            "accuracy": 0.6946474887998114,
+            "num_samples": 4241,
+            "class_to_index": {
+              "Angry": 0,
+              "Fear": 1,
+              "Happy": 2,
+              "Sad": 3,
+              "Surprise": 4,
+              "Neutral": 5
+            },
+            "confusion_matrix": [
+              [
+                372,
+                54,
+                26,
+                64,
+                9,
+                69
+              ],
+              [
+                77,
+                300,
+                16,
+                98,
+                50,
+                74
+              ],
+              [
+                15,
+                17,
+                961,
+                23,
+                20,
+                43
+              ],
+              [
+                75,
+                71,
+                27,
+                410,
+                12,
+                134
+              ],
+              [
+                19,
+                46,
+                19,
+                10,
+                373,
+                13
+              ],
+              [
+                39,
+                22,
+                54,
+                95,
+                4,
+                530
+              ]
+            ],
+            "confusion_matrix_axes": {
+              "rows": "true",
+              "columns": "predicted"
+            },
+            "per_class": {
+              "Angry": {
+                "support": 594,
+                "recall": 0.6262626262626263
+              },
+              "Fear": {
+                "support": 615,
+                "recall": 0.4878048780487805
+              },
+              "Happy": {
+                "support": 1079,
+                "recall": 0.8906394810009268
+              },
+              "Sad": {
+                "support": 729,
+                "recall": 0.5624142661179699
+              },
+              "Surprise": {
+                "support": 480,
+                "recall": 0.7770833333333333
+              },
+              "Neutral": {
+                "support": 744,
+                "recall": 0.7123655913978495
+              }
+            }
+          }
+        },
+        "five": {
+          "npz": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_detail_seed44_five.npz",
+          "csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\val_detail_seed44_five.csv",
+          "csv_sha256": "3fa3f1ea57f5730083f52c1c24ed0ebb7a717fcbbaa05adabc5fa7893eb135bd",
+          "correct": 2944,
+          "metrics": {
+            "accuracy": 0.694175901909927,
+            "num_samples": 4241,
+            "class_to_index": {
+              "Angry": 0,
+              "Fear": 1,
+              "Happy": 2,
+              "Sad": 3,
+              "Surprise": 4,
+              "Neutral": 5
+            },
+            "confusion_matrix": [
+              [
+                367,
+                55,
+                29,
+                65,
+                11,
+                67
+              ],
+              [
+                70,
+                289,
+                16,
+                111,
+                55,
+                74
+              ],
+              [
+                13,
+                16,
+                966,
+                21,
+                20,
+                43
+              ],
+              [
+                78,
+                69,
+                25,
+                418,
+                10,
+                129
+              ],
+              [
+                19,
+                41,
+                19,
+                9,
+                376,
+                16
+              ],
+              [
+                39,
+                22,
+                49,
+                102,
+                4,
+                528
+              ]
+            ],
+            "confusion_matrix_axes": {
+              "rows": "true",
+              "columns": "predicted"
+            },
+            "per_class": {
+              "Angry": {
+                "support": 594,
+                "recall": 0.6178451178451179
+              },
+              "Fear": {
+                "support": 615,
+                "recall": 0.46991869918699186
+              },
+              "Happy": {
+                "support": 1079,
+                "recall": 0.8952734012974977
+              },
+              "Sad": {
+                "support": 729,
+                "recall": 0.5733882030178327
+              },
+              "Surprise": {
+                "support": 480,
+                "recall": 0.7833333333333333
+              },
+              "Neutral": {
+                "support": 744,
+                "recall": 0.7096774193548387
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "ensembles": {},
+  "scope": "Repeated model-selection holdout; no test labels or duplicate-label matching."
+}

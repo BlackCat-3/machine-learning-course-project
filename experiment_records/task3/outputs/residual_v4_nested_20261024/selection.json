@@ -1,0 +1,215 @@
+{
+  "selected": null,
+  "best_candidate": {
+    "steps": 40,
+    "residual_weight": 0.5,
+    "metrics": {
+      "rmse": 17.072236588104307,
+      "rmse_x": 21.425168831968925,
+      "rmse_y": 11.130348815829716
+    },
+    "fold_rmse": [
+      28.70907976571112,
+      8.624546577900743,
+      10.714051121561493,
+      12.347473117081625
+    ],
+    "improved_folds": 3,
+    "relative_reduction": -0.04517944853442524,
+    "qualified": false
+  },
+  "candidates": [
+    {
+      "steps": 40,
+      "residual_weight": 1.0,
+      "metrics": {
+        "rmse": 18.353687095218056,
+        "rmse_x": 23.23917682850127,
+        "rmse_y": 11.560982670690125
+      },
+      "fold_rmse": [
+        31.20636466344034,
+        9.39097999228868,
+        11.27101064100494,
+        12.584432381472931
+      ],
+      "improved_folds": 1,
+      "relative_reduction": -0.12363113396166137,
+      "qualified": false
+    },
+    {
+      "steps": 40,
+      "residual_weight": 0.5,
+      "metrics": {
+        "rmse": 17.072236588104307,
+        "rmse_x": 21.425168831968925,
+        "rmse_y": 11.130348815829716
+      },
+      "fold_rmse": [
+        28.70907976571112,
+        8.624546577900743,
+        10.714051121561493,
+        12.347473117081625
+      ],
+      "improved_folds": 3,
+      "relative_reduction": -0.04517944853442524,
+      "qualified": false
+    },
+    {
+      "steps": 80,
+      "residual_weight": 1.0,
+      "metrics": {
+        "rmse": 21.955087847473457,
+        "rmse_x": 26.831626112221727,
+        "rmse_y": 15.624199338029914
+      },
+      "fold_rmse": [
+        35.92884426880955,
+        13.96518998611394,
+        14.03347588607495,
+        15.660673749089927
+      ],
+      "improved_folds": 0,
+      "relative_reduction": -0.3441125004638421,
+      "qualified": false
+    },
+    {
+      "steps": 80,
+      "residual_weight": 0.5,
+      "metrics": {
+        "rmse": 18.430830583718567,
+        "rmse_x": 22.940733067240515,
+        "rmse_y": 12.373916047439828
+      },
+      "fold_rmse": [
+        30.671500187312684,
+        10.390009139768813,
+        11.797170997954721,
+        13.073469577857189
+      ],
+      "improved_folds": 0,
+      "relative_reduction": -0.1283539357078114,
+      "qualified": false
+    },
+    {
+      "steps": 120,
+      "residual_weight": 1.0,
+      "metrics": {
+        "rmse": 24.488331810973374,
+        "rmse_x": 28.642163093032682,
+        "rmse_y": 19.467492984993658
+      },
+      "fold_rmse": [
+        36.81194411150572,
+        15.90681761194517,
+        15.875992491150742,
+        23.206041587266395
+      ],
+      "improved_folds": 0,
+      "relative_reduction": -0.499200236924739,
+      "qualified": false
+    },
+    {
+      "steps": 120,
+      "residual_weight": 0.5,
+      "metrics": {
+        "rmse": 19.576088319525848,
+        "rmse_x": 23.854515606912766,
+        "rmse_y": 14.050215405726274
+      },
+      "fold_rmse": [
+        31.085810246937413,
+        11.32602917692612,
+        12.74439363969246,
+        16.60923931752718
+      ],
+      "improved_folds": 0,
+      "relative_reduction": -0.19846776306508285,
+      "qualified": false
+    },
+    {
+      "steps": 160,
+      "residual_weight": 1.0,
+      "metrics": {
+        "rmse": 23.952868995507195,
+        "rmse_x": 28.43856623683584,
+        "rmse_y": 18.40455966941237
+      },
+      "fold_rmse": [
+        36.786896731957285,
+        17.3439892958036,
+        15.757747226168735,
+        19.813212736940272
+      ],
+      "improved_folds": 0,
+      "relative_reduction": -0.46641866625639494,
+      "qualified": false
+    },
+    {
+      "steps": 160,
+      "residual_weight": 0.5,
+      "metrics": {
+        "rmse": 19.233830600102984,
+        "rmse_x": 23.655672867172814,
+        "rmse_y": 13.427197038407522
+      },
+      "fold_rmse": [
+        30.96143532074547,
+        12.003456514607857,
+        12.724662594624867,
+        14.66800854403894
+      ],
+      "improved_folds": 0,
+      "relative_reduction": -0.1775144021743198,
+      "qualified": false
+    },
+    {
+      "steps": 240,
+      "residual_weight": 1.0,
+      "metrics": {
+        "rmse": 23.609353825404394,
+        "rmse_x": 28.605786576758284,
+        "rmse_y": 17.21952817098163
+      },
+      "fold_rmse": [
+        36.87703108050574,
+        18.074312169525584,
+        15.073518379989473,
+        17.77074039387841
+      ],
+      "improved_folds": 0,
+      "relative_reduction": -0.4453883229736979,
+      "qualified": false
+    },
+    {
+      "steps": 240,
+      "residual_weight": 0.5,
+      "metrics": {
+        "rmse": 19.044453237076755,
+        "rmse_x": 23.68764257086494,
+        "rmse_y": 12.817097473037864
+      },
+      "fold_rmse": [
+        30.944754738926758,
+        12.20695326142911,
+        12.386376159865977,
+        13.811405730195332
+      ],
+      "improved_folds": 0,
+      "relative_reduction": -0.16592053005152052,
+      "qualified": false
+    }
+  ],
+  "baseline_rmse": 16.334263567891036,
+  "baseline_fold_rmse": [
+    26.663118020108456,
+    8.789727876083791,
+    10.803049338792066,
+    12.741491730371182
+  ],
+  "gate": {
+    "relative_rmse_reduction": 0.05,
+    "minimum_improved_folds": 3
+  },
+  "note": "Shared update count selected on existing model-selection folds; no online score."
+}

@@ -1,0 +1,12 @@
+{
+  "epochs_completed": 13,
+  "planned_epochs": 18,
+  "stop_after_epochs": 13,
+  "best_epoch": null,
+  "best_validation_accuracy": null,
+  "full_train": true,
+  "validation_is_partial": false,
+  "training_is_partial": false,
+  "seconds_this_invocation": 336.397,
+  "output_dir": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\seed_erasing_20261016\\full\\detail_seed44"
+}

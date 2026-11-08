@@ -1,0 +1,45 @@
+{
+  "split": "test",
+  "rows": 7065,
+  "class_to_index": {
+    "Angry": 0,
+    "Fear": 1,
+    "Happy": 2,
+    "Sad": 3,
+    "Surprise": 4,
+    "Neutral": 5
+  },
+  "flip_tta": true,
+  "checkpoints": [
+    {
+      "path": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\final_models\\mixup\\final.pt",
+      "epoch": 12,
+      "source": "ema"
+    },
+    {
+      "path": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\full\\resnet18_detail\\final.pt",
+      "epoch": 11,
+      "source": "ema"
+    },
+    {
+      "path": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\full\\resnet34\\final.pt",
+      "epoch": 9,
+      "source": "ema"
+    },
+    {
+      "path": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\seed_erasing_20261016\\full\\detail_seed44\\final.pt",
+      "epoch": 13,
+      "source": "ema"
+    }
+  ],
+  "prediction_counts": {
+    "Angry": 918,
+    "Fear": 804,
+    "Happy": 1866,
+    "Sad": 1183,
+    "Surprise": 825,
+    "Neutral": 1469
+  },
+  "output_csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\seed_erasing_20261016\\submission_improved.csv",
+  "probabilities": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\seed_erasing_20261016\\submission_improved.probabilities.npz"
+}

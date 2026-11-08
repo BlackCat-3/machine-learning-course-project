@@ -1,0 +1,881 @@
+{
+  "passed": true,
+  "state": "completed_not_qualified",
+  "checks_passed": 213,
+  "checks": [
+    {
+      "name": "current online-best file and backup unchanged",
+      "passed": true
+    },
+    {
+      "name": "manifest unchanged",
+      "passed": true
+    },
+    {
+      "name": "all input images unchanged",
+      "passed": true
+    },
+    {
+      "name": "duplicate groups never cross folds",
+      "passed": true
+    },
+    {
+      "name": "nested preparation completed",
+      "passed": true
+    },
+    {
+      "name": "outer0 fit and validation membership",
+      "passed": true
+    },
+    {
+      "name": "outer0 native cache hash",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 1",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 5",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 12",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 13",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 15",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 16",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 17",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 20",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 32",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 35",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 37",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 41",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 49",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 55",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 57",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 60",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 61",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 64",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 72",
+      "passed": true
+    },
+    {
+      "name": "outer0 heldout source ID 75",
+      "passed": true
+    },
+    {
+      "name": "outer0 nested fitting and selection exclude outer labels: pair01_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer0 inner checkpoint selection and hash: pair01_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer0 nested fitting and selection exclude outer labels: pair01_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer0 inner checkpoint selection and hash: pair01_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer0 nested fitting and selection exclude outer labels: pair02_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer0 inner checkpoint selection and hash: pair02_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer0 nested fitting and selection exclude outer labels: pair02_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer0 inner checkpoint selection and hash: pair02_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer0 nested fitting and selection exclude outer labels: pair03_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer0 inner checkpoint selection and hash: pair03_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer0 nested fitting and selection exclude outer labels: pair03_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer0 inner checkpoint selection and hash: pair03_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer1 fit and validation membership",
+      "passed": true
+    },
+    {
+      "name": "outer1 native cache hash",
+      "passed": true
+    },
+    {
+      "name": "outer1 nested fitting and selection exclude outer labels: pair01_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer1 inner checkpoint selection and hash: pair01_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer1 nested fitting and selection exclude outer labels: pair01_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer1 inner checkpoint selection and hash: pair01_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 3",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 4",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 7",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 10",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 22",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 26",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 29",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 36",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 42",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 46",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 50",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 51",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 52",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 59",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 62",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 65",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 68",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 69",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 71",
+      "passed": true
+    },
+    {
+      "name": "outer1 heldout source ID 74",
+      "passed": true
+    },
+    {
+      "name": "outer1 nested fitting and selection exclude outer labels: pair12_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer1 inner checkpoint selection and hash: pair12_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer1 nested fitting and selection exclude outer labels: pair12_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer1 inner checkpoint selection and hash: pair12_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer1 nested fitting and selection exclude outer labels: pair13_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer1 inner checkpoint selection and hash: pair13_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer1 nested fitting and selection exclude outer labels: pair13_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer1 inner checkpoint selection and hash: pair13_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer2 fit and validation membership",
+      "passed": true
+    },
+    {
+      "name": "outer2 native cache hash",
+      "passed": true
+    },
+    {
+      "name": "outer2 nested fitting and selection exclude outer labels: pair02_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer2 inner checkpoint selection and hash: pair02_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer2 nested fitting and selection exclude outer labels: pair02_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer2 inner checkpoint selection and hash: pair02_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer2 nested fitting and selection exclude outer labels: pair12_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer2 inner checkpoint selection and hash: pair12_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer2 nested fitting and selection exclude outer labels: pair12_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer2 inner checkpoint selection and hash: pair12_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 6",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 8",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 9",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 11",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 14",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 18",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 21",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 25",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 27",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 30",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 31",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 38",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 44",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 45",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 48",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 53",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 54",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 70",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 76",
+      "passed": true
+    },
+    {
+      "name": "outer2 heldout source ID 79",
+      "passed": true
+    },
+    {
+      "name": "outer2 nested fitting and selection exclude outer labels: pair23_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer2 inner checkpoint selection and hash: pair23_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer2 nested fitting and selection exclude outer labels: pair23_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer2 inner checkpoint selection and hash: pair23_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer3 fit and validation membership",
+      "passed": true
+    },
+    {
+      "name": "outer3 native cache hash",
+      "passed": true
+    },
+    {
+      "name": "outer3 nested fitting and selection exclude outer labels: pair03_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer3 inner checkpoint selection and hash: pair03_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer3 nested fitting and selection exclude outer labels: pair03_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer3 inner checkpoint selection and hash: pair03_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer3 nested fitting and selection exclude outer labels: pair13_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer3 inner checkpoint selection and hash: pair13_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer3 nested fitting and selection exclude outer labels: pair13_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer3 inner checkpoint selection and hash: pair13_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer3 nested fitting and selection exclude outer labels: pair23_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer3 inner checkpoint selection and hash: pair23_seed43",
+      "passed": true
+    },
+    {
+      "name": "outer3 nested fitting and selection exclude outer labels: pair23_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer3 inner checkpoint selection and hash: pair23_seed44",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 2",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 19",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 23",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 24",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 28",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 33",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 34",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 39",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 40",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 43",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 47",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 56",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 58",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 63",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 66",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 67",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 73",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 77",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 78",
+      "passed": true
+    },
+    {
+      "name": "outer3 heldout source ID 80",
+      "passed": true
+    },
+    {
+      "name": "training source snapshot matches executed code",
+      "passed": true
+    },
+    {
+      "name": "OOF covers all 80 records with correct targets and folds",
+      "passed": true
+    },
+    {
+      "name": "paired comparison uses exact existing coarse OOF",
+      "passed": true
+    },
+    {
+      "name": "two-seed average correct",
+      "passed": true
+    },
+    {
+      "name": "fold0 seed43 complete 240 optimizer updates and correct records",
+      "passed": true
+    },
+    {
+      "name": "fold0 seed43 shared candidate steps and prediction provenance",
+      "passed": true
+    },
+    {
+      "name": "fold0 seed43 checkpoint step40",
+      "passed": true
+    },
+    {
+      "name": "fold0 seed43 checkpoint step80",
+      "passed": true
+    },
+    {
+      "name": "fold0 seed43 checkpoint step120",
+      "passed": true
+    },
+    {
+      "name": "fold0 seed43 checkpoint step160",
+      "passed": true
+    },
+    {
+      "name": "fold0 seed43 checkpoint step240",
+      "passed": true
+    },
+    {
+      "name": "fold0 seed44 complete 240 optimizer updates and correct records",
+      "passed": true
+    },
+    {
+      "name": "fold0 seed44 shared candidate steps and prediction provenance",
+      "passed": true
+    },
+    {
+      "name": "fold0 seed44 checkpoint step40",
+      "passed": true
+    },
+    {
+      "name": "fold0 seed44 checkpoint step80",
+      "passed": true
+    },
+    {
+      "name": "fold0 seed44 checkpoint step120",
+      "passed": true
+    },
+    {
+      "name": "fold0 seed44 checkpoint step160",
+      "passed": true
+    },
+    {
+      "name": "fold0 seed44 checkpoint step240",
+      "passed": true
+    },
+    {
+      "name": "fold1 seed43 complete 240 optimizer updates and correct records",
+      "passed": true
+    },
+    {
+      "name": "fold1 seed43 shared candidate steps and prediction provenance",
+      "passed": true
+    },
+    {
+      "name": "fold1 seed43 checkpoint step40",
+      "passed": true
+    },
+    {
+      "name": "fold1 seed43 checkpoint step80",
+      "passed": true
+    },
+    {
+      "name": "fold1 seed43 checkpoint step120",
+      "passed": true
+    },
+    {
+      "name": "fold1 seed43 checkpoint step160",
+      "passed": true
+    },
+    {
+      "name": "fold1 seed43 checkpoint step240",
+      "passed": true
+    },
+    {
+      "name": "fold1 seed44 complete 240 optimizer updates and correct records",
+      "passed": true
+    },
+    {
+      "name": "fold1 seed44 shared candidate steps and prediction provenance",
+      "passed": true
+    },
+    {
+      "name": "fold1 seed44 checkpoint step40",
+      "passed": true
+    },
+    {
+      "name": "fold1 seed44 checkpoint step80",
+      "passed": true
+    },
+    {
+      "name": "fold1 seed44 checkpoint step120",
+      "passed": true
+    },
+    {
+      "name": "fold1 seed44 checkpoint step160",
+      "passed": true
+    },
+    {
+      "name": "fold1 seed44 checkpoint step240",
+      "passed": true
+    },
+    {
+      "name": "fold2 seed43 complete 240 optimizer updates and correct records",
+      "passed": true
+    },
+    {
+      "name": "fold2 seed43 shared candidate steps and prediction provenance",
+      "passed": true
+    },
+    {
+      "name": "fold2 seed43 checkpoint step40",
+      "passed": true
+    },
+    {
+      "name": "fold2 seed43 checkpoint step80",
+      "passed": true
+    },
+    {
+      "name": "fold2 seed43 checkpoint step120",
+      "passed": true
+    },
+    {
+      "name": "fold2 seed43 checkpoint step160",
+      "passed": true
+    },
+    {
+      "name": "fold2 seed43 checkpoint step240",
+      "passed": true
+    },
+    {
+      "name": "fold2 seed44 complete 240 optimizer updates and correct records",
+      "passed": true
+    },
+    {
+      "name": "fold2 seed44 shared candidate steps and prediction provenance",
+      "passed": true
+    },
+    {
+      "name": "fold2 seed44 checkpoint step40",
+      "passed": true
+    },
+    {
+      "name": "fold2 seed44 checkpoint step80",
+      "passed": true
+    },
+    {
+      "name": "fold2 seed44 checkpoint step120",
+      "passed": true
+    },
+    {
+      "name": "fold2 seed44 checkpoint step160",
+      "passed": true
+    },
+    {
+      "name": "fold2 seed44 checkpoint step240",
+      "passed": true
+    },
+    {
+      "name": "fold3 seed43 complete 240 optimizer updates and correct records",
+      "passed": true
+    },
+    {
+      "name": "fold3 seed43 shared candidate steps and prediction provenance",
+      "passed": true
+    },
+    {
+      "name": "fold3 seed43 checkpoint step40",
+      "passed": true
+    },
+    {
+      "name": "fold3 seed43 checkpoint step80",
+      "passed": true
+    },
+    {
+      "name": "fold3 seed43 checkpoint step120",
+      "passed": true
+    },
+    {
+      "name": "fold3 seed43 checkpoint step160",
+      "passed": true
+    },
+    {
+      "name": "fold3 seed43 checkpoint step240",
+      "passed": true
+    },
+    {
+      "name": "fold3 seed44 complete 240 optimizer updates and correct records",
+      "passed": true
+    },
+    {
+      "name": "fold3 seed44 shared candidate steps and prediction provenance",
+      "passed": true
+    },
+    {
+      "name": "fold3 seed44 checkpoint step40",
+      "passed": true
+    },
+    {
+      "name": "fold3 seed44 checkpoint step80",
+      "passed": true
+    },
+    {
+      "name": "fold3 seed44 checkpoint step120",
+      "passed": true
+    },
+    {
+      "name": "fold3 seed44 checkpoint step160",
+      "passed": true
+    },
+    {
+      "name": "fold3 seed44 checkpoint step240",
+      "passed": true
+    },
+    {
+      "name": "candidate step40 weight1.0 score and gate",
+      "passed": true
+    },
+    {
+      "name": "candidate step40 weight0.5 score and gate",
+      "passed": true
+    },
+    {
+      "name": "candidate step80 weight1.0 score and gate",
+      "passed": true
+    },
+    {
+      "name": "candidate step80 weight0.5 score and gate",
+      "passed": true
+    },
+    {
+      "name": "candidate step120 weight1.0 score and gate",
+      "passed": true
+    },
+    {
+      "name": "candidate step120 weight0.5 score and gate",
+      "passed": true
+    },
+    {
+      "name": "candidate step160 weight1.0 score and gate",
+      "passed": true
+    },
+    {
+      "name": "candidate step160 weight0.5 score and gate",
+      "passed": true
+    },
+    {
+      "name": "candidate step240 weight1.0 score and gate",
+      "passed": true
+    },
+    {
+      "name": "candidate step240 weight0.5 score and gate",
+      "passed": true
+    },
+    {
+      "name": "selected candidate exactly follows fixed gate",
+      "passed": true
+    },
+    {
+      "name": "no unqualified new submission",
+      "passed": true
+    }
+  ],
+  "baseline_rmse": 16.334263567891036,
+  "best_candidate": {
+    "steps": 40,
+    "residual_weight": 0.5,
+    "metrics": {
+      "rmse": 17.072236588104307,
+      "rmse_x": 21.425168831968925,
+      "rmse_y": 11.130348815829716
+    },
+    "fold_rmse": [
+      28.70907976571112,
+      8.624546577900743,
+      10.714051121561493,
+      12.347473117081625
+    ],
+    "improved_folds": 3,
+    "relative_reduction": -0.04517944853442524,
+    "qualified": false
+  },
+  "selected": null,
+  "online_score": null,
+  "current_best_preserved": true
+}

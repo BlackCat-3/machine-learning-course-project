@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "device": "cpu",
+  "legacy_exact_output_and_rng_checks": 6,
+  "evaluation_unchanged": true,
+  "erasing_applied_images": 125,
+  "sample_images": 512,
+  "unique_rectangles": 125,
+  "observed_area_range": [
+    0.021045918367346938,
+    0.07884247448979592
+  ],
+  "mean_fill_verified": true,
+  "fixed_seed_reproducible": true,
+  "invalid_options_rejected_at_both_interfaces": 7
+}

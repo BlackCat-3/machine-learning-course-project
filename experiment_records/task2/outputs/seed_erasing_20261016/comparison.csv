@@ -1,0 +1,10 @@
+﻿candidate,model_names,category,accuracy,correct,gain_vs_previous_ensemble_pp,selected
+"Reference: seed 43, no erasing",detail_seed43,single,0.6875736854515444,2916,-0.8724357462862598,False
+Change seed only: 44,detail_seed44,single,0.6951190756896958,2948,-0.11789672247112248,False
+Add erasing only: seed 43,detail_erasing,single,0.693232728130158,2940,-0.3065314784248985,False
+Previous three-model ensemble,old_mixup|detail_seed43|resnet34,baseline,0.696298042914407,2953,0.0,False
+Reference + seed 44,detail_seed43|detail_seed44,ensemble,0.6998349445885405,2968,0.35369016741334525,False
+Reference + erasing,detail_seed43|detail_erasing,ensemble,0.6937043150200425,2942,-0.2593727894364517,False
+Previous ensemble + seed 44,old_mixup|detail_seed43|resnet34|detail_seed44,ensemble,0.7010139118132516,2973,0.47158688988445663,True
+Previous ensemble + erasing,old_mixup|detail_seed43|resnet34|detail_erasing,ensemble,0.7005423249233671,2971,0.42442820089600986,False
+Previous ensemble + both,old_mixup|detail_seed43|resnet34|detail_seed44|detail_erasing,ensemble,0.7000707380334826,2969,0.3772695119075631,False

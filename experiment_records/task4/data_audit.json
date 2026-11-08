@@ -1,0 +1,529 @@
+{
+  "archive_sha256": "6f6e36243092f4cf55c1be4ae7c5227e3c3686501e25487ada7ef03fa9b7634a",
+  "source": "D:\\Downloads\\2026task-4.zip",
+  "files": [
+    {
+      "file": "segmentation\\train\\image\\1.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\10.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\11.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\12.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\13.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\14.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\15.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\16.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\17.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\18.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\19.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\2.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\20.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\3.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\4.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\5.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\6.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\7.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\8.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\image\\9.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\train\\label\\1.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.08740756455327918,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\10.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.0817796096496545,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\11.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.07473027033579828,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\12.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.0978512546975391,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\13.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.08811068008243424,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\14.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.08671354103527701,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\15.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.08630440053339798,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\16.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.08410413383440417,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\17.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.09034125348527094,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\18.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.0859134440538247,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\19.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.0959783004000485,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\2.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.08356467450600073,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\20.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.09767244514486605,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\3.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.10875257606982665,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\4.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.07576979027760941,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\5.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.06583525275791005,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\6.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.11585949812098437,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\7.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.060304279306582616,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\8.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.0784458722269366,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\train\\label\\9.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "L",
+      "white_fraction_at_128": 0.08087646987513639,
+      "nonbinary_jpeg_fraction": 0.0
+    },
+    {
+      "file": "segmentation\\test\\image\\1.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\10.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\11.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\12.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\13.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\14.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\15.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\16.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\17.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\18.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\19.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\2.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\20.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\3.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\4.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\5.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\6.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\7.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\8.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "segmentation\\test\\image\\9.jpg",
+      "size": [
+        565,
+        584
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "duplicate_image_pixels": [],
+  "label_convention": "White vessels on black background (verified from actual labels).",
+  "description_discrepancy": "User screenshot says vessels=0; actual labels and official encoder use white foreground."
+}

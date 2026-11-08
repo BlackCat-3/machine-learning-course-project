@@ -1,0 +1,122 @@
+{
+  "split": "val",
+  "rows": 4241,
+  "class_to_index": {
+    "Angry": 0,
+    "Fear": 1,
+    "Happy": 2,
+    "Sad": 3,
+    "Surprise": 4,
+    "Neutral": 5
+  },
+  "flip_tta": true,
+  "checkpoints": [
+    {
+      "path": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\resnet18_mixup_s43\\best.pt",
+      "epoch": 12,
+      "source": "ema"
+    }
+  ],
+  "prediction_counts": {
+    "Angry": 583,
+    "Fear": 484,
+    "Happy": 1130,
+    "Sad": 685,
+    "Surprise": 453,
+    "Neutral": 906
+  },
+  "output_csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\validation_mixup_tta.csv",
+  "probabilities": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\validation_mixup_tta.probabilities.npz",
+  "validation_metrics": {
+    "accuracy": 0.6859231313369488,
+    "num_samples": 4241,
+    "class_to_index": {
+      "Angry": 0,
+      "Fear": 1,
+      "Happy": 2,
+      "Sad": 3,
+      "Surprise": 4,
+      "Neutral": 5
+    },
+    "confusion_matrix": [
+      [
+        361,
+        44,
+        29,
+        66,
+        13,
+        81
+      ],
+      [
+        90,
+        284,
+        20,
+        100,
+        46,
+        75
+      ],
+      [
+        16,
+        13,
+        974,
+        16,
+        17,
+        43
+      ],
+      [
+        64,
+        68,
+        31,
+        396,
+        14,
+        156
+      ],
+      [
+        26,
+        48,
+        21,
+        8,
+        360,
+        17
+      ],
+      [
+        26,
+        27,
+        55,
+        99,
+        3,
+        534
+      ]
+    ],
+    "confusion_matrix_axes": {
+      "rows": "true",
+      "columns": "predicted"
+    },
+    "per_class": {
+      "Angry": {
+        "support": 594,
+        "recall": 0.6077441077441077
+      },
+      "Fear": {
+        "support": 615,
+        "recall": 0.46178861788617886
+      },
+      "Happy": {
+        "support": 1079,
+        "recall": 0.9026876737720111
+      },
+      "Sad": {
+        "support": 729,
+        "recall": 0.5432098765432098
+      },
+      "Surprise": {
+        "support": 480,
+        "recall": 0.75
+      },
+      "Neutral": {
+        "support": 744,
+        "recall": 0.717741935483871
+      }
+    }
+  }
+}

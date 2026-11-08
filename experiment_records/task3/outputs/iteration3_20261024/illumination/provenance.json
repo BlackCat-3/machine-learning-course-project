@@ -1,0 +1,41 @@
+{
+  "source_sha256": {
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\fine_heatmap_v3.py": "81208e886f7fe90a0c2c70c91a354761d198d08cdff58ffcd9cb6a4d0d6627a2",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\model.py": "7174e7c02f6edfccf19b86a6bcc3945eb68b18e18bbd722aca104365716d934b",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\run.py": "201c7a241424d9972d55f29bda61176538a6192bb468d259a8d52e2689ae8f3e",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\robust_heatmap.py": "2b3b2d59da85f181428df8979024083bbfa973a0e5e1de959f863a82134b36ee",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\data.py": "b09dad5abe5c2685135f6ab544514655ad4f407b520177ba5d89bc53449269f6",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\contracts.py": "f82435b4f27ca5ed0ad16b75f3a94054ea1dd29f3a00048afd3fb6b253a13d07",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\baseline\\prepared\\manifest.json": "1db1f5ad6394ce48671dea87d82dc130a991874fe048af26ec3ba9ac83050401",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\.cache\\torch\\hub\\checkpoints\\resnet34-b627a593.pth": "b627a593bcbe140c234610266fe4f8ae95ea42fc881d091c9b6052e6b1d0590f",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\data\\detection\\sample_submission.csv": "28c8af24effbb1fefe9cd7162b4093b2966b24c9d5e5e2140ecb368822409d9d",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\data\\detection\\fovea_localization_train_GT.csv": "237290f501488f09e1132268f44b12f858d8751dfeee96f94103050ed3c1d70e",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\oof_predictions.npz": "63fc8cb239b50a1beefa3f3ef7d7123623b404bba0a58382db7399ee939de060",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\result.json": "af75ce11051d9ab1c70f362aafb3d8f1d6c234c858b539a60c8120388cc1b5d8",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\submission_robust.csv": "20d24c207d73e8ef0af3de589e9e3becd0416b14c8b30c02068815451f136a8b",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\illumination_v3.py": "7966b54f1b181a8b0aaed3840042fafedded07b3da9e801110825c63906672a8"
+  },
+  "cache_sha256": "391340084bf64c6a6f28c26ff1a11afb67688abfb737860535ca24949e111bc6",
+  "preprocessing": {
+    "name": "per-image background illumination correction",
+    "order": "RGB -> unchanged manifest retina crop -> bilinear resize448 -> correction -> training augmentation",
+    "blur": "PIL.ImageFilter.GaussianBlur",
+    "blur_radius": 14.933333333333334,
+    "corrected": "clip(4 * (RGB - blurred_RGB) + 128, 0, 255)",
+    "blend": "0.5 * original_RGB + 0.5 * corrected_RGB",
+    "storage": "np.rint then clip to [0,255], uint8",
+    "uses_labels": false,
+    "uses_other_images": false,
+    "pil_version": "12.2.0"
+  },
+  "runtime": {
+    "python": "3.13.11",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "2.4.2",
+    "pillow": "12.2.0",
+    "cuda_build": "12.8",
+    "device_type": "cuda",
+    "cudnn_benchmark": true
+  }
+}

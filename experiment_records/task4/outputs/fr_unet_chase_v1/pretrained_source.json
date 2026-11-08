@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/lseventeen/FR-UNet",
+  "commit": "1856bc206055fdfccde184d0ebf9ac8c3207387d",
+  "checkpoint": "third_party\\fr_unet\\pretrained_weights\\CHASEDB1\\checkpoint-epoch40.pth",
+  "sha256": "a451f687980e8f2b11b5922fdb05f62f6c72fb8344811a0a736409792d0eacf4",
+  "dataset_in_checkpoint_config": "CHASEDB1",
+  "license": "MIT"
+}

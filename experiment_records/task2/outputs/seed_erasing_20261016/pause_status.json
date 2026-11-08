@@ -1,0 +1,14 @@
+{
+  "status": "complete_after_resume",
+  "paused_at_local": "2026-10-16T21:32:52",
+  "completed_full_epochs": 13,
+  "target_full_epochs": 13,
+  "checkpoint": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\seed_erasing_20261016\\full\\detail_seed44\\last.pt",
+  "validation_complete": true,
+  "selected_validation_accuracy": 0.7010139118132516,
+  "new_submission_created": true,
+  "resume_command": ".\\.venv\\Scripts\\python.exe -u seed_erasing_study.py --stage final",
+  "resumed_at": "2026-10-17T12:31:24.5750136+08:00",
+  "paused_after_full_epoch": 9,
+  "completed_at": "2026-10-17T12:37:40.2733152+08:00"
+}

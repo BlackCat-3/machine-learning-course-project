@@ -1,0 +1,80 @@
+{
+  "selected": "robust_only",
+  "candidates": {
+    "robust_only": {
+      "metrics": {
+        "rmse": 16.334263567891036,
+        "rmse_x": 20.151372635635976,
+        "rmse_y": 11.293295068774496
+      },
+      "fold_rmse": [
+        26.663118020108456,
+        8.789727876083791,
+        10.803049338792066,
+        12.741491730371182
+      ],
+      "improved_folds": 4,
+      "passed_gate": true
+    },
+    "robust_baseline_mean": {
+      "metrics": {
+        "rmse": 20.53248063978981,
+        "rmse_x": 24.41577136058377,
+        "rmse_y": 15.717367187744397
+      },
+      "fold_rmse": [
+        31.573973867108716,
+        12.458182097167997,
+        12.567784409528867,
+        19.39741511134706
+      ],
+      "improved_folds": 4,
+      "passed_gate": true
+    }
+  },
+  "best_epochs": {
+    "43": [
+      6,
+      6,
+      33,
+      12
+    ],
+    "44": [
+      7,
+      5,
+      34,
+      13
+    ]
+  },
+  "refit_epochs": {
+    "43": 9,
+    "44": 10
+  },
+  "baseline_rmse": 28.153703785912082,
+  "baseline_fold_rmse": [
+    38.7564200766485,
+    18.34608606687597,
+    19.641132560436215,
+    30.758918837827018
+  ],
+  "plan": {
+    "seeds": [
+      43,
+      44
+    ],
+    "folds": 4,
+    "epochs": 40,
+    "size": 448,
+    "candidates": [
+      "robust_only",
+      "robust_baseline_mean"
+    ],
+    "gate": {
+      "relative_rmse_reduction": 0.1,
+      "minimum_improved_folds": 3
+    },
+    "validation_note": "Same model-selection folds as baseline; not an independent test.",
+    "training": "ResNet34; lower backbone LR; EMA; gamma/lighting/blur; 100x coordinate MSE",
+    "refit": "same two seeds; all80; median chosen epoch across folds for each seed"
+  }
+}

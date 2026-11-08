@@ -1,0 +1,124 @@
+{
+  "seeds": [
+    1000,
+    1001
+  ],
+  "metrics": {
+    "baseline": {
+      "macro_f1": 0.9538486757265121
+    },
+    "resample_1000": {
+      "macro_f1": 0.9537385992272857,
+      "errors": 23,
+      "per_class_f1": [
+        0.8979591836734694,
+        0.9607843137254902,
+        0.93,
+        0.9950248756218906,
+        0.9849246231155779
+      ],
+      "confusion_matrix_rows_true": [
+        [
+          88,
+          5,
+          7,
+          0,
+          0
+        ],
+        [
+          1,
+          98,
+          0,
+          0,
+          1
+        ],
+        [
+          7,
+          0,
+          93,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          100,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          98
+        ]
+      ],
+      "fold_scores": [
+        0.950163400997804,
+        0.9598240415029979,
+        0.9497310819262038,
+        0.9693819254794864,
+        0.9400000000000001
+      ]
+    },
+    "resample_1001": {
+      "macro_f1": 0.9558250230765573,
+      "errors": 22,
+      "per_class_f1": [
+        0.898989898989899,
+        0.9705882352941176,
+        0.9246231155778895,
+        0.9950248756218906,
+        0.98989898989899
+      ],
+      "confusion_matrix_rows_true": [
+        [
+          89,
+          4,
+          7,
+          0,
+          0
+        ],
+        [
+          1,
+          99,
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          0,
+          92,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          100,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          98
+        ]
+      ],
+      "fold_scores": [
+        0.9604395604395604,
+        0.95996336996337,
+        0.9497310819262038,
+        0.9693819254794864,
+        0.9400000000000001
+      ]
+    }
+  },
+  "selected": "resample_1001",
+  "method": "Original inner-CV configuration selection; 5 stratified 80% subsets per outer training fold; seed changes subsets only.",
+  "warning": "Seed screening selects on OOF. Selected candidates require a separate split sensitivity check; no guarantee of Kaggle improvement."
+}

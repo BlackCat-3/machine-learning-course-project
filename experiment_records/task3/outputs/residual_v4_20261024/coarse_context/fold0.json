@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {
+      "path": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold0_seed43\\best.pt",
+      "sha256": "7ae26f26ea84f2c7c0e9343ab3c17f2f4aae7c8f0f4227e2b4b0a25917057aca"
+    },
+    {
+      "path": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold0_seed44\\best.pt",
+      "sha256": "48fd6c0e35e9a6184467f96cbe624a14b9c7aa5b542bb36c9d6db1eba89375c4"
+    }
+  ],
+  "max_reproduction_error_pixels": 0.025444865226745605
+}

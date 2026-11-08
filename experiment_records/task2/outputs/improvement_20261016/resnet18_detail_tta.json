@@ -1,0 +1,122 @@
+{
+  "split": "val",
+  "rows": 4241,
+  "class_to_index": {
+    "Angry": 0,
+    "Fear": 1,
+    "Happy": 2,
+    "Sad": 3,
+    "Surprise": 4,
+    "Neutral": 5
+  },
+  "flip_tta": true,
+  "checkpoints": [
+    {
+      "path": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\resnet18_detail\\best.pt",
+      "epoch": 11,
+      "source": "ema"
+    }
+  ],
+  "prediction_counts": {
+    "Angry": 614,
+    "Fear": 453,
+    "Happy": 1138,
+    "Sad": 675,
+    "Surprise": 467,
+    "Neutral": 894
+  },
+  "output_csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\resnet18_detail_tta.csv",
+  "probabilities": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\resnet18_detail_tta.probabilities.npz",
+  "validation_metrics": {
+    "accuracy": 0.6875736854515444,
+    "num_samples": 4241,
+    "class_to_index": {
+      "Angry": 0,
+      "Fear": 1,
+      "Happy": 2,
+      "Sad": 3,
+      "Surprise": 4,
+      "Neutral": 5
+    },
+    "confusion_matrix": [
+      [
+        367,
+        40,
+        31,
+        60,
+        16,
+        80
+      ],
+      [
+        84,
+        274,
+        21,
+        105,
+        55,
+        76
+      ],
+      [
+        18,
+        14,
+        974,
+        18,
+        17,
+        38
+      ],
+      [
+        87,
+        62,
+        29,
+        401,
+        6,
+        144
+      ],
+      [
+        16,
+        44,
+        19,
+        7,
+        369,
+        25
+      ],
+      [
+        42,
+        19,
+        64,
+        84,
+        4,
+        531
+      ]
+    ],
+    "confusion_matrix_axes": {
+      "rows": "true",
+      "columns": "predicted"
+    },
+    "per_class": {
+      "Angry": {
+        "support": 594,
+        "recall": 0.6178451178451179
+      },
+      "Fear": {
+        "support": 615,
+        "recall": 0.44552845528455287
+      },
+      "Happy": {
+        "support": 1079,
+        "recall": 0.9026876737720111
+      },
+      "Sad": {
+        "support": 729,
+        "recall": 0.5500685871056241
+      },
+      "Surprise": {
+        "support": 480,
+        "recall": 0.76875
+      },
+      "Neutral": {
+        "support": 744,
+        "recall": 0.7137096774193549
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "lseventeen/FR-UNet",
+  "commit": "1856bc206055fdfccde184d0ebf9ac8c3207387d",
+  "files": {
+    "models/__init__.py": "acd942f6166c39025ae1bcd1c804726a070c79fe3f86bfcb3176f58efc793462",
+    "models/fr_unet.py": "ee4ab0a45de0e1898409419d0360d392bbf1006a7613427543e640b9b0c47742",
+    "models/utils.py": "2339ca490959c5ea97f0289c254db6c67624052ebfdcf65412a9b24b7b9ae0a3",
+    "LICENSE": "f8575364326be85f37d96268a9dd1ff80ae7798f0256f059065d5817d19e289e",
+    "README.md": "a8f20b83cb6c2368b9dfb3f634e0d789e9bb506426928505cfd193aca2a1f8dc",
+    "config.yaml": "f134077e14496a292270eaca43458a0fdd4b27e355c222aebcd087bd43aa3a4d",
+    "data_process.py": "662194ec4ff24f6ef08100304152cfb92cee610b053b3e71d4af0c54ca7cfb4d",
+    "tester.py": "5470932dc8a39b12a586c050ced4d97545e7995825fed28a44f6bf5dadc4ee50",
+    "utils/helpers.py": "aec44a3fb7a650495f1a183df9e3a8d8e083317ec51013cfbdec2d7c2f2c59c0",
+    "pretrained_weights/CHASEDB1/checkpoint-epoch40.pth": "a451f687980e8f2b11b5922fdb05f62f6c72fb8344811a0a736409792d0eacf4"
+  }
+}

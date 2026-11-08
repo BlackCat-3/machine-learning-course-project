@@ -1,0 +1,690 @@
+{
+  "plan_sha256": "e623d344d0a478ad9a8f63c55c8676f2547a17999e9355b779a851cb8daee5dd",
+  "validation_samples": 4241,
+  "candidate_scores": [
+    {
+      "models": [
+        "old_mixup",
+        "detail_seed43",
+        "resnet34"
+      ],
+      "correct": 2953,
+      "accuracy": 0.696298042914407
+    },
+    {
+      "models": [
+        "detail_seed43"
+      ],
+      "correct": 2916,
+      "accuracy": 0.6875736854515444
+    },
+    {
+      "models": [
+        "detail_seed44"
+      ],
+      "correct": 2948,
+      "accuracy": 0.6951190756896958
+    },
+    {
+      "models": [
+        "detail_erasing"
+      ],
+      "correct": 2940,
+      "accuracy": 0.693232728130158
+    },
+    {
+      "models": [
+        "detail_seed43",
+        "detail_seed44"
+      ],
+      "correct": 2968,
+      "accuracy": 0.6998349445885405
+    },
+    {
+      "models": [
+        "detail_seed43",
+        "detail_erasing"
+      ],
+      "correct": 2942,
+      "accuracy": 0.6937043150200425
+    },
+    {
+      "models": [
+        "old_mixup",
+        "detail_seed43",
+        "resnet34",
+        "detail_seed44"
+      ],
+      "correct": 2973,
+      "accuracy": 0.7010139118132516
+    },
+    {
+      "models": [
+        "old_mixup",
+        "detail_seed43",
+        "resnet34",
+        "detail_erasing"
+      ],
+      "correct": 2971,
+      "accuracy": 0.7005423249233671
+    },
+    {
+      "models": [
+        "old_mixup",
+        "detail_seed43",
+        "resnet34",
+        "detail_seed44",
+        "detail_erasing"
+      ],
+      "correct": 2969,
+      "accuracy": 0.7000707380334826
+    }
+  ],
+  "selected": {
+    "models": [
+      "old_mixup",
+      "detail_seed43",
+      "resnet34",
+      "detail_seed44"
+    ],
+    "correct": 2973,
+    "accuracy": 0.7010139118132516
+  },
+  "baseline": {
+    "models": [
+      "old_mixup",
+      "detail_seed43",
+      "resnet34"
+    ],
+    "correct": 2953,
+    "accuracy": 0.696298042914407
+  },
+  "improved": true,
+  "gain_percentage_points": 0.47158688988445663,
+  "paired_counts": {
+    "old_wrong_new_correct": 66,
+    "old_correct_new_wrong": 46
+  },
+  "selected_metrics": {
+    "accuracy": 0.7010139118132516,
+    "num_samples": 4241,
+    "class_to_index": {
+      "Angry": 0,
+      "Fear": 1,
+      "Happy": 2,
+      "Sad": 3,
+      "Surprise": 4,
+      "Neutral": 5
+    },
+    "confusion_matrix": [
+      [
+        380,
+        43,
+        20,
+        57,
+        10,
+        84
+      ],
+      [
+        85,
+        282,
+        19,
+        104,
+        45,
+        80
+      ],
+      [
+        17,
+        14,
+        973,
+        16,
+        17,
+        42
+      ],
+      [
+        82,
+        58,
+        27,
+        414,
+        6,
+        142
+      ],
+      [
+        22,
+        35,
+        23,
+        5,
+        376,
+        19
+      ],
+      [
+        34,
+        22,
+        52,
+        84,
+        4,
+        548
+      ]
+    ],
+    "confusion_matrix_axes": {
+      "rows": "true",
+      "columns": "predicted"
+    },
+    "per_class": {
+      "Angry": {
+        "support": 594,
+        "recall": 0.6397306397306397
+      },
+      "Fear": {
+        "support": 615,
+        "recall": 0.4585365853658537
+      },
+      "Happy": {
+        "support": 1079,
+        "recall": 0.901760889712697
+      },
+      "Sad": {
+        "support": 729,
+        "recall": 0.5679012345679012
+      },
+      "Surprise": {
+        "support": 480,
+        "recall": 0.7833333333333333
+      },
+      "Neutral": {
+        "support": 744,
+        "recall": 0.7365591397849462
+      }
+    }
+  },
+  "checkpoint_selection": {
+    "detail_seed44": {
+      "accuracy": 0.6873378920066022,
+      "num_samples": 4241,
+      "class_to_index": {
+        "Angry": 0,
+        "Fear": 1,
+        "Happy": 2,
+        "Sad": 3,
+        "Surprise": 4,
+        "Neutral": 5
+      },
+      "confusion_matrix": [
+        [
+          371,
+          53,
+          26,
+          60,
+          9,
+          75
+        ],
+        [
+          83,
+          294,
+          17,
+          90,
+          48,
+          83
+        ],
+        [
+          15,
+          13,
+          959,
+          26,
+          22,
+          44
+        ],
+        [
+          83,
+          68,
+          28,
+          405,
+          5,
+          140
+        ],
+        [
+          21,
+          50,
+          18,
+          11,
+          364,
+          16
+        ],
+        [
+          43,
+          28,
+          55,
+          92,
+          4,
+          522
+        ]
+      ],
+      "confusion_matrix_axes": {
+        "rows": "true",
+        "columns": "predicted"
+      },
+      "per_class": {
+        "Angry": {
+          "support": 594,
+          "recall": 0.6245791245791246
+        },
+        "Fear": {
+          "support": 615,
+          "recall": 0.47804878048780486
+        },
+        "Happy": {
+          "support": 1079,
+          "recall": 0.8887859128822985
+        },
+        "Sad": {
+          "support": 729,
+          "recall": 0.5555555555555556
+        },
+        "Surprise": {
+          "support": 480,
+          "recall": 0.7583333333333333
+        },
+        "Neutral": {
+          "support": 744,
+          "recall": 0.7016129032258065
+        }
+      },
+      "loss": 0.9887923276865715,
+      "epoch": 13,
+      "selected_source": "ema",
+      "validation_is_partial": false
+    },
+    "detail_erasing": {
+      "accuracy": 0.6859231313369488,
+      "num_samples": 4241,
+      "class_to_index": {
+        "Angry": 0,
+        "Fear": 1,
+        "Happy": 2,
+        "Sad": 3,
+        "Surprise": 4,
+        "Neutral": 5
+      },
+      "confusion_matrix": [
+        [
+          362,
+          48,
+          28,
+          65,
+          12,
+          79
+        ],
+        [
+          89,
+          280,
+          19,
+          106,
+          49,
+          72
+        ],
+        [
+          21,
+          9,
+          966,
+          22,
+          19,
+          42
+        ],
+        [
+          84,
+          57,
+          30,
+          406,
+          7,
+          145
+        ],
+        [
+          19,
+          42,
+          15,
+          12,
+          375,
+          17
+        ],
+        [
+          36,
+          19,
+          62,
+          103,
+          4,
+          520
+        ]
+      ],
+      "confusion_matrix_axes": {
+        "rows": "true",
+        "columns": "predicted"
+      },
+      "per_class": {
+        "Angry": {
+          "support": 594,
+          "recall": 0.6094276094276094
+        },
+        "Fear": {
+          "support": 615,
+          "recall": 0.45528455284552843
+        },
+        "Happy": {
+          "support": 1079,
+          "recall": 0.8952734012974977
+        },
+        "Sad": {
+          "support": 729,
+          "recall": 0.5569272976680384
+        },
+        "Surprise": {
+          "support": 480,
+          "recall": 0.78125
+        },
+        "Neutral": {
+          "support": 744,
+          "recall": 0.6989247311827957
+        }
+      },
+      "loss": 0.9816971095039495,
+      "epoch": 12,
+      "selected_source": "ema",
+      "validation_is_partial": false
+    },
+    "old_mixup": {
+      "accuracy": 0.6764913935392596,
+      "num_samples": 4241,
+      "class_to_index": {
+        "Angry": 0,
+        "Fear": 1,
+        "Happy": 2,
+        "Sad": 3,
+        "Surprise": 4,
+        "Neutral": 5
+      },
+      "confusion_matrix": [
+        [
+          365,
+          44,
+          26,
+          62,
+          13,
+          84
+        ],
+        [
+          89,
+          265,
+          18,
+          109,
+          52,
+          82
+        ],
+        [
+          18,
+          20,
+          964,
+          13,
+          17,
+          47
+        ],
+        [
+          73,
+          72,
+          33,
+          388,
+          11,
+          152
+        ],
+        [
+          29,
+          45,
+          18,
+          7,
+          360,
+          21
+        ],
+        [
+          34,
+          33,
+          58,
+          91,
+          1,
+          527
+        ]
+      ],
+      "confusion_matrix_axes": {
+        "rows": "true",
+        "columns": "predicted"
+      },
+      "per_class": {
+        "Angry": {
+          "support": 594,
+          "recall": 0.6144781144781145
+        },
+        "Fear": {
+          "support": 615,
+          "recall": 0.43089430894308944
+        },
+        "Happy": {
+          "support": 1079,
+          "recall": 0.8934198331788693
+        },
+        "Sad": {
+          "support": 729,
+          "recall": 0.532235939643347
+        },
+        "Surprise": {
+          "support": 480,
+          "recall": 0.75
+        },
+        "Neutral": {
+          "support": 744,
+          "recall": 0.7083333333333334
+        }
+      },
+      "loss": 1.017707535074275,
+      "epoch": 12,
+      "selected_source": "ema",
+      "validation_is_partial": false
+    },
+    "detail_seed43": {
+      "accuracy": 0.6859231313369488,
+      "num_samples": 4241,
+      "class_to_index": {
+        "Angry": 0,
+        "Fear": 1,
+        "Happy": 2,
+        "Sad": 3,
+        "Surprise": 4,
+        "Neutral": 5
+      },
+      "confusion_matrix": [
+        [
+          369,
+          44,
+          27,
+          62,
+          14,
+          78
+        ],
+        [
+          90,
+          279,
+          21,
+          93,
+          52,
+          80
+        ],
+        [
+          22,
+          15,
+          961,
+          19,
+          21,
+          41
+        ],
+        [
+          81,
+          67,
+          30,
+          399,
+          4,
+          148
+        ],
+        [
+          17,
+          41,
+          19,
+          7,
+          367,
+          29
+        ],
+        [
+          37,
+          23,
+          62,
+          83,
+          5,
+          534
+        ]
+      ],
+      "confusion_matrix_axes": {
+        "rows": "true",
+        "columns": "predicted"
+      },
+      "per_class": {
+        "Angry": {
+          "support": 594,
+          "recall": 0.6212121212121212
+        },
+        "Fear": {
+          "support": 615,
+          "recall": 0.45365853658536587
+        },
+        "Happy": {
+          "support": 1079,
+          "recall": 0.8906394810009268
+        },
+        "Sad": {
+          "support": 729,
+          "recall": 0.5473251028806584
+        },
+        "Surprise": {
+          "support": 480,
+          "recall": 0.7645833333333333
+        },
+        "Neutral": {
+          "support": 744,
+          "recall": 0.717741935483871
+        }
+      },
+      "loss": 0.9795988011377034,
+      "epoch": 11,
+      "selected_source": "ema",
+      "validation_is_partial": false
+    },
+    "resnet34": {
+      "accuracy": 0.6743692525347795,
+      "num_samples": 4241,
+      "class_to_index": {
+        "Angry": 0,
+        "Fear": 1,
+        "Happy": 2,
+        "Sad": 3,
+        "Surprise": 4,
+        "Neutral": 5
+      },
+      "confusion_matrix": [
+        [
+          368,
+          46,
+          20,
+          61,
+          11,
+          88
+        ],
+        [
+          87,
+          270,
+          18,
+          99,
+          57,
+          84
+        ],
+        [
+          21,
+          15,
+          954,
+          17,
+          19,
+          53
+        ],
+        [
+          86,
+          77,
+          27,
+          381,
+          10,
+          148
+        ],
+        [
+          24,
+          48,
+          19,
+          9,
+          359,
+          21
+        ],
+        [
+          34,
+          29,
+          63,
+          84,
+          6,
+          528
+        ]
+      ],
+      "confusion_matrix_axes": {
+        "rows": "true",
+        "columns": "predicted"
+      },
+      "per_class": {
+        "Angry": {
+          "support": 594,
+          "recall": 0.6195286195286195
+        },
+        "Fear": {
+          "support": 615,
+          "recall": 0.43902439024390244
+        },
+        "Happy": {
+          "support": 1079,
+          "recall": 0.8841519925857275
+        },
+        "Sad": {
+          "support": 729,
+          "recall": 0.522633744855967
+        },
+        "Surprise": {
+          "support": 480,
+          "recall": 0.7479166666666667
+        },
+        "Neutral": {
+          "support": 744,
+          "recall": 0.7096774193548387
+        }
+      },
+      "loss": 0.991400792671245,
+      "epoch": 9,
+      "selected_source": "ema",
+      "validation_is_partial": false
+    }
+  },
+  "holdout_checkpoint_hashes": {
+    "old_mixup": "0282f41d474f521cfda5dae794ebb494384c364700a62c9f72c56e9d46e69e53",
+    "detail_seed43": "b39eb86c696836e39fd72ba113855909f5d933d99de13b8cdc7b479291a4472d",
+    "resnet34": "05280a8b3ff2a271c0b958f7980079b46fc0ce7975f9df634e7cd33c2f841516",
+    "detail_seed44": "fec1fc1b6305e645afe8971a68dfaacbf41853f298ece0353d33c106efbd0c26",
+    "detail_erasing": "2c2a15d15cb421af053b0477f7914503da5746eeaa89393e3371519e88b7892e"
+  },
+  "scope": "Repeated selection holdout, not an untouched test. No guarantee of online improvement."
+}

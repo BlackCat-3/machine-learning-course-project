@@ -1,0 +1,96 @@
+{
+  "accuracy": 0.0,
+  "num_samples": 128,
+  "class_to_index": {
+    "Angry": 0,
+    "Fear": 1,
+    "Happy": 2,
+    "Sad": 3,
+    "Surprise": 4,
+    "Neutral": 5
+  },
+  "confusion_matrix": [
+    [
+      0,
+      20,
+      4,
+      0,
+      4,
+      100
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "confusion_matrix_axes": {
+    "rows": "true",
+    "columns": "predicted"
+  },
+  "per_class": {
+    "Angry": {
+      "support": 128,
+      "recall": 0.0
+    },
+    "Fear": {
+      "support": 0,
+      "recall": 0.0
+    },
+    "Happy": {
+      "support": 0,
+      "recall": 0.0
+    },
+    "Sad": {
+      "support": 0,
+      "recall": 0.0
+    },
+    "Surprise": {
+      "support": 0,
+      "recall": 0.0
+    },
+    "Neutral": {
+      "support": 0,
+      "recall": 0.0
+    }
+  },
+  "loss": 2.654542922973633,
+  "epoch": 1,
+  "selected_source": "raw",
+  "validation_is_partial": true
+}

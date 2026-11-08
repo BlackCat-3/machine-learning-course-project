@@ -1,0 +1,42 @@
+{
+  "stage": "train",
+  "mode": "clahe",
+  "fold": 0,
+  "name": "clahe_dev",
+  "seed": 20261103,
+  "steps": 4000,
+  "schedule_steps": 4000,
+  "eval_every": 500,
+  "patch": 96,
+  "batch": 12,
+  "lr": 0.0001,
+  "fixed": false,
+  "checkpoints": [],
+  "threshold": 0.4,
+  "encoding": "official",
+  "tta": 4,
+  "train_ids": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "validation_ids": [
+    1,
+    2,
+    3,
+    12
+  ]
+}

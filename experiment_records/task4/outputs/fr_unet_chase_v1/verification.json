@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "validation_mean_dice_recomputed": 0.8004163091211864,
+  "validation_per_image": {
+    "1": 0.8464870469787433,
+    "2": 0.8129557522123894,
+    "3": 0.8537516252149477,
+    "12": 0.6884708120786656
+  },
+  "test_foreground_fraction_range": [
+    0.08937454223632812,
+    0.12115097045898438
+  ],
+  "submission_rows": 20,
+  "submission_sha256": "15590468d20e8d918b890eb89103535c03bcf654363809c8938e019557c6a223",
+  "checks": [
+    "image split isolation",
+    "source hashes unchanged",
+    "checkpoint training IDs",
+    "selected training duration",
+    "finite weights and probabilities",
+    "independent Dice recomputation",
+    "CSV schema and ID order",
+    "20 exact RLE roundtrips",
+    "binary PNG dimensions",
+    "official encoder comparison record"
+  ]
+}

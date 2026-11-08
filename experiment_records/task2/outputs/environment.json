@@ -1,0 +1,13 @@
+{
+  "python": "3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:21:58) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "2.4.2",
+    "Pillow": "12.2.0",
+    "matplotlib": "3.11.0"
+  },
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 8188 MiB"
+}

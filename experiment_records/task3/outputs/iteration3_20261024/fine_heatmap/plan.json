@@ -1,0 +1,44 @@
+{
+  "architecture": "ResNet50 FPN",
+  "encoder_channels": [
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "decoder_channels": 64,
+  "size": 512,
+  "batch_size": 8,
+  "schedule_epochs": 40,
+  "seeds": [
+    43,
+    44
+  ],
+  "folds": 4,
+  "candidate_epochs": [
+    6,
+    10,
+    16,
+    24,
+    32,
+    40
+  ],
+  "shared_epoch_rule": "minimum pooled scalar RMSE of the two-seed mean over all four folds; ties choose earlier epoch",
+  "candidate_rule": "after shared epoch selection, compare new_only and equal-mean new_robust_mean only",
+  "checkpoint_note": "per-fold best checkpoints are audit-only and never used in shared OOF selection or refit",
+  "encoder_lr": 2.5e-05,
+  "head_lr": 0.0005,
+  "weight_decay": 0.0002,
+  "eta_min": 1e-06,
+  "ema_decay": 0.95,
+  "gaussian_sigma_cells": 1.0,
+  "normalized_coordinate_mse_weight": 100.0,
+  "augmentation": "same affine/flip/brightness/contrast/color plus gamma/directional-lighting/blur as robust baseline",
+  "validation_tta": "horizontal flip; normalized coordinates restored before averaging",
+  "gate": {
+    "relative_rmse_reduction": 0.05,
+    "minimum_improved_folds": 3
+  },
+  "refit_rule": "all 80 records; both seeds use the same shared epoch; cosine schedule stays at 40",
+  "validation_scope": "model-selection validation on the original grouped folds; not an independent test"
+}

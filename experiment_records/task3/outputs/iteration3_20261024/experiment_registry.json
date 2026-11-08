@@ -1,0 +1,73 @@
+{
+  "requested_by_user": "还能再优化不",
+  "baseline_public_rmse_user_reported": 14.20909,
+  "baseline_rank_user_reported": 21,
+  "baseline_local_rmse": 16.334263567891036,
+  "baseline_submission": "task3_fovea/outputs/improvement_20261024/submission_improved.csv",
+  "baseline_submission_sha256": "20d24c207d73e8ef0af3de589e9e3becd0416b14c8b30c02068815451f136a8b",
+  "validation": "Same four duplicate-grouped model-selection folds, all 80 records retained",
+  "gate": {
+    "minimum_relative_rmse_reduction": 0.05,
+    "minimum_improved_folds": 3
+  },
+  "routes": {
+    "peak_local_decode": {
+      "state": "completed_not_qualified",
+      "best_rmse": 16.326937523163267
+    },
+    "robust_centered_local_refinement": {
+      "state": "completed_not_qualified",
+      "best_rmse": 16.399281784057322
+    },
+    "resnet50_fine_heatmap": {
+      "state": "completed_not_qualified",
+      "candidate_epochs": [
+        6,
+        10,
+        16,
+        24,
+        32,
+        40
+      ],
+      "seeds": [
+        43,
+        44
+      ],
+      "folds": 4,
+      "best_rmse": 17.726781809188278,
+      "standalone_rmse": 20.231305464065674,
+      "selected_shared_epoch": 6,
+      "validation_audit_passed": true
+    },
+    "illumination_normalization": {
+      "state": "completed_not_qualified",
+      "seeds": [
+        43,
+        44
+      ],
+      "folds": 4,
+      "epochs": 40,
+      "candidate_epochs": [
+        6,
+        10,
+        16,
+        24,
+        32,
+        40
+      ],
+      "best_rmse": 19.585381186154994,
+      "standalone_rmse": 23.991849252631496,
+      "selected_shared_epoch": 10,
+      "validation_audit_passed": true
+    }
+  },
+  "new_online_score": null,
+  "note": "The folds have been reused for model selection. Local gains do not guarantee online gains. Existing best CSV stays unchanged.",
+  "state": "completed_no_qualified_improvement",
+  "selected_submission": "task3_fovea/outputs/improvement_20261024/submission_improved.csv",
+  "new_submission_generated": false,
+  "completed_training_runs": 16,
+  "total_epochs_completed": 640,
+  "retained_public_rmse_user_reported": 14.20909,
+  "all_final_audits_passed": true
+}

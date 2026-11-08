@@ -1,0 +1,12 @@
+{
+  "epochs_completed": 1,
+  "planned_epochs": 1,
+  "stop_after_epochs": 0,
+  "best_epoch": 1,
+  "best_validation_accuracy": 0.0,
+  "full_train": false,
+  "validation_is_partial": true,
+  "training_is_partial": true,
+  "seconds_this_invocation": 8.642,
+  "output_dir": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\smoke_detail"
+}

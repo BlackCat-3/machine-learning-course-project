@@ -1,0 +1,16 @@
+{
+  "validation_samples": 4241,
+  "scores": {
+    "baseline": 0.6689460033011082,
+    "baseline_tta": 0.6734260787550106,
+    "mixup": 0.6764913935392596,
+    "mixup_tta": 0.6859231313369488,
+    "ensemble": 0.6821504362178732,
+    "ensemble_tta": 0.6868663051167178
+  },
+  "selected": "ensemble_tta",
+  "selected_accuracy": 0.6868663051167178,
+  "baseline_best_epoch": 7,
+  "mixup_best_epoch": 12,
+  "note": "These scores use holdout-trained models; full-data refits have no independent validation score."
+}

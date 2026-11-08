@@ -1,0 +1,55 @@
+{
+  "CUDA_VISIBLE_DEVICES": "3,5,4",
+  "data_process": {
+    "patch_size": 48,
+    "stride": 6
+  },
+  "data_set": {
+    "path": "/home/lwt/data_pro/vessel",
+    "name": "DRIVE"
+  },
+  "batch_size": 256,
+  "model": {
+    "type": "FRNet",
+    "args": {
+      "num_channels": 1,
+      "num_classes": 1,
+      "dropout": 0.2,
+      "feature_scale": 2,
+      "fuse": true
+    }
+  },
+  "loss": {
+    "type": "BCELoss",
+    "args": {}
+  },
+  "optimizer": {
+    "type": "Adam",
+    "args": {
+      "lr": 0.0001,
+      "weight_decay": 1e-05
+    }
+  },
+  "lr_scheduler": {
+    "type": "CosineAnnealingLR",
+    "args": {
+      "T_max": 40
+    }
+  },
+  "epochs": 40,
+  "save_dir": "saved/",
+  "monitor": "off",
+  "mnt_mode": "min",
+  "mnt_metric": "val_loss",
+  "early_stop": 10,
+  "val_per_epochs": 1,
+  "test_per_epochs": 1,
+  "save_period": 20,
+  "tensorboard": true,
+  "log_dir": "saved/runs",
+  "threshold": 0.5,
+  "threshold_low": 0.4,
+  "seedgrow": false,
+  "amp": true,
+  "tta": false
+}

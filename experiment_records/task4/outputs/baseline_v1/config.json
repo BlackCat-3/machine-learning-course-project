@@ -1,0 +1,9 @@
+{
+  "steps": 1000,
+  "eval_every": 100,
+  "batch": 8,
+  "patch": 192,
+  "seed": 20261101,
+  "run": "baseline_v1",
+  "stage": "all"
+}

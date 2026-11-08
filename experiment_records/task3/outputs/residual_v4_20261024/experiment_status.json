@@ -1,0 +1,6 @@
+{
+  "state": "superseded_at_preflight",
+  "reason": "Fixed 80-update inner coarse models produced training errors outside 512-pixel patches. No residual models were trained in this pilot.",
+  "continued_in": "../residual_v4_nested_20261024",
+  "new_submission_created": false
+}

@@ -1,0 +1,7 @@
+{
+  "single_head_oof": 0.9538486757265121,
+  "nested_bagging_oof": 0.9536916701387032,
+  "without_foreground_oof": 0.9400679076382851,
+  "heldout_images": 500,
+  "note": "All model selection, scaling and fitting excluded the outer heldout images."
+}

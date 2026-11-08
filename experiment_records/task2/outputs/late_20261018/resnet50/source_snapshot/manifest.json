@@ -1,0 +1,54 @@
+[
+  {
+    "file": "model.py",
+    "sha256": "22b6a979e0a2788d11b0660199d0319737d4ec31c8f7b1e811cba0f29e490c6a"
+  },
+  {
+    "file": "train.py",
+    "sha256": "e75d41f3785a228eb5e93f9f630de4a036c8fb5a6c7296d44767cacc9ddc298a"
+  },
+  {
+    "file": "predict.py",
+    "sha256": "c0c647e279f09b7039153c6d3f918d8e0a2c090435773d36590016828b242625"
+  },
+  {
+    "file": "prepare_data.py",
+    "sha256": "1d6e14a851a621582f2402c044ced6a38bb3794eca615385ac2a49239680028e"
+  },
+  {
+    "file": "improve.py",
+    "sha256": "2ca732525063a1d4c0520cc538576605840632dc30f93772011b1b2ef501bbea"
+  },
+  {
+    "file": "seed_erasing_study.py",
+    "sha256": "30feda243e9535aa00174913641084c383426a1667dee45dd2caf74e1275cbfb"
+  },
+  {
+    "file": "late_resolution_study.py",
+    "sha256": "7c43d62e311cdba12ff16451f8d019e4fe15e85776ba909c85569f22e14d011f"
+  },
+  {
+    "file": "resnet50_study.py",
+    "sha256": "0c32d1a5eb5b040e1029526ac82a028fa895279e41b6adb8c37874888ad527ae"
+  },
+  {
+    "file": "audit_resnet50.py",
+    "sha256": "1fa1e79a88ba0678605a9a6822dc1af2e38848c917c90e72065f09dd23e005f9"
+  },
+  {
+    "file": "verify_resnet50.py",
+    "sha256": "773020297b4b75811ee72408a6a57f002a7ae98c8cf6368363c5371106a308cc"
+  },
+  {
+    "file": "verify_efficientnet.py",
+    "sha256": "9a169d94dda5ee6562a19afca5facad667ac58d761b4f231ca8cf3787137513f"
+  },
+  {
+    "file": "verify_submission.py",
+    "sha256": "4a2f6f814325c4309570931d1cc9e9fa358a76b9275dd11b91926b462e291c29"
+  },
+  {
+    "file": "requirements.txt",
+    "sha256": "e67580d06bc6061f82bb2ebff8cab8f24f5df27a550e50145c6a19999dca1a91"
+  }
+]

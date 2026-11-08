@@ -1,0 +1,6 @@
+seed,split_seed,best_epoch,val_macro_f1,folder
+42,42,6,0.8606546854942234,outputs\plant_run_train_norm
+21,42,10,0.8518155854753161,outputs\plant_fixed_seed_21
+2026,42,7,0.8419687980663589,outputs\plant_fixed_seed_2026
+7,42,8,0.8219333512016439,outputs\plant_fixed_seed_7
+123,42,9,0.8119941854724073,outputs\plant_fixed_seed_123

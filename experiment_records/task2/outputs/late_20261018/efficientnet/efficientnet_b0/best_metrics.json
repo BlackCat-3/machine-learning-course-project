@@ -1,0 +1,96 @@
+{
+  "accuracy": 0.6599858523933034,
+  "num_samples": 4241,
+  "class_to_index": {
+    "Angry": 0,
+    "Fear": 1,
+    "Happy": 2,
+    "Sad": 3,
+    "Surprise": 4,
+    "Neutral": 5
+  },
+  "confusion_matrix": [
+    [
+      344,
+      57,
+      26,
+      79,
+      12,
+      76
+    ],
+    [
+      89,
+      240,
+      20,
+      111,
+      70,
+      85
+    ],
+    [
+      24,
+      13,
+      943,
+      19,
+      19,
+      61
+    ],
+    [
+      83,
+      46,
+      41,
+      401,
+      13,
+      145
+    ],
+    [
+      23,
+      44,
+      17,
+      13,
+      364,
+      19
+    ],
+    [
+      47,
+      23,
+      54,
+      103,
+      10,
+      507
+    ]
+  ],
+  "confusion_matrix_axes": {
+    "rows": "true",
+    "columns": "predicted"
+  },
+  "per_class": {
+    "Angry": {
+      "support": 594,
+      "recall": 0.5791245791245792
+    },
+    "Fear": {
+      "support": 615,
+      "recall": 0.3902439024390244
+    },
+    "Happy": {
+      "support": 1079,
+      "recall": 0.8739573679332715
+    },
+    "Sad": {
+      "support": 729,
+      "recall": 0.5500685871056241
+    },
+    "Surprise": {
+      "support": 480,
+      "recall": 0.7583333333333333
+    },
+    "Neutral": {
+      "support": 744,
+      "recall": 0.6814516129032258
+    }
+  },
+  "loss": 1.0561347283217402,
+  "epoch": 7,
+  "selected_source": "raw",
+  "validation_is_partial": false
+}

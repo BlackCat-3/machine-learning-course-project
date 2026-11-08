@@ -1,0 +1,7 @@
+{
+  "state": "completed",
+  "completed_epochs": 80,
+  "best_epoch": 19,
+  "best_rmse": 9.363168864903649,
+  "seconds": 62.36722980000195
+}

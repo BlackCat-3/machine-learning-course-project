@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "rows": 20,
+  "old_submission_unchanged": true,
+  "checkpoint_sha256_verified": true,
+  "independent_refresh_matches_first_export": true,
+  "official_conversion_exact_all_20": true,
+  "rle_structure_and_roundtrip_pass": true,
+  "submission_sha256": "f7de24df3b7800aa91b98a461d7fb01e61cd5e21903e3fd41ac7e49f46e4f7da",
+  "recommended_file": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task4_vessels\\outputs\\improve_v2_20261101\\submission_v2.csv",
+  "source_candidate": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task4_vessels\\outputs\\improve_v2_20261101\\official_drive_d4\\hysteresis_official\\submission.csv",
+  "foreground_fraction_range": [
+    0.12192916870117188,
+    0.16275405883789062
+  ],
+  "source_sha256": {
+    "drive_pretrained_infer.py": "97222a34d265bd8538e19aa13298025803274fd1bb37ec0197e0984886abedfc",
+    "improve_v2.py": "d67a127d18fcd255b7f21ed95920db9952f02622ce15268d99c1385122694166",
+    "fr_unet_transfer.py": "41c709ea1085a291ec3c9bdc3037fc73a57ed7780783d02d01ca3c7bb6ce65cf",
+    "pipeline.py": "324e0b85dc96ee7f2bffe6acf3a88c7fea6f83f9a2d8cafabf3726761f6ebbc9",
+    "verify_v2.py": "740e72cdac54a9932502ca62cd16c53001466f3dcc219262a860625227d7cb96"
+  },
+  "kaggle_score": null,
+  "note": "No Kaggle submission performed. Official DRIVE model training fit is not validation."
+}

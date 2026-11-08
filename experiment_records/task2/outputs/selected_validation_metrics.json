@@ -1,0 +1,94 @@
+{
+  "accuracy": 0.6868663051167178,
+  "num_samples": 4241,
+  "class_to_index": {
+    "Angry": 0,
+    "Fear": 1,
+    "Happy": 2,
+    "Sad": 3,
+    "Surprise": 4,
+    "Neutral": 5
+  },
+  "confusion_matrix": [
+    [
+      364,
+      45,
+      24,
+      68,
+      15,
+      78
+    ],
+    [
+      91,
+      271,
+      21,
+      105,
+      52,
+      75
+    ],
+    [
+      13,
+      16,
+      971,
+      15,
+      15,
+      49
+    ],
+    [
+      69,
+      64,
+      34,
+      409,
+      11,
+      142
+    ],
+    [
+      24,
+      41,
+      19,
+      5,
+      372,
+      19
+    ],
+    [
+      33,
+      31,
+      57,
+      95,
+      2,
+      526
+    ]
+  ],
+  "confusion_matrix_axes": {
+    "rows": "true",
+    "columns": "predicted"
+  },
+  "per_class": {
+    "Angry": {
+      "support": 594,
+      "recall": 0.6127946127946128
+    },
+    "Fear": {
+      "support": 615,
+      "recall": 0.44065040650406506
+    },
+    "Happy": {
+      "support": 1079,
+      "recall": 0.8999073215940686
+    },
+    "Sad": {
+      "support": 729,
+      "recall": 0.5610425240054869
+    },
+    "Surprise": {
+      "support": 480,
+      "recall": 0.775
+    },
+    "Neutral": {
+      "support": 744,
+      "recall": 0.706989247311828
+    }
+  },
+  "method": "Average of baseline EMA epoch 7 and Mixup EMA epoch 12, each with horizontal flip TTA",
+  "scope": "Held-out model-selection validation, not Kaggle score and not full-data refit validation"
+}

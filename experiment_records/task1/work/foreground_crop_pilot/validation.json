@@ -1,0 +1,110 @@
+{
+  "best_epoch": 5,
+  "best_val_macro_f1": 0.8345114345114345,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.6401723432540893,
+      "train_accuracy": 0.2575,
+      "val_macro_f1": 0.33163186351432755
+    },
+    {
+      "epoch": 2,
+      "loss": 1.4279124593734742,
+      "train_accuracy": 0.395,
+      "val_macro_f1": 0.4128843496140493
+    },
+    {
+      "epoch": 3,
+      "loss": 0.8987048828601837,
+      "train_accuracy": 0.6925,
+      "val_macro_f1": 0.7628266139894047
+    },
+    {
+      "epoch": 4,
+      "loss": 0.40069866597652437,
+      "train_accuracy": 0.8625,
+      "val_macro_f1": 0.7957465897388876
+    },
+    {
+      "epoch": 5,
+      "loss": 0.2713423085212707,
+      "train_accuracy": 0.9075,
+      "val_macro_f1": 0.8345114345114345
+    },
+    {
+      "epoch": 6,
+      "loss": 0.20572822645306588,
+      "train_accuracy": 0.925,
+      "val_macro_f1": 0.830852945371559
+    },
+    {
+      "epoch": 7,
+      "loss": 0.16352123588323594,
+      "train_accuracy": 0.95,
+      "val_macro_f1": 0.8327806623325624
+    },
+    {
+      "epoch": 8,
+      "loss": 0.13634912960231305,
+      "train_accuracy": 0.955,
+      "val_macro_f1": 0.8317394317394318
+    },
+    {
+      "epoch": 9,
+      "loss": 0.0858291582763195,
+      "train_accuracy": 0.98,
+      "val_macro_f1": 0.7913248105647425
+    },
+    {
+      "epoch": 10,
+      "loss": 0.1087331347167492,
+      "train_accuracy": 0.96,
+      "val_macro_f1": 0.8231992772038149
+    }
+  ],
+  "per_class_f1": {
+    "Black-grass": 0.6666666666666666,
+    "Common wheat": 0.8648648648648649,
+    "Loose Silky-bent": 0.6666666666666666,
+    "Scentless Mayweed": 0.9743589743589743,
+    "Sugar beet": 1.0
+  },
+  "confusion_matrix_rows_true": [
+    [
+      15,
+      1,
+      4,
+      0,
+      0
+    ],
+    [
+      3,
+      16,
+      1,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      13,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      19,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      20
+    ]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "status": "resource_early_stop",
+  "completed_epochs": 8,
+  "planned_epochs": 12,
+  "epoch_plan_completed": false,
+  "each_completed_epoch_uses_all_fit_images": true,
+  "train_samples": 24034,
+  "validation_samples": 4241,
+  "best_observed_checkpoint": {
+    "epoch": 7,
+    "selected_source": "raw",
+    "validation_accuracy_without_tta": 0.6599858523933034,
+    "validation_correct_without_tta": 2799
+  },
+  "reason": "Manually stopped after eight complete epochs to reserve the remaining deadline budget for an alternative ResNet50 ImageNet-v2 backbone experiment. This is resource-based stopping, not completion of the 12-epoch plan.",
+  "candidate_comparison_status": "not_evaluated",
+  "submission_generated": false,
+  "resnet50_status_at_update": "benchmarking; final training recipe not yet frozen",
+  "sources_sha256": {
+    "outputs\\late_20261018\\efficientnet\\plan.json": "ef2c80ddf1de74a544ec1daddc59f790cd0ebb4df4b25ed218ce1486cdcb779e",
+    "outputs\\late_20261018\\efficientnet\\efficientnet_b0\\history.csv": "8bc2627767edcb4e24d627a4b1997dd22482e24ec9038e068e5a0a90fd745095",
+    "outputs\\late_20261018\\efficientnet\\efficientnet_b0\\best_metrics.json": "32271e4f39e018b9a525cfc534fca5e1a7e97517aca964468ee93dbc69f34f77"
+  }
+}

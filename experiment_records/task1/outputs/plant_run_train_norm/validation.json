@@ -1,0 +1,69 @@
+{
+  "best_epoch": 6,
+  "val_macro_f1": 0.8606546854942234,
+  "per_class_f1": {
+    "Black-grass": 0.6829268292682927,
+    "Common wheat": 0.8947368421052632,
+    "Loose Silky-bent": 0.75,
+    "Scentless Mayweed": 1.0,
+    "Sugar beet": 0.975609756097561
+  },
+  "confusion_matrix_rows_true": [
+    [
+      14,
+      1,
+      5,
+      0,
+      0
+    ],
+    [
+      2,
+      17,
+      0,
+      0,
+      1
+    ],
+    [
+      5,
+      0,
+      15,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      20,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      20
+    ]
+  ],
+  "classes": [
+    "Black-grass",
+    "Common wheat",
+    "Loose Silky-bent",
+    "Scentless Mayweed",
+    "Sugar beet"
+  ],
+  "train_count": 400,
+  "val_count": 100,
+  "seed": 42,
+  "normalization": "train",
+  "rgb_mean": [
+    0.33548281246811235,
+    0.2884731530904617,
+    0.22121365939523494
+  ],
+  "rgb_std": [
+    0.10736326334682882,
+    0.11443727411498682,
+    0.12831612592765992
+  ]
+}

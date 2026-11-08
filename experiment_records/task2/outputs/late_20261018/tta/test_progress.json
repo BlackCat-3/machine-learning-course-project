@@ -1,0 +1,116 @@
+{
+  "split": "test",
+  "schemes": {
+    "center": 4
+  },
+  "crop_coordinates_top_left_height_width": [
+    [
+      0,
+      0,
+      48,
+      48
+    ],
+    [
+      2,
+      2,
+      44,
+      44
+    ],
+    [
+      0,
+      0,
+      44,
+      44
+    ],
+    [
+      0,
+      4,
+      44,
+      44
+    ],
+    [
+      4,
+      0,
+      44,
+      44
+    ],
+    [
+      4,
+      4,
+      44,
+      44
+    ]
+  ],
+  "crop_order": "full, center, top-left, top-right, bottom-left, bottom-right",
+  "averaging": "equal probabilities across views including flips, then equal across four models",
+  "class_to_index": {
+    "Angry": 0,
+    "Fear": 1,
+    "Happy": 2,
+    "Sad": 3,
+    "Surprise": 4,
+    "Neutral": 5
+  },
+  "rows": 7065,
+  "dataset_fingerprint": "83bdb8ba1ad63941c8c1c43ea1727cb0e3a1fedb29284c3a51c2f11a5faf5ee1",
+  "script_sha256": "5e75f9882772da55b55102883913f79319ce6fc0bcb0dcebfd785c73abf45265",
+  "model_source_sha256": "18899c062da54a03da3ec5de8d0df48b5d7d9eec71543a1350ce4478aacf9e1e",
+  "batch_size": 256,
+  "amp": true,
+  "models": {
+    "old_mixup": {
+      "checkpoint": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\final_models\\mixup\\final.pt",
+      "checkpoint_sha256": "667dcc01f4d4a49c7938737171fdbb5d5c11f5c1d4a5f19a5fcb2eac966a4025",
+      "epoch": 12,
+      "source": "ema",
+      "schemes": {
+        "center": {
+          "npz": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\test_old_mixup_center.npz",
+          "csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\test_old_mixup_center.csv",
+          "csv_sha256": "4e624cd27ab738c0041f94c596c1a4dd12364f5e22d69481c7025c938c2dfa1d"
+        }
+      }
+    },
+    "detail_seed43": {
+      "checkpoint": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\full\\resnet18_detail\\final.pt",
+      "checkpoint_sha256": "a8676b0448a9bfd8fe56c12a990eea654c45b94aa9dd11ab60b00a5b196370f9",
+      "epoch": 11,
+      "source": "ema",
+      "schemes": {
+        "center": {
+          "npz": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\test_detail_seed43_center.npz",
+          "csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\test_detail_seed43_center.csv",
+          "csv_sha256": "0007971f55d88960eb8e8df08cbc6529b1463321892f306bfa1cf90aa4090d76"
+        }
+      }
+    },
+    "resnet34": {
+      "checkpoint": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\full\\resnet34\\final.pt",
+      "checkpoint_sha256": "692b65dfc234217406993878641d7b03fc9581188768233e235ad09ec86fe30b",
+      "epoch": 9,
+      "source": "ema",
+      "schemes": {
+        "center": {
+          "npz": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\test_resnet34_center.npz",
+          "csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\test_resnet34_center.csv",
+          "csv_sha256": "265a5be41866b1cb6ffcf7eeacd1f91b1f4162e79a8a102ad8af5f3f3e243c7f"
+        }
+      }
+    },
+    "detail_seed44": {
+      "checkpoint": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\seed_erasing_20261016\\full\\detail_seed44\\final.pt",
+      "checkpoint_sha256": "a18a109bd37761fdc50a4cb0d84a5eeb57b83f75d34954e3ad7e6c72c60e8661",
+      "epoch": 13,
+      "source": "ema",
+      "schemes": {
+        "center": {
+          "npz": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\test_detail_seed44_center.npz",
+          "csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\tta\\test_detail_seed44_center.csv",
+          "csv_sha256": "50174ecbbe38e5b757498c77995ce84fb914b09def2525db9d39e782a79a87db"
+        }
+      }
+    }
+  },
+  "ensembles": {},
+  "scope": "Repeated model-selection holdout; no test labels or duplicate-label matching."
+}

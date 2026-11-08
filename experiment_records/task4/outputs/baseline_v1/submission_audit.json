@@ -1,0 +1,13 @@
+{
+  "rows": 20,
+  "ids_match_sample": true,
+  "all_rle_roundtrips_pass": true,
+  "all_rows_equal_official_encoder": true,
+  "shape": [
+    512,
+    512
+  ],
+  "foreground": "white vessels",
+  "order": "C (row-major)",
+  "sha256": "cad29afa8ebcfc0f77c41627409764e0aa0dcd5e6b230192c157d61078756665"
+}

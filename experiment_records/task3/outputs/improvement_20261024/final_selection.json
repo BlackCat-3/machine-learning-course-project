@@ -1,0 +1,27 @@
+{
+  "selected": "robust_heatmap/robust_only",
+  "baseline_online_user_reported_rmse": 14.73696,
+  "baseline_local_rmse": 28.153703785912082,
+  "selected_local_rmse": 16.334263567891036,
+  "local_relative_reduction": 0.41981830553802346,
+  "selected_fold_rmse": [
+    26.663118020108456,
+    8.789727876083791,
+    10.803049338792066,
+    12.741491730371182
+  ],
+  "local_refinement_best_rmse": 19.025912943197895,
+  "refinement_full_refit_performed": false,
+  "new_online_score": 14.20909,
+  "new_online_rank": 21,
+  "new_online_reported_by": "user",
+  "new_online_reported_date": "2026-10-24",
+  "new_online_independently_verified": false,
+  "source_csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\submission_robust.csv",
+  "delivery_csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\submission_improved.csv",
+  "submission_sha256": "20d24c207d73e8ef0af3de589e9e3becd0416b14c8b30c02068815451f136a8b",
+  "audit_passed": true,
+  "reinference_passed": true,
+  "old_submission_preserved": true,
+  "note": "CV folds were used for model and epoch selection; this does not guarantee online improvement."
+}

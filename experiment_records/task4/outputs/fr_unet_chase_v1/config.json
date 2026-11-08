@@ -1,0 +1,9 @@
+{
+  "run": "fr_unet_chase_v1",
+  "steps": 1200,
+  "eval_every": 200,
+  "patch": 64,
+  "batch": 16,
+  "seed": 20261101,
+  "predict_only": false
+}

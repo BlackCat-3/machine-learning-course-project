@@ -1,0 +1,12 @@
+{
+  "epochs_completed": 18,
+  "planned_epochs": 18,
+  "stop_after_epochs": 0,
+  "best_epoch": 9,
+  "best_validation_accuracy": 0.6743692525347795,
+  "full_train": false,
+  "validation_is_partial": false,
+  "training_is_partial": false,
+  "seconds_this_invocation": 632.03,
+  "output_dir": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\resnet34"
+}

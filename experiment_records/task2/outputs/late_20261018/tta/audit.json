@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "checked_checkpoints": {
+    "val/old_mixup": {
+      "checkpoint_sha256": "0282f41d474f521cfda5dae794ebb494384c364700a62c9f72c56e9d46e69e53",
+      "epoch": 12,
+      "source": "ema",
+      "full_train": false
+    },
+    "val/detail_seed43": {
+      "checkpoint_sha256": "b39eb86c696836e39fd72ba113855909f5d933d99de13b8cdc7b479291a4472d",
+      "epoch": 11,
+      "source": "ema",
+      "full_train": false
+    },
+    "val/resnet34": {
+      "checkpoint_sha256": "05280a8b3ff2a271c0b958f7980079b46fc0ce7975f9df634e7cd33c2f841516",
+      "epoch": 9,
+      "source": "ema",
+      "full_train": false
+    },
+    "val/detail_seed44": {
+      "checkpoint_sha256": "fec1fc1b6305e645afe8971a68dfaacbf41853f298ece0353d33c106efbd0c26",
+      "epoch": 13,
+      "source": "ema",
+      "full_train": false
+    },
+    "test/old_mixup": {
+      "checkpoint_sha256": "667dcc01f4d4a49c7938737171fdbb5d5c11f5c1d4a5f19a5fcb2eac966a4025",
+      "epoch": 12,
+      "source": "ema",
+      "full_train": true
+    },
+    "test/detail_seed43": {
+      "checkpoint_sha256": "a8676b0448a9bfd8fe56c12a990eea654c45b94aa9dd11ab60b00a5b196370f9",
+      "epoch": 11,
+      "source": "ema",
+      "full_train": true
+    },
+    "test/resnet34": {
+      "checkpoint_sha256": "692b65dfc234217406993878641d7b03fc9581188768233e235ad09ec86fe30b",
+      "epoch": 9,
+      "source": "ema",
+      "full_train": true
+    },
+    "test/detail_seed44": {
+      "checkpoint_sha256": "a18a109bd37761fdc50a4cb0d84a5eeb57b83f75d34954e3ad7e6c72c60e8661",
+      "epoch": 13,
+      "source": "ema",
+      "full_train": true
+    }
+  },
+  "all_prediction_ids_and_argmax_match": true,
+  "all_equal_model_averages_match_exactly": true,
+  "validation_correct": 2983,
+  "baseline_correct": 2973,
+  "validation_rows": 4241,
+  "validation_accuracy": 0.7033718462626739,
+  "gain_percentage_points": 0.23579344494223062,
+  "selected_scheme": "center",
+  "test_rows": 7065,
+  "submission": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\submission_center_tta.csv",
+  "submission_sha256": "cf884e4675e16b6bc36be0395762a4d894b5fcedf2ebd5ea1f9cc25db482f2ba",
+  "submission_check": {
+    "passed": true,
+    "prediction_file": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\late_20261018\\submission_center_tta.csv",
+    "rows": 7065,
+    "columns": [
+      "ID",
+      "Emotion"
+    ],
+    "ids_match_template_in_order": true,
+    "class_counts": {
+      "0": 913,
+      "1": 825,
+      "2": 1847,
+      "3": 1220,
+      "4": 833,
+      "5": 1427
+    },
+    "label_map": {
+      "0": "Angry",
+      "1": "Fear",
+      "2": "Happy",
+      "3": "Sad",
+      "4": "Surprise",
+      "5": "Neutral"
+    }
+  },
+  "test_summary_sha256": "f0d8ff146a7cb8f3574eba63be82c781f8ab0ea56fcff67eb2b6c106e6b0fed6",
+  "val_summary_sha256": "d1298f0c8129be29699e94cf847d31aeffcc79875d898cb7712073c4f29dd970",
+  "scope": "All checkpoints loaded on CPU; no test labels; online score unknown and no upload performed."
+}

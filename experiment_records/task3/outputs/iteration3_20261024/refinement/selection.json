@@ -1,0 +1,309 @@
+{
+  "selected": null,
+  "gate_passed": false,
+  "candidates": {
+    "heatmap_local100": {
+      "head": "heatmap",
+      "local_weight": 1.0,
+      "metrics": {
+        "rmse": 18.32132215337499,
+        "rmse_x": 22.87382252667625,
+        "rmse_y": 12.170864139970352
+      },
+      "fold_rmse": [
+        30.961686924174526,
+        8.713042961484842,
+        12.862017075807701,
+        11.94607566079117
+      ],
+      "improved_folds": 2,
+      "passed_gate": false
+    },
+    "heatmap_local25": {
+      "head": "heatmap",
+      "local_weight": 0.25,
+      "metrics": {
+        "rmse": 16.399281784057322,
+        "rmse_x": 20.35229771294171,
+        "rmse_y": 11.120110784952471
+      },
+      "fold_rmse": [
+        27.297500853785234,
+        8.282921051862566,
+        10.988092203587303,
+        11.884749380753789
+      ],
+      "improved_folds": 2,
+      "passed_gate": false
+    },
+    "heatmap_local50": {
+      "head": "heatmap",
+      "local_weight": 0.5,
+      "metrics": {
+        "rmse": 16.766722452500304,
+        "rmse_x": 20.891411621568345,
+        "rmse_y": 11.215831848621598
+      },
+      "fold_rmse": [
+        28.246205917571622,
+        8.093139259613372,
+        11.410661830100905,
+        11.442974787284818
+      ],
+      "improved_folds": 2,
+      "passed_gate": false
+    },
+    "heatmap_local75": {
+      "head": "heatmap",
+      "local_weight": 0.75,
+      "metrics": {
+        "rmse": 17.41745626100788,
+        "rmse_x": 21.743573559491644,
+        "rmse_y": 11.573788233384139
+      },
+      "fold_rmse": [
+        29.47890178043594,
+        8.242310471459206,
+        12.045786582682457,
+        11.464241097100262
+      ],
+      "improved_folds": 2,
+      "passed_gate": false
+    },
+    "dual_local100": {
+      "head": "dual",
+      "local_weight": 1.0,
+      "metrics": {
+        "rmse": 18.265993857853633,
+        "rmse_x": 23.22525352103701,
+        "rmse_y": 11.30843322984448
+      },
+      "fold_rmse": [
+        30.822623584306548,
+        7.956828432764366,
+        12.493867217130122,
+        12.85084297207812
+      ],
+      "improved_folds": 1,
+      "passed_gate": false
+    },
+    "dual_local25": {
+      "head": "dual",
+      "local_weight": 0.25,
+      "metrics": {
+        "rmse": 16.441613304052378,
+        "rmse_x": 20.453540186145933,
+        "rmse_y": 11.059203856232047
+      },
+      "fold_rmse": [
+        27.445309844213202,
+        8.227773021335022,
+        10.904948479133772,
+        11.893166504002712
+      ],
+      "improved_folds": 2,
+      "passed_gate": false
+    },
+    "dual_local50": {
+      "head": "dual",
+      "local_weight": 0.5,
+      "metrics": {
+        "rmse": 16.81187683860771,
+        "rmse_x": 21.086952494318844,
+        "rmse_y": 10.982660887752523
+      },
+      "fold_rmse": [
+        28.41134983451766,
+        7.88567436797578,
+        11.23478455253035,
+        11.616702102885563
+      ],
+      "improved_folds": 2,
+      "passed_gate": false
+    },
+    "dual_local75": {
+      "head": "dual",
+      "local_weight": 0.75,
+      "metrics": {
+        "rmse": 17.42830544530647,
+        "rmse_x": 22.02304695436983,
+        "rmse_y": 11.06693562985798
+      },
+      "fold_rmse": [
+        29.543208415432385,
+        7.792441862281033,
+        11.773415937781758,
+        11.951848655370362
+      ],
+      "improved_folds": 2,
+      "passed_gate": false
+    }
+  },
+  "baseline": {
+    "rmse": 16.334263567891036,
+    "rmse_x": 20.151372635635976,
+    "rmse_y": 11.293295068774496
+  },
+  "baseline_fold_rmse": [
+    26.663118020108456,
+    8.789727876083791,
+    10.803049338792066,
+    12.741491730371182
+  ],
+  "sources": {
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\baseline\\prepared\\manifest.json": "1db1f5ad6394ce48671dea87d82dc130a991874fe048af26ec3ba9ac83050401",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\refinement\\selection.json": "f101b987a89bb9fa90ec9c52d2301042c51a9812260d8fb3341e114a92cdc039",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\refinement\\retina_1024.npz": "d84026ec4d06bbbc13ec1e0353e5a129b732415870a20936efd87cee85c99503",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\selection.json": "46e8279e48cd7e248b9213d28d0caa65b891fc35dd99748e02f0ad1a29d6e062",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\oof_predictions.npz": "63fc8cb239b50a1beefa3f3ef7d7123623b404bba0a58382db7399ee939de060",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\.cache\\torch\\hub\\checkpoints\\resnet18-f37072fd.pth": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\data\\detection\\sample_submission.csv": "28c8af24effbb1fefe9cd7162b4093b2966b24c9d5e5e2140ecb368822409d9d",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\refinement_v3.py": "f3559aaec838ed9350e64d78f44f5685403c41705d6b36d92cea35f86b2109ba",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\refinement_study.py": "ce77d894b09d813375a64bd1b8b4326a9abf6a978d531b31ed633860d7e01a28",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\refinement_model.py": "2060d7b48f7218da9ee2bd1214f8279c0f07adcbf831508ffe1ffbfcef8ca0c4",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\model.py": "7174e7c02f6edfccf19b86a6bcc3945eb68b18e18bbd722aca104365716d934b",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\run.py": "201c7a241424d9972d55f29bda61176538a6192bb468d259a8d52e2689ae8f3e",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\data.py": "b09dad5abe5c2685135f6ab544514655ad4f407b520177ba5d89bc53449269f6",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\contracts.py": "f82435b4f27ca5ed0ad16b75f3a94054ea1dd29f3a00048afd3fb6b253a13d07",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\refinement\\fold0_seed42\\best.pt": "7b4bc9b1e6ac874ac4ba1d59f1aedede85caaaf200413455e87e4de2ef16b25c",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\refinement\\fold0_seed42\\config.json": "4664af231b981bc85495132a98c59bcdd409a05044824802a899729c8b64bd60",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\refinement\\fold0_seed42\\status.json": "74f68e9531e234a4ceea872a92d4303a54bed397f0626b58e231a1a9656f521a",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold0_seed43\\best.pt": "7ae26f26ea84f2c7c0e9343ab3c17f2f4aae7c8f0f4227e2b4b0a25917057aca",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold0_seed43\\config.json": "a3580f5d8aa22423d964bcbd5d610f01c56874c9aa749af3fc5b574c809692b1",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold0_seed43\\status.json": "de3ce081c201c35272c699c99c34553778768204939787b1180948c90d502544",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold0_seed43\\validation_predictions.npy": "bbfa57cfebe31934e58badc8006c27916a45fc28aa47f3b1c6cb1aa048c66e4d",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold0_seed44\\best.pt": "48fd6c0e35e9a6184467f96cbe624a14b9c7aa5b542bb36c9d6db1eba89375c4",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold0_seed44\\config.json": "41366ec7474c09098c4fe594866f738ebbfb38c1be3f88113a5f252b1742aac1",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold0_seed44\\status.json": "b01fa17f6b417803ff1f2bae49fc77495b2d8054279f4063cec4679b2b5334a6",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold0_seed44\\validation_predictions.npy": "6e47479a70c1d30e3c068049130aba6df65ef71b0819f6bc9d8e642ea15f2a6f",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\refinement\\fold1_seed42\\best.pt": "84a27ec9f3f0132ed707a81b393c955d6c2a3743d4ada1c8c5dce4920173489a",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\refinement\\fold1_seed42\\config.json": "2a2d6533ee1c48b7731162e249b8864f7bd3fa2ccc9ad765e8da6443409336e0",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\refinement\\fold1_seed42\\status.json": "30f1391000fe08d0884c36d92dd8f6315c673b94745bc729d26aa5da04544f71",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold1_seed43\\best.pt": "45664229c06a967eb44d0b86a6941a7c479253e94e563d302fe926c33425cb99",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold1_seed43\\config.json": "17d3b3b6fee34ffbec45f7f156957119a4dc0a1dd96deff7fd77e3677205fca1",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold1_seed43\\status.json": "1926800cf89dd43fd457d0d6e308cb6bb00516a3feed1a702db93ea1e19287c5",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold1_seed43\\validation_predictions.npy": "3197f88e51136fb619ab5143baad5f0f66b230c07ce6a9e97782baef1c9b17de",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold1_seed44\\best.pt": "d4fab676fdbdc9374da7707cb985eba936f514ea777f61519ce43c055c1ce3f4",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold1_seed44\\config.json": "1ed052dbeaa05f5811ce35380ab27a07b335fb305b0eceac27e5047feb1643ac",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold1_seed44\\status.json": "d42a40d70cac9b3f745fe874907e3913f9a2bf8c96e59ef300b24633e2bd8813",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold1_seed44\\validation_predictions.npy": "304bb2ab3bb18d7ee84eece7b875fda899bad8c6f1588028949d34f935b354e7",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\refinement\\fold2_seed42\\best.pt": "e94841617f420bd09da216785363c41abbf7b2a72b2a2a4b54534ac5d26530c5",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\refinement\\fold2_seed42\\config.json": "f517046a81f4b5a9a4c0951482dc0073562b78bab8ff4f498ffd132468d40307",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\refinement\\fold2_seed42\\status.json": "95e83db4bcb52b3a8585426db6f0af4a7e2732fa91d3bd954d9a6997edb1f415",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold2_seed43\\best.pt": "c7e8db3ed1df017d9b75497f546d33c79576aa97770c8e494a1734b45861e3e6",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold2_seed43\\config.json": "0a2a5c0569a9d01af3d969abc55aee820cb8b50a66a1a0cde744d722ed260ec7",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold2_seed43\\status.json": "99f1543f779244f84fc25a26eaf1efcb931489c7b9b17870dd93f1b830f68b64",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold2_seed43\\validation_predictions.npy": "83c9bd831de38fef063f43ac37c25fb4627f2efaed1c3efda608a565ffa4b3ea",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold2_seed44\\best.pt": "dbc5ea96209863c98365ffdad4be4f7027ecae20e8cbcbe36bf8d65ba00411ba",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold2_seed44\\config.json": "9bf518c9ff9c291865689b40bb7f1297ea83ee250a216b8641e97121ce0e13f4",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold2_seed44\\status.json": "df8bfd3e924ff3dca305abcd1484f7fdb6b0b61fb32fe78af6fa81f54ea3876e",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold2_seed44\\validation_predictions.npy": "2f8547f0878b198e5ebdd1d22d2401e190ebfb7891efb840b83edb89da9538e0",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\refinement\\fold3_seed42\\best.pt": "de0637840b25b3ca8b2b53817dc0b59a7a56b3c48153858d0f91f225b2ebebb7",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\refinement\\fold3_seed42\\config.json": "d092ce8fe6e7fed6271a09288a09ae8d08dd3fbc8ff5faf9429b897c641833c5",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\refinement\\fold3_seed42\\status.json": "920c4a5276a749193f0cf033742da838ada373751d8d8d0a21652754fbe922b4",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold3_seed43\\best.pt": "f20d867d4a60cb00bc1cc92b859ef35ddeacbf96aa967695e42b48af0fcb69c2",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold3_seed43\\config.json": "9f90a2dab952da4a6dfa2dec4d2918c7b35db9513fd4d612a3b45bbf197e24e0",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold3_seed43\\status.json": "63fb2fb8f8c03d80f37e4589f2f648710bb2e9601c140cdf875c6ac31c9f2e25",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold3_seed43\\validation_predictions.npy": "18a38ee35a0e7d29b63dd5feb65f9df0bea0f01047e608aef421f7323259d7f6",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold3_seed44\\best.pt": "6c514699baa7365679f1ea6add35a5d9f8ff25e972f5ab6435fd17498ba200ef",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold3_seed44\\config.json": "8a91020e3daaf673a78a33c83da79871eb77a31908acdd3c2be50d520f7e2d7d",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold3_seed44\\status.json": "3346ce8f7d3b30c074c53bcd9ac2c7f70c7d6de48cccf479434864287abc8f40",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\fold3_seed44\\validation_predictions.npy": "49462e996cb69a43f1352ffbb337c5465ba97a902862cf78a7f7f071d321e231"
+  },
+  "train_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "best_epochs": [
+    38,
+    34,
+    42,
+    13
+  ],
+  "refit_epochs": 36,
+  "gate": {
+    "minimum_relative_reduction": 0.05,
+    "minimum_improved_folds": 3
+  },
+  "oof_sha256": "d38e9db24865e0964586224840b2c6abeacb6f5c1556d6ffbe71caa3d65ff62e",
+  "evaluation_retrained_models": false,
+  "note": "Same model-selection folds and preselected local checkpoints; this is not untouched-test performance."
+}

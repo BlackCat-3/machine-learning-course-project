@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "submission": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\submission_improved.csv",
+  "sha256": "1be9b64328089eb25de1959d79c5a6c6d1e4eeea50838f358a53f21d7ba47bfa",
+  "holdout_selection_accuracy": 0.696298042914407,
+  "selected_models": [
+    "old_mixup",
+    "resnet18_detail",
+    "resnet34"
+  ],
+  "full_checkpoints": [
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\final_models\\mixup\\final.pt",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\full\\resnet18_detail\\final.pt",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\full\\resnet34\\final.pt"
+  ],
+  "kaggle_status": "not_uploaded",
+  "new_kaggle_score": null
+}

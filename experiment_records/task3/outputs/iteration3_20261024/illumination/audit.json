@@ -1,0 +1,128 @@
+{
+  "passed": true,
+  "state": "completed_not_qualified",
+  "checked_at_utc": "2026-10-24T12:19:36.171180+00:00",
+  "checks": [
+    "original_labels_images_cache_and_grouped_folds",
+    "online_14_20909_current_best_unchanged",
+    "fixed_plan_and_source_hashes",
+    "fold0_seed43_history_predictions_and_actual_ema_checkpoints",
+    "fold1_seed43_history_predictions_and_actual_ema_checkpoints",
+    "fold2_seed43_history_predictions_and_actual_ema_checkpoints",
+    "fold3_seed43_history_predictions_and_actual_ema_checkpoints",
+    "fold0_seed44_history_predictions_and_actual_ema_checkpoints",
+    "fold1_seed44_history_predictions_and_actual_ema_checkpoints",
+    "fold2_seed44_history_predictions_and_actual_ema_checkpoints",
+    "fold3_seed44_history_predictions_and_actual_ema_checkpoints",
+    "all_80_oof_shared_epoch_fixed_candidates_and_gate",
+    "unqualified_candidate_has_no_final_csv"
+  ],
+  "failures": [],
+  "pending": [],
+  "evidence": {
+    "dataset": {
+      "train_count": 80,
+      "test_count": 20,
+      "fold_counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "duplicate_groups": [
+        [
+          39,
+          77
+        ]
+      ],
+      "cache_rebuilt_comparison": true
+    },
+    "preserved_baseline": {
+      "sha256": "20d24c207d73e8ef0af3de589e9e3becd0416b14c8b30c02068815451f136a8b",
+      "public_rmse_user_reported": 14.20909,
+      "independently_verified_online": false
+    },
+    "selection": {
+      "shared_epoch": 10,
+      "selected": null,
+      "epoch_rmse": {
+        "6": 24.706330672172815,
+        "10": 23.991849252631496,
+        "16": 48.7683465128157,
+        "24": 52.069741857097156,
+        "32": 49.21538553524585,
+        "40": 50.70716949946283
+      },
+      "candidates": {
+        "new_only": {
+          "metrics": {
+            "rmse": 23.991849252631496,
+            "rmse_x": 30.92734394361679,
+            "rmse_y": 13.954105407198957
+          },
+          "fold_metrics": [
+            {
+              "rmse": 37.084904996996286,
+              "rmse_x": 51.30904285606472,
+              "rmse_y": 10.861053285339924
+            },
+            {
+              "rmse": 12.14509133646292,
+              "rmse_x": 10.160935959694717,
+              "rmse_y": 13.847810930433592
+            },
+            {
+              "rmse": 12.578744312813363,
+              "rmse_x": 15.409760591415061,
+              "rmse_y": 8.887569717844157
+            },
+            {
+              "rmse": 24.928238837703258,
+              "rmse_x": 29.200671118312457,
+              "rmse_y": 19.752341363476557
+            }
+          ],
+          "improved_folds": 0,
+          "passed_gate": false
+        },
+        "new_robust_mean": {
+          "metrics": {
+            "rmse": 19.585381186154994,
+            "rmse_x": 25.05066731416067,
+            "rmse_y": 11.816868431578232
+          },
+          "fold_metrics": [
+            {
+              "rmse": 31.664740015831807,
+              "rmse_x": 43.41564239846198,
+              "rmse_y": 10.972397899698592
+            },
+            {
+              "rmse": 9.963604409202208,
+              "rmse_x": 8.42621164222757,
+              "rmse_y": 11.293616914281097
+            },
+            {
+              "rmse": 11.449125566915363,
+              "rmse_x": 13.756188629214968,
+              "rmse_y": 8.540036703167434
+            },
+            {
+              "rmse": 17.359060328476517,
+              "rmse_x": 19.10476271576663,
+              "rmse_y": 15.41693849470859
+            }
+          ],
+          "improved_folds": 0,
+          "passed_gate": false
+        }
+      },
+      "records_per_seed": 80,
+      "validation_runs": 8,
+      "checkpoint_files_audited": 56
+    }
+  },
+  "scope": "CPU file/array/checkpoint audit; no model inference or independent test score",
+  "validation_audit_passed": true,
+  "final_submission_available": false
+}

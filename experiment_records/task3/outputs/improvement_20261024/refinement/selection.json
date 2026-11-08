@@ -1,0 +1,266 @@
+{
+  "gate_passed": true,
+  "selected": "local_heatmap",
+  "metrics": {
+    "local_heatmap": {
+      "rmse": 19.025912943197895,
+      "rmse_x": 23.235149355415594,
+      "rmse_y": 13.56829248932308
+    },
+    "local_dual": {
+      "rmse": 19.224942524669608,
+      "rmse_x": 23.82736330695129,
+      "rmse_y": 13.0940287151148
+    },
+    "baseline_local_heatmap_mean": {
+      "rmse": 21.778761678557935,
+      "rmse_x": 25.596794013391943,
+      "rmse_y": 17.129887820380773
+    },
+    "baseline_local_dual_mean": {
+      "rmse": 22.318630962922946,
+      "rmse_x": 26.399683588926013,
+      "rmse_y": 17.30026827892782
+    }
+  },
+  "fold_metrics": {
+    "local_heatmap": [
+      {
+        "rmse": 33.19381454706838,
+        "rmse_x": 43.423243861444746,
+        "rmse_y": 17.834812612411646
+      },
+      {
+        "rmse": 8.486069905304722,
+        "rmse_x": 7.438008871964539,
+        "rmse_y": 9.41821580215774
+      },
+      {
+        "rmse": 11.970375864084309,
+        "rmse_x": 12.829883986825884,
+        "rmse_y": 11.044178264565144
+      },
+      {
+        "rmse": 11.43716959471365,
+        "rmse_x": 7.34715289949411,
+        "rmse_y": 14.409616266505502
+      }
+    ],
+    "local_dual": [
+      {
+        "rmse": 33.63312077374971,
+        "rmse_x": 44.75140777361674,
+        "rmse_y": 16.114748780007194
+      },
+      {
+        "rmse": 8.503766521062637,
+        "rmse_x": 8.062173415671923,
+        "rmse_y": 8.923533487645148
+      },
+      {
+        "rmse": 12.12670000258971,
+        "rmse_x": 12.308362958382181,
+        "rmse_y": 11.942273953914471
+      },
+      {
+        "rmse": 11.306456090579873,
+        "rmse_x": 7.1965291652038275,
+        "rmse_y": 14.278720763107321
+      }
+    ],
+    "baseline_local_heatmap_mean": [
+      {
+        "rmse": 35.23066204609362,
+        "rmse_x": 45.60536090689653,
+        "rmse_y": 20.063652532972068
+      },
+      {
+        "rmse": 11.829418270665952,
+        "rmse_x": 11.410831699486542,
+        "rmse_y": 12.233690905475907
+      },
+      {
+        "rmse": 13.10732631317534,
+        "rmse_x": 10.702432010404152,
+        "rmse_y": 15.134792870164885
+      },
+      {
+        "rmse": 18.555892678532302,
+        "rmse_x": 17.210037204970053,
+        "rmse_y": 19.81052562649371
+      }
+    ],
+    "baseline_local_dual_mean": [
+      {
+        "rmse": 35.66931428617214,
+        "rmse_x": 46.56449500428531,
+        "rmse_y": 19.399684747112136
+      },
+      {
+        "rmse": 12.283793742128939,
+        "rmse_x": 12.166218661780553,
+        "rmse_y": 12.400254064819588
+      },
+      {
+        "rmse": 14.1892560609019,
+        "rmse_x": 12.550641681308091,
+        "rmse_y": 15.657310385602454
+      },
+      {
+        "rmse": 19.182246853010735,
+        "rmse_x": 17.71963589464186,
+        "rmse_y": 20.540975936430097
+      }
+    ]
+  },
+  "baseline": {
+    "rmse": 28.153703785912082,
+    "rmse_x": 32.154138366137595,
+    "rmse_y": 23.481342799359645
+  },
+  "baseline_folds": [
+    {
+      "rmse": 38.7564200766485,
+      "rmse_x": 49.332904881872686,
+      "rmse_y": 23.882727864115306
+    },
+    {
+      "rmse": 18.34608606687597,
+      "rmse_x": 18.54125429813679,
+      "rmse_y": 18.14881916264156
+    },
+    {
+      "rmse": 19.641132560436215,
+      "rmse_x": 18.122599086178916,
+      "rmse_y": 21.05040567007872
+    },
+    {
+      "rmse": 30.758918837827018,
+      "rmse_x": 32.08757148187503,
+      "rmse_y": 29.37022186738839
+    }
+  ],
+  "gates": {
+    "local_heatmap": {
+      "pooled_pass": true,
+      "folds_improved": 4
+    },
+    "local_dual": {
+      "pooled_pass": true,
+      "folds_improved": 4
+    },
+    "baseline_local_heatmap_mean": {
+      "pooled_pass": true,
+      "folds_improved": 4
+    },
+    "baseline_local_dual_mean": {
+      "pooled_pass": true,
+      "folds_improved": 4
+    }
+  },
+  "gate_rule": {
+    "baseline_rmse": 28.1537,
+    "required_relative_reduction": 0.1,
+    "required_improved_folds": 3
+  },
+  "head": "heatmap",
+  "baseline_weight": 0.0,
+  "best_epochs": [
+    38,
+    34,
+    42,
+    13
+  ],
+  "refit_epochs": 36,
+  "sources": {
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\baseline\\prepared\\manifest.json": "1db1f5ad6394ce48671dea87d82dc130a991874fe048af26ec3ba9ac83050401",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\study\\oof_predictions.npz": "96a5ea5d57099ecad9849e548fb8353c1c91ec1d53738cdea16fac37a9916105",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\.cache\\torch\\hub\\checkpoints\\resnet18-f37072fd.pth": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\refinement_study.py": "ce77d894b09d813375a64bd1b8b4326a9abf6a978d531b31ed633860d7e01a28",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\refinement_model.py": "2060d7b48f7218da9ee2bd1214f8279c0f07adcbf831508ffe1ffbfcef8ca0c4",
+    "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\model.py": "7174e7c02f6edfccf19b86a6bcc3945eb68b18e18bbd722aca104365716d934b"
+  },
+  "all_training_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "model_selection_validation": true
+}

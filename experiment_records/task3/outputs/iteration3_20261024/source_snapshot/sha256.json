@@ -1,0 +1,15 @@
+{
+  "audit_iteration3.py": "9de15858901e1b3c2b1f9221898954e26c52b4395a29b0e426f979f06063eb09",
+  "contracts.py": "f82435b4f27ca5ed0ad16b75f3a94054ea1dd29f3a00048afd3fb6b253a13d07",
+  "data.py": "b09dad5abe5c2685135f6ab544514655ad4f407b520177ba5d89bc53449269f6",
+  "decode_v3.py": "a8262291365327d24473aa0d2caed012df1cdc204246ae0cee8f97d6ae6efed1",
+  "fine_heatmap_v3.py": "81208e886f7fe90a0c2c70c91a354761d198d08cdff58ffcd9cb6a4d0d6627a2",
+  "illumination_v3.py": "7966b54f1b181a8b0aaed3840042fafedded07b3da9e801110825c63906672a8",
+  "model.py": "7174e7c02f6edfccf19b86a6bcc3945eb68b18e18bbd722aca104365716d934b",
+  "plot_iteration3.py": "1aef8d1dc4efaae0d4ae8b6748ad5db9184e33d262cee35dd01fdcf52dcd211c",
+  "refinement_model.py": "2060d7b48f7218da9ee2bd1214f8279c0f07adcbf831508ffe1ffbfcef8ca0c4",
+  "refinement_study.py": "ce77d894b09d813375a64bd1b8b4326a9abf6a978d531b31ed633860d7e01a28",
+  "refinement_v3.py": "f3559aaec838ed9350e64d78f44f5685403c41705d6b36d92cea35f86b2109ba",
+  "robust_heatmap.py": "2b3b2d59da85f181428df8979024083bbfa973a0e5e1de959f863a82134b36ee",
+  "run.py": "201c7a241424d9972d55f29bda61176538a6192bb468d259a8d52e2689ae8f3e"
+}

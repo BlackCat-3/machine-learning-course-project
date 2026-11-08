@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "rows": 20,
+  "threshold": 0.5,
+  "encoding": "probability",
+  "official_encoder_exact_match": true,
+  "native_input_to_official_encoder": false,
+  "rle_roundtrip_all_pass": true,
+  "sha256": "107c8742e0f1cc27a4600cff96c044de2f958b53880bd88ce7a999b6158652f7"
+}

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "prediction_file": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\improvement_20261016\\submission_improved.csv",
+  "rows": 7065,
+  "columns": [
+    "ID",
+    "Emotion"
+  ],
+  "ids_match_template_in_order": true,
+  "class_counts": {
+    "0": 917,
+    "1": 778,
+    "2": 1867,
+    "3": 1175,
+    "4": 820,
+    "5": 1508
+  },
+  "label_map": {
+    "0": "Angry",
+    "1": "Fear",
+    "2": "Happy",
+    "3": "Sad",
+    "4": "Surprise",
+    "5": "Neutral"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "stopped_after_user_changed_priority",
+  "reason": "User requested a substantial model improvement instead of further small adjustments. Compute redirected to an EfficientNet backbone experiment.",
+  "completed_control_epochs": 2,
+  "planned_control_epochs": 6,
+  "tune160_started": false,
+  "comparison_complete": false,
+  "submission_generated": false,
+  "note": "The partial control cannot support a 112-versus-160 conclusion. The last completed checkpoint remains available."
+}

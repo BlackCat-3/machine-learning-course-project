@@ -1,0 +1,96 @@
+{
+  "accuracy": 0.6689460033011082,
+  "num_samples": 4241,
+  "class_to_index": {
+    "Angry": 0,
+    "Fear": 1,
+    "Happy": 2,
+    "Sad": 3,
+    "Surprise": 4,
+    "Neutral": 5
+  },
+  "confusion_matrix": [
+    [
+      354,
+      50,
+      26,
+      68,
+      17,
+      79
+    ],
+    [
+      95,
+      258,
+      22,
+      101,
+      60,
+      79
+    ],
+    [
+      18,
+      17,
+      956,
+      24,
+      18,
+      46
+    ],
+    [
+      82,
+      63,
+      34,
+      398,
+      11,
+      141
+    ],
+    [
+      23,
+      43,
+      19,
+      8,
+      369,
+      18
+    ],
+    [
+      39,
+      24,
+      58,
+      113,
+      8,
+      502
+    ]
+  ],
+  "confusion_matrix_axes": {
+    "rows": "true",
+    "columns": "predicted"
+  },
+  "per_class": {
+    "Angry": {
+      "support": 594,
+      "recall": 0.5959595959595959
+    },
+    "Fear": {
+      "support": 615,
+      "recall": 0.4195121951219512
+    },
+    "Happy": {
+      "support": 1079,
+      "recall": 0.8860055607043559
+    },
+    "Sad": {
+      "support": 729,
+      "recall": 0.5459533607681756
+    },
+    "Surprise": {
+      "support": 480,
+      "recall": 0.76875
+    },
+    "Neutral": {
+      "support": 744,
+      "recall": 0.6747311827956989
+    }
+  },
+  "loss": 1.0182640905004716,
+  "epoch": 7,
+  "selected_source": "ema",
+  "validation_is_partial": false
+}

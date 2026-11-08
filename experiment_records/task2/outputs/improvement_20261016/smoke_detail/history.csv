@@ -1,0 +1,2 @@
+epoch,train_loss,train_accuracy,train_samples_seen,skipped_optimizer_steps,mixup_batches,train_accuracy_kind,val_loss,val_accuracy,raw_val_accuracy,ema_val_accuracy,selected_source,lr,seconds
+1,1.9338157176971436,0.171875,256,0,0,hard_label,2.654542922973633,0.0,0.0,0.0,raw,0.0003,8.459

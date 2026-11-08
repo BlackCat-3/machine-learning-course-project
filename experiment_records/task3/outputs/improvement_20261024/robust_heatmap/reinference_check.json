@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "full_model_reinference": [
+    {
+      "seed": 43,
+      "max_coordinate_difference_pixels": 0.007135331630706787,
+      "checkpoint_epoch": 9
+    },
+    {
+      "seed": 44,
+      "max_coordinate_difference_pixels": 0.008461475372314453,
+      "checkpoint_epoch": 10
+    }
+  ],
+  "submission_max_difference_pixels": 0.004351615905761719,
+  "tolerance_pixels": 0.05
+}

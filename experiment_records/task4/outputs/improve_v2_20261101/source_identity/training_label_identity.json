@@ -1,0 +1,147 @@
+{
+  "only_training_labels_compared": true,
+  "test_labels_requested_or_used": false,
+  "all_20_training_labels_match": true,
+  "matches": [
+    {
+      "original_id": 21,
+      "local_id": "11",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/21.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "dd2a7d800d38152507551b67c796b8c18cd00b790f14af689464a41c911ee5a0"
+    },
+    {
+      "original_id": 22,
+      "local_id": "17",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/22.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "c22320997386cb1e7986fda21878cb3e470221381e00143ca05121dc02de2b05"
+    },
+    {
+      "original_id": 23,
+      "local_id": "5",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/23.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "2d40518fa8d2d04bf130741f2d3b8ae943e47c14d21df9015b004217f85be350"
+    },
+    {
+      "original_id": 24,
+      "local_id": "6",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/24.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "dc823487a6573944599775bfaa4ce8aef1593581cc9340f5682068a3894f20d0"
+    },
+    {
+      "original_id": 25,
+      "local_id": "19",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/25.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "4790abb7f85319a6c4d96d2f296826e2945ead195df64751424d53a642e970de"
+    },
+    {
+      "original_id": 26,
+      "local_id": "2",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/26.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "5ae8c36c56eb268a12676f7f0529607b564f887d43c9d4fa8f97ebd66d9662c5"
+    },
+    {
+      "original_id": 27,
+      "local_id": "13",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/27.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "a369109af66bca61d18431aad2153c7683ae0b742f9c6397675f754e3aae6d55"
+    },
+    {
+      "original_id": 28,
+      "local_id": "20",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/28.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "370c8c853b488af386096c6ac4afea1a918d0eec164284995c06e91c55687db2"
+    },
+    {
+      "original_id": 29,
+      "local_id": "16",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/29.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "8f5bb5b2590af2383c9a7517bb81d29e597da642b3548468486967fb357719d1"
+    },
+    {
+      "original_id": 30,
+      "local_id": "8",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/30.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "8dae11e23e85941b706f4c3b056c986e198bd72a58cc2e021e8ba01e0658cd5f"
+    },
+    {
+      "original_id": 31,
+      "local_id": "7",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/31.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "c59ee69af38fc0d6f643e54cbb5ececbf47d7bcfa2ab15e840282d4668200ec9"
+    },
+    {
+      "original_id": 32,
+      "local_id": "10",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/32.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "c21b6cf9696833197bf4997f2d0c8235cf7961295f493e5e54ec001d665dfb63"
+    },
+    {
+      "original_id": 33,
+      "local_id": "9",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/33.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "7409e0da8f7091a21e13e84c50bdbdac69c0b46e2952aa0009427ed8b93d05df"
+    },
+    {
+      "original_id": 34,
+      "local_id": "12",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/34.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "16002449f118978e3c8a97ea7daaeadca296ddd8149204dc8cc144b7b333247c"
+    },
+    {
+      "original_id": 35,
+      "local_id": "14",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/35.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "c43e016e1c3efdf3396d200a71df069afe1dffdd863a85ac0f8e2c3aca214a68"
+    },
+    {
+      "original_id": 36,
+      "local_id": "3",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/36.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "ba3381b59d9cde79eb4a4d20347edf1dc7d3b3c2b4ff3b465c9c3df2bed51007"
+    },
+    {
+      "original_id": 37,
+      "local_id": "1",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/37.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "e924b8928d5d50d76fa430c40dca6c4806f69a3ed19aafd35e274699e7566136"
+    },
+    {
+      "original_id": 38,
+      "local_id": "15",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/38.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "7dfdee3b492b804d875370bfc151fc4574c417485df3d5462b5f5f6d6bec54d9"
+    },
+    {
+      "original_id": 39,
+      "local_id": "18",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/39.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "8edfeac3c31f28e97b5a4b63788d5a83c0488d2eed45f1a48dd346ce51f018e7"
+    },
+    {
+      "original_id": 40,
+      "local_id": "4",
+      "url": "https://huggingface.co/datasets/Zomba/DRIVE-digital-retinal-images-for-vessel-extraction/resolve/e43e3f8a4b1146db231648786912d0ac882067b2/train/label/40.png",
+      "binary_label_equal": true,
+      "pixel_sha256": "c860a8b4a44a86455900f9e0bda69adcf53f3c683ae0d043c6d88e5ec119095c"
+    }
+  ]
+}

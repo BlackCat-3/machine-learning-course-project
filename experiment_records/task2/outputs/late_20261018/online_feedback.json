@@ -1,0 +1,11 @@
+{
+  "source": "User reported in this chat on 2026-10-18; not independently retrieved from Kaggle",
+  "deadline_local": "2026-10-18 23:59 Asia/Shanghai",
+  "remaining_submissions_before_this_study": 5,
+  "results": [
+    {"file": "outputs/seed_erasing_20261016/submission_improved.csv", "kaggle_accuracy": 0.722},
+    {"file": "outputs/late_20261018/submission_center_tta.csv", "kaggle_accuracy": 0.719, "sha256": "cf884e4675e16b6bc36be0395762a4d894b5fcedf2ebd5ea1f9cc25db482f2ba"}
+  ],
+  "current_best_reported": 0.722,
+  "interpretation": "The small crop-TTA holdout gain did not transfer online. Preserve the old submission. After the user's request for a larger model change, the paired resolution experiment was interrupted before the 160px arm; its comparison is unfinished. EfficientNet-B0 was subsequently stopped after 8 of 12 epochs, and ResNet50 is being evaluated under its separately frozen plan."
+}

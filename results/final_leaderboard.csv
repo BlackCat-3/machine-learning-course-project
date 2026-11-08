@@ -1,0 +1,5 @@
+作业,任务,指标,最终成绩,最终名次,队伍数,最终榜单,来源
+1,植物分类,Mean F1 Score,0.9523,29,80,最终Leaderboard公私同样本,https://www.kaggle.com/competitions/2026task1/leaderboard
+2,图像情感分类,Accuracy,0.722,40,74,最终Leaderboard公私同样本,https://www.kaggle.com/competitions/2026task2/leaderboard
+3,中心凹检测定位,RMSE,20.09589,31,78,Private,https://www.kaggle.com/competitions/2026task3/leaderboard
+4,医学影像分割,Dice,0.86246,16,75,Private,https://www.kaggle.com/competitions/2026task-4/leaderboard

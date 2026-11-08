@@ -1,0 +1,10 @@
+{
+  "reported_by": "user",
+  "reported_date": "2026-10-24",
+  "public_rmse": 14.73696,
+  "rank": 24,
+  "participants": 55,
+  "independently_verified": false,
+  "submission_file": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\study\\submission.csv",
+  "submission_sha256": "a76ad7db2a9e8b78b4680bcb1630e930a8b57d1651c45d79cc8fc9dbe863377d"
+}

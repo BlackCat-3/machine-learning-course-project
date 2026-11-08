@@ -1,0 +1,65 @@
+{
+  "split": "val",
+  "schemes": {
+    "full": 2,
+    "center": 4,
+    "five": 12
+  },
+  "crop_coordinates_top_left_height_width": [
+    [
+      0,
+      0,
+      48,
+      48
+    ],
+    [
+      2,
+      2,
+      44,
+      44
+    ],
+    [
+      0,
+      0,
+      44,
+      44
+    ],
+    [
+      0,
+      4,
+      44,
+      44
+    ],
+    [
+      4,
+      0,
+      44,
+      44
+    ],
+    [
+      4,
+      4,
+      44,
+      44
+    ]
+  ],
+  "crop_order": "full, center, top-left, top-right, bottom-left, bottom-right",
+  "averaging": "equal probabilities across views including flips, then equal across four models",
+  "class_to_index": {
+    "Angry": 0,
+    "Fear": 1,
+    "Happy": 2,
+    "Sad": 3,
+    "Surprise": 4,
+    "Neutral": 5
+  },
+  "rows": 4241,
+  "dataset_fingerprint": "7bcd01fe884e0d31ef63381045181a87207760af85c60224613446e99863a0fa",
+  "script_sha256": "5e75f9882772da55b55102883913f79319ce6fc0bcb0dcebfd785c73abf45265",
+  "model_source_sha256": "18899c062da54a03da3ec5de8d0df48b5d7d9eec71543a1350ce4478aacf9e1e",
+  "batch_size": 256,
+  "amp": true,
+  "models": {},
+  "ensembles": {},
+  "scope": "Repeated model-selection holdout; no test labels or duplicate-label matching."
+}

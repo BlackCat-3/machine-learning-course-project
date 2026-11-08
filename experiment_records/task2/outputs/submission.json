@@ -1,0 +1,35 @@
+{
+  "split": "test",
+  "rows": 7065,
+  "class_to_index": {
+    "Angry": 0,
+    "Fear": 1,
+    "Happy": 2,
+    "Sad": 3,
+    "Surprise": 4,
+    "Neutral": 5
+  },
+  "flip_tta": true,
+  "checkpoints": [
+    {
+      "path": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\final_models\\baseline\\final.pt",
+      "epoch": 7,
+      "source": "ema"
+    },
+    {
+      "path": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\final_models\\mixup\\final.pt",
+      "epoch": 12,
+      "source": "ema"
+    }
+  ],
+  "prediction_counts": {
+    "Angry": 949,
+    "Fear": 829,
+    "Happy": 1865,
+    "Sad": 1174,
+    "Surprise": 802,
+    "Neutral": 1446
+  },
+  "output_csv": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\submission.csv",
+  "probabilities": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\outputs\\submission.probabilities.npz"
+}

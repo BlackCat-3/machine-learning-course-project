@@ -1,0 +1,130 @@
+{
+  "common_arguments": [
+    "--architecture",
+    "resnet18",
+    "--no-maxpool",
+    "--epochs",
+    "18",
+    "--batch-size",
+    "128",
+    "--image-size",
+    "112",
+    "--lr",
+    "0.0003",
+    "--weight-decay",
+    "0.001",
+    "--label-smoothing",
+    "0.05",
+    "--dropout",
+    "0.3",
+    "--mixup-alpha",
+    "0.2",
+    "--mixup-prob",
+    "1",
+    "--device",
+    "cuda",
+    "--log-every",
+    "0"
+  ],
+  "experiment_arguments": {
+    "detail_seed44": [
+      "--seed",
+      "44"
+    ],
+    "detail_erasing": [
+      "--seed",
+      "43",
+      "--erasing-prob",
+      "0.25",
+      "--erasing-scale-min",
+      "0.02",
+      "--erasing-scale-max",
+      "0.08"
+    ]
+  },
+  "candidate_models": [
+    [
+      "old_mixup",
+      "detail_seed43",
+      "resnet34"
+    ],
+    [
+      "detail_seed43"
+    ],
+    [
+      "detail_seed44"
+    ],
+    [
+      "detail_erasing"
+    ],
+    [
+      "detail_seed43",
+      "detail_seed44"
+    ],
+    [
+      "detail_seed43",
+      "detail_erasing"
+    ],
+    [
+      "old_mixup",
+      "detail_seed43",
+      "resnet34",
+      "detail_seed44"
+    ],
+    [
+      "old_mixup",
+      "detail_seed43",
+      "resnet34",
+      "detail_erasing"
+    ],
+    [
+      "old_mixup",
+      "detail_seed43",
+      "resnet34",
+      "detail_seed44",
+      "detail_erasing"
+    ]
+  ],
+  "baseline_models": [
+    "old_mixup",
+    "detail_seed43",
+    "resnet34"
+  ],
+  "baseline_validation_correct": 2953,
+  "reported_kaggle_score": {
+    "value": 0.722,
+    "source": "user reported; not independently retrieved"
+  },
+  "single_factor_changes": {
+    "detail_seed44": {
+      "seed": [
+        43,
+        44
+      ]
+    },
+    "detail_erasing": {
+      "erasing_prob": [
+        0.0,
+        0.25
+      ]
+    }
+  },
+  "erasing": {
+    "area_fraction": [
+      0.02,
+      0.08
+    ],
+    "aspect_ratio": [
+      0.5,
+      2.0
+    ],
+    "fill": "per-image grayscale mean",
+    "training_only": true
+  },
+  "selection_rule": "Fixed equal-weight candidates; highest holdout correct count, then fewer models; keep baseline on ties with baseline.",
+  "checkpoint_rule": "Best raw/EMA checkpoint by no-TTA validation accuracy, then evaluate fixed horizontal-flip TTA.",
+  "scope": "Repeated selection holdout, not an untouched test. No guarantee of online improvement.",
+  "original_submission_sha256": "4414f84a494aedb722eafaa3f9ce75ef2991286a8e869792d1cb7974d2bc8f09",
+  "previous_submission_sha256": "1be9b64328089eb25de1959d79c5a6c6d1e4eeea50838f358a53f21d7ba47bfa",
+  "dataset_fingerprint": "7bcd01fe884e0d31ef63381045181a87207760af85c60224613446e99863a0fa"
+}

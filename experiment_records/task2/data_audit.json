@@ -1,0 +1,97 @@
+{
+  "archive": "D:\\Downloads\\2026task2.zip",
+  "submission_template_source": "D:\\Downloads\\submission.csv",
+  "label_mapping": {
+    "Angry": 0,
+    "Fear": 1,
+    "Happy": 2,
+    "Sad": 3,
+    "Surprise": 4,
+    "Neutral": 5
+  },
+  "seed": 42,
+  "validation_fraction_requested": 0.15,
+  "split_method": "Exact decoded-pixel groups; mixed-label groups assigned jointly, then class targets filled",
+  "bad_images": [],
+  "zip_crc_ok": true,
+  "ignored_archive_entries": [
+    "submission.csv"
+  ],
+  "train_count": 28275,
+  "test_count": 7065,
+  "template_ids_match_test": true,
+  "train_test_id_overlap": 0,
+  "source_image_sizes": {
+    "48x48": 35340
+  },
+  "source_image_modes": {
+    "L": 35340
+  },
+  "source_image_formats": {
+    "JPEG": 35340
+  },
+  "bad_image_count": 0,
+  "class_counts": {
+    "Angry": 3963,
+    "Fear": 4097,
+    "Happy": 7192,
+    "Sad": 4862,
+    "Surprise": 3202,
+    "Neutral": 4959
+  },
+  "train_duplicates": {
+    "unique_pixel_groups": 27081,
+    "duplicate_pixel_groups": 1000,
+    "images_in_duplicate_groups": 2194,
+    "extra_duplicate_images": 1194,
+    "maximum_group_size": 11,
+    "conflicting_label_groups": 39,
+    "images_in_conflicting_label_groups": 110
+  },
+  "test_duplicates": {
+    "unique_pixel_groups": 6985,
+    "duplicate_pixel_groups": 75,
+    "images_in_duplicate_groups": 155,
+    "extra_duplicate_images": 80,
+    "maximum_group_size": 3
+  },
+  "train_test_exact_pixel_overlap": {
+    "shared_pixel_groups": 490,
+    "training_images": 627,
+    "test_images": 520,
+    "shared_groups_with_conflicting_training_labels": 8
+  },
+  "split": {
+    "train_count": 24034,
+    "val_count": 4241,
+    "actual_val_fraction": 0.14999115826702034,
+    "train_class_counts": {
+      "Angry": 3369,
+      "Fear": 3482,
+      "Happy": 6113,
+      "Sad": 4133,
+      "Surprise": 2722,
+      "Neutral": 4215
+    },
+    "val_class_counts": {
+      "Angry": 594,
+      "Fear": 615,
+      "Happy": 1079,
+      "Sad": 729,
+      "Surprise": 480,
+      "Neutral": 744
+    },
+    "train_val_shared_pixel_hash_count": 0,
+    "index_overlap_count": 0,
+    "every_training_index_assigned_once": true
+  },
+  "array_contract": {
+    "train_images": "uint8[N,48,48] grayscale pixels in range 0..255",
+    "train_labels": "int64[N], explicit competition mapping",
+    "train_ids": "unicode[N], original image filenames; rows sorted by label then ID",
+    "test_images": "uint8[M,48,48] in submission template row order",
+    "test_ids": "unicode[M], IDs in submission template row order",
+    "train_indices": "int64[T], fitting partition indices into train_images/train_labels",
+    "val_indices": "int64[V], holdout partition indices into train_images/train_labels"
+  }
+}

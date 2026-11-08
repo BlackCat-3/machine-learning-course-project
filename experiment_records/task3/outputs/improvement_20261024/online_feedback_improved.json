@@ -1,0 +1,15 @@
+{
+  "reported_by": "user",
+  "reported_date": "2026-10-24",
+  "public_rmse": 14.20909,
+  "rank": 21,
+  "participants": null,
+  "independently_verified": false,
+  "submission_file": "task3_fovea/outputs/improvement_20261024/submission_improved.csv",
+  "path_relative_to": "workspace_root",
+  "submission_sha256": "20d24c207d73e8ef0af3de589e9e3becd0416b14c8b30c02068815451f136a8b",
+  "previous_public_rmse": 14.73696,
+  "previous_rank": 24,
+  "absolute_rmse_reduction": 0.52787,
+  "note": "User reported the score after receiving this submission file. The leaderboard and uploaded file were not independently inspected."
+}

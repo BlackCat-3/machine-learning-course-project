@@ -1,0 +1,101 @@
+{
+  "selection": {
+    "selected": "robust_only",
+    "candidates": {
+      "robust_only": {
+        "metrics": {
+          "rmse": 16.334263567891036,
+          "rmse_x": 20.151372635635976,
+          "rmse_y": 11.293295068774496
+        },
+        "fold_rmse": [
+          26.663118020108456,
+          8.789727876083791,
+          10.803049338792066,
+          12.741491730371182
+        ],
+        "improved_folds": 4,
+        "passed_gate": true
+      },
+      "robust_baseline_mean": {
+        "metrics": {
+          "rmse": 20.53248063978981,
+          "rmse_x": 24.41577136058377,
+          "rmse_y": 15.717367187744397
+        },
+        "fold_rmse": [
+          31.573973867108716,
+          12.458182097167997,
+          12.567784409528867,
+          19.39741511134706
+        ],
+        "improved_folds": 4,
+        "passed_gate": true
+      }
+    },
+    "best_epochs": {
+      "43": [
+        6,
+        6,
+        33,
+        12
+      ],
+      "44": [
+        7,
+        5,
+        34,
+        13
+      ]
+    },
+    "refit_epochs": {
+      "43": 9,
+      "44": 10
+    },
+    "baseline_rmse": 28.153703785912082,
+    "baseline_fold_rmse": [
+      38.7564200766485,
+      18.34608606687597,
+      19.641132560436215,
+      30.758918837827018
+    ],
+    "plan": {
+      "seeds": [
+        43,
+        44
+      ],
+      "folds": 4,
+      "epochs": 40,
+      "size": 448,
+      "candidates": [
+        "robust_only",
+        "robust_baseline_mean"
+      ],
+      "gate": {
+        "relative_rmse_reduction": 0.1,
+        "minimum_improved_folds": 3
+      },
+      "validation_note": "Same model-selection folds as baseline; not an independent test.",
+      "training": "ResNet34; lower backbone LR; EMA; gamma/lighting/blur; 100x coordinate MSE",
+      "refit": "same two seeds; all80; median chosen epoch across folds for each seed"
+    }
+  },
+  "models": [
+    {
+      "seed": 43,
+      "epochs": 9,
+      "checkpoint": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\full_seed43\\best.pt",
+      "sha256": "1aafeb19f2073ea66321ee8733203e4cea7434eb4b4999bff397e756a801aea8"
+    },
+    {
+      "seed": 44,
+      "epochs": 10,
+      "checkpoint": "C:\\Users\\Lenovo\\Documents\\ChatGPT\\机器学习课设\\task3_fovea\\outputs\\improvement_20261024\\robust_heatmap\\full_seed44\\best.pt",
+      "sha256": "bd0d55069d1e7dc3b4a314f4abe19f31d3f1f03d074b966a3e83b65b4ba835e5"
+    }
+  ],
+  "train_count": 80,
+  "rows": 40,
+  "submission_sha256": "20d24c207d73e8ef0af3de589e9e3becd0416b14c8b30c02068815451f136a8b",
+  "online_score": null,
+  "note": "Validation score is not final ensemble independent test or online score."
+}

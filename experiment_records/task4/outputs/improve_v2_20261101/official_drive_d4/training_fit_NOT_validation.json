@@ -1,0 +1,15 @@
+{
+  "ids": [
+    1,
+    2,
+    3,
+    12
+  ],
+  "native_dice": [
+    0.8677788453142322,
+    0.8376856118794681,
+    0.8689443866344824,
+    0.820197652872421
+  ],
+  "note": "Training fit only: upstream model saw all these images. Do not compare as holdout validation."
+}

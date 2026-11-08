@@ -1,0 +1,26 @@
+{
+  "source_sha256": {
+    "robust_heatmap.py": "2b3b2d59da85f181428df8979024083bbfa973a0e5e1de959f863a82134b36ee",
+    "refinement_study.py": "ce77d894b09d813375a64bd1b8b4326a9abf6a978d531b31ed633860d7e01a28",
+    "refinement_model.py": "2060d7b48f7218da9ee2bd1214f8279c0f07adcbf831508ffe1ffbfcef8ca0c4",
+    "model.py": "7174e7c02f6edfccf19b86a6bcc3945eb68b18e18bbd722aca104365716d934b",
+    "model_regression.py": "2001f255b616a2d7bbd28adc45c84f6a874a70fdc39a1884cf96d48dd163db16",
+    "run.py": "201c7a241424d9972d55f29bda61176538a6192bb468d259a8d52e2689ae8f3e",
+    "data.py": "b09dad5abe5c2685135f6ab544514655ad4f407b520177ba5d89bc53449269f6",
+    "contracts.py": "f82435b4f27ca5ed0ad16b75f3a94054ea1dd29f3a00048afd3fb6b253a13d07"
+  },
+  "manifest_sha256": "1db1f5ad6394ce48671dea87d82dc130a991874fe048af26ec3ba9ac83050401",
+  "robust_optimizer": {
+    "encoder_lr": 5e-05,
+    "decoder_lr": 0.0005,
+    "weight_decay": 0.0002,
+    "eta_min": 1e-06,
+    "cosine_epochs": 40,
+    "EMA": 0.95
+  },
+  "pretrained_sha256": {
+    "resnet18-f37072fd.pth": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "resnet34-b627a593.pth": "b627a593bcbe140c234610266fe4f8ae95ea42fc881d091c9b6052e6b1d0590f"
+  },
+  "selection_scope": "All reported CV values are model-selection validation, not untouched independent test scores."
+}

@@ -1,0 +1,14 @@
+{
+  "candidate_names": [
+    "heatmap",
+    "regression",
+    "equal_mean"
+  ],
+  "folds": 4,
+  "seed": 42,
+  "selection": "lowest pooled original-pixel scalar OOF RMSE",
+  "refit": "two new seeds, all 80 training records, median best epoch across four folds",
+  "augmentation": "same geometric and photometric augmentation for both architectures",
+  "public_leaderboard_used": false,
+  "caution": "Checkpoint and candidate selection use these folds; this is model-selection validation, not an untouched test."
+}

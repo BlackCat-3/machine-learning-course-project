@@ -1,0 +1,8 @@
+{
+  "changed_fields": [
+    "local_patch_pixels",
+    "method"
+  ],
+  "before_refiner_training": true,
+  "reason": "Nested-training coarse error reached 280.75px; enlarge native window to 640px so every fit target plus jitter remains visible. No images removed."
+}

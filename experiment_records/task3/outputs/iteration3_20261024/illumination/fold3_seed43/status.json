@@ -1,0 +1,15 @@
+{
+  "state": "completed",
+  "completed_epochs": 40,
+  "audit_best_epoch": 13,
+  "audit_best_rmse": 24.3111502443746,
+  "candidate_epochs_saved": [
+    6,
+    10,
+    16,
+    24,
+    32,
+    40
+  ],
+  "seconds": 28.89576159999706
+}

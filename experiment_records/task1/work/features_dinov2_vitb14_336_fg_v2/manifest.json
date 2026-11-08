@@ -1,0 +1,3914 @@
+{
+  "backbone": "dinov2_vitb14",
+  "size": 336,
+  "classes": [
+    "Black-grass",
+    "Common wheat",
+    "Loose Silky-bent",
+    "Scentless Mayweed",
+    "Sugar beet"
+  ],
+  "records": [
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/adwstlhujk.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/atorfatscz.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/azflnlrqyb.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/blhbjgbegn.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/cgyszkwhoc.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/cioihnpfnp.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/cwemeyhesr.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/dedzklxlrh.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/dgeufpsoqh.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/dkghzinuak.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/dvbomecsgm.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/ebgcgfeezc.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/eenisshzlq.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/ehoqtnmynl.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/ehxbswjtvg.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/etuusrkybm.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/fcovzobdbs.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/fodyzohlte.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/frmeizlxcl.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/fufypchxdh.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/fvievgoele.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/fwvwimmkea.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/fytkzgndwy.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/gcgdletuwa.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/gijnifovlt.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/hhkgnmeyhu.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/htlvbktkeu.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/hxqlkcllgf.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/icnekfyimp.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/igmiadkolt.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/ijedaqxulx.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/ijqdcdgmbb.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/jdytlhwubo.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/jmztojdrpc.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/jpbfsvncbl.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/juzxankwqm.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/jwgvrkioub.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/kcdrirsigd.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/kmhumjrzkq.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/kqbknhztvt.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/kuxcijdzba.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/kwaetxgyky.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/mbgiyxkzay.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/meufwqgqns.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/msnvyuifhj.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/mucjbnijgf.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/mzervcmddp.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/nmpvyggddy.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/npzreopkdw.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/nyppuluotq.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/nyrllneegi.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/oahcjsqgnh.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/ochhyxxeoo.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/oydijndhyn.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/ozgbachktx.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/phqxiuuisr.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/qchzogqkcf.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/qjmpkipopy.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/qnqxaakdrf.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/qqdwzkmtdf.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/qxxkphjnrj.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/rtzdrzvxeu.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/schcvcomsv.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/sdhudgfmks.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/shlpwkbyth.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/sncecqynhx.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/sqbddfgwfg.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/swtsmhlfcl.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/tjxnooeudv.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/tpaolmkpdi.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/tpbvqcrocu.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/uapasbitqp.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/ufmezzekdc.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/uiaqwywugj.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/uplcxnihyu.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/uslgsizwbm.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/uucguxhsbx.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/uzfrwplszr.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/uzkjrsbmtt.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/vbnsuditsj.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/vdnmouzuia.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/vikpmckrbt.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/vovqjwucxf.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/vqnzkeaufn.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/wrjxykgyta.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/wxwrtauygh.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/wzoehtjihd.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/xqogjbmgrp.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/xupzykiyfd.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/xvbaizszln.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/ylcoushjzu.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/ylqluuixgh.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/yugxzdfuob.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/zgqxilqrff.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/zkydmlyqcl.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/zmwabntwxu.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/zniqfcwvaz.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/zrplzbykzp.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/zsccvtnhwm.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Black-grass/zyvdjfoagz.png",
+      0
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/aceiltdlto.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/aejhwsvdww.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/anbemvipxs.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/atvzypcbjt.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/bgduhuybpx.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/bgzfifnhqq.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/bjzekpzuau.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/bkiwwjoldr.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/bmxgwxvsth.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/bsbfvtuvst.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/cakzijcnuy.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/cdtkboavhr.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/ckawvjenwa.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/crkkiplwvg.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/csngnenync.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/cvzhbruyus.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/cwjsctjwnl.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/dsutzsfrqi.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/eeqgepgqil.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/efwujyuzhe.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/elybcvxtcn.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/ematkiiwnr.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/eotomuxozj.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/erkcmhcsse.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/eutrhdvete.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/feapgibkxf.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/fgyquvsjon.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/fwdytfimtm.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/gfnhjofidq.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/gmtotmtdel.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/gryxtvtcus.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/hkycokaqjf.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/hwttxyiuds.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/icrxyehxec.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/iickdnvqth.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/isgxtsbldt.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/ixmqxjmote.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/jesqmknvpx.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/jibabkcxfe.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/jiyxttjinz.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/jprznzaqxn.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/jtdsbcwscw.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/jxvukiqocm.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/kfabhjlpyq.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/kvqaifpple.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/lfwxzioxdk.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/liqfrzhyfo.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/lmojjespes.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/lndwvxbhps.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/loaulnfbma.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/lrnlvvfqql.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/lromhrhebm.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/lzikkuihkd.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/mglwfddbwi.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/mjhdllkhin.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/murzbqqflf.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/nbmzvthxmt.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/nltgkompjx.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/nsoypvndll.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/nwzmhbmmkd.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/ohtpfbkidb.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/pphystrmvb.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/qaekstyliz.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/rigyhrifoo.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/sdfaobyntr.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/sdfxkauiii.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/sjspizfksp.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/swjmdigebn.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/tforagctde.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/tlnvviywah.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/togogyuuls.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/tpjdwlzobr.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/trjarppipj.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/tvolnvyuxk.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/txolwchwvp.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/uevlwlvxgt.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/uksljtkqye.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/ukvvdptjxd.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/umraaqlhhe.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/uovcyquyqf.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/urdnnfqmoi.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/uvrarhfupe.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/vewafpcssc.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/vgbbdefdlm.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/vkbrrxekoh.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/vngcawpgva.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/vxhwarlgjk.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/whomlttchs.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/wjgagnefxj.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/wocspdckkq.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/xkqklmohaf.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/xnaleuadzg.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/xznsprzqie.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/yfxgucjofc.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/zcpgfsxwda.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/zdbmrufsif.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/zgdwfnfjog.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/zhcdbofajj.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/ziompfddig.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Common wheat/zmknjlbhyz.png",
+      1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/agozrwhgiq.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/aoasllwwpw.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/awurzpyhpp.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/bffbmlghxt.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/cbtrnchtyg.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/cgbhfrgnjq.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/cnzvxrrgeq.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/cvtcnumfgz.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/czqwrgnyqs.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/dalhkytqsp.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/djcynktqwr.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/dqqdgszouq.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/dttgftnhes.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/eayvcuynmj.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/eboalasvut.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/efvisqmxgr.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/evnnaumpgn.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/extnojuspd.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/faplmctibh.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/ffqwnlenki.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/fhlvbpouat.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/fthzqbzeax.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/ftspetiqgh.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/fwacubxsie.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/gcnyfiftbv.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/gfjuzobhxt.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/gqfpqpiypw.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/gxntzireuo.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/hfmtawtqjz.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/hjhewimvwq.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/hqiweahxma.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/hvmbeleznn.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/hvthoavntv.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/iekeicutcg.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/ifbwcxghrl.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/ijshojvpon.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/iqkpkkinhk.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/izcdbobgaf.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/jflkvslufp.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/jvqfbjqetv.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/kkprisbpud.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/knchbfuqmb.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/kvhxobqgzu.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/lquwssehuv.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/maydxkzebe.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/mcbkioedvy.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/mimbnuvsfy.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/mwtilnkmqe.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/mwxdyapkqq.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/nbgoxakcfk.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/nrenkwjwvi.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/nrhdxbqevu.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/nvzxcvwonx.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/olfzqkwvng.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/opkqfjlbma.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/oqlhumyidg.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/plyanbfwkh.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/pnjmofxicc.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/prtiefqviz.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/qdgdkkfapz.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/qfmrohrscw.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/qhdclpknzd.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/qhjnirkhbt.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/qlydnhrxnl.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/rdqtxyjthw.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/rshawbllsu.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/sfcfewfzce.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/ssqnepweuo.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/timqrqkloy.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/tkuqoqxcmh.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/ttifxinose.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/ucirnrurcq.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/ufcpenyhln.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/uhwzmyhlgw.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/ujvtxzfktj.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/uowmdrzyre.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/upbxqwjywo.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/urtjryvaal.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/vguqkmxhdr.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/vjahhuwhgg.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/voveybmofs.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/vozmlwtpda.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/vrhdnjgzxs.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/vxyyxhejda.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/wfckfpzsap.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/wgsmemnlvg.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/wqfuvtyhkx.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/wrhpzxwamm.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/wwizhmtnge.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/wwtwsdsexe.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/xnfgllbdix.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/xycikxjnxu.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/yomziykpko.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/yrgptibugh.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/ysgyjzmuhj.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/zbrzcfydsm.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/zfrjuebfgs.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/zmtuxgsgyz.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/zwntziwsfh.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Loose Silky-bent/zyjdutenps.png",
+      2
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/bftaywyisu.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/bjcwmyatop.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/boussnbcrj.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/bykmnztxsr.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/cbfvtnxzvg.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/ckblhftrls.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/conhgcqchg.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/cpnsxorztw.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/domybljenk.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/drtciqlkmr.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/dvjkhwicya.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/etnitfrork.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/fayumrioim.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/fjwpciwybw.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/fjyrsnzwtq.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/fnorjgwqui.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/fqaalrnwto.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/gaxlkyfkcp.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/gbiytijkwo.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/gkmbouipid.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/gsmmklegks.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/gyihhzcods.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/gzjuocuado.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/himfmzoevw.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/hqwgactboh.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/hqyzzqrcxe.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/hwiixrnwde.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/hzaqfnjjll.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/icpfbqeqgd.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/ihibohqrmz.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/ihpjzwwyeg.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/iozwpbvpiw.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/izhwdtvucn.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/jfoujfqwcf.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/jgvpfbgrvz.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/jobctqyqsk.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/jtzsrjndzn.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/jvtdhsucox.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/jytdhpcoyd.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/jzbqgvgoso.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/kazxchcuni.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/kiuzugjtou.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/kjgexbqsfo.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/klwxbgjblq.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/lfavrxsfdl.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/lgufkkgdnk.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/lkbyascchh.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/lmhwglvyif.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/ltnjgufruz.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/mjybvgjeod.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/mqanvwxets.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/mquvdyifbj.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/muzugzvrze.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/nebgijnjix.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/nkqfvbcyxz.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/nqhhfxyime.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/nrhqicwqsa.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/oekwjhtmmj.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/okoqikavti.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/oqnzhwetbj.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/oxvyamwbll.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/pideogyfbu.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/pmsczwedsg.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/ptfjlrxdtn.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/pxvmcswcxs.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/pycubgnsun.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/qbbbhqxhdt.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/qdnvdqfjda.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/qfrpphqmpr.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/qidjboaojj.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/qsdycmddni.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/rdtlhfiowj.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/rmvhumnbpc.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/rnnltdohqy.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/sbxggnvlkj.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/sdefxvjnnv.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/sdqqcjsjgh.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/thqxziwsgk.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/tnvxppnbwv.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/tqjxjmebtl.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/twwfeqfect.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/uggzoioprt.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/utrtjpnysd.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/vlbqqtipsg.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/vqzqnauxrx.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/vsfagmfekw.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/vtacthijnm.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/wavsuaufad.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/wbgbidocoo.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/wftyvzoopa.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/xlhwjtrgih.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/xqsykdstkz.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/xukqajgbty.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/xvzsehpghi.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/yevrqvwywu.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/ytcznqfrjw.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/yxutxgjulz.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/zabyrtmwct.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/zeypkqpqnc.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Scentless Mayweed/zrbfjovrex.png",
+      3
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/afgzjulxnk.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/ajtsvhsshw.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/alvpuvpace.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/anmtzhndot.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/auutlsddtq.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/bbdnzpiful.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/bfuzheekij.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/bjpaxteacy.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/blxarondld.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/bogshmlqaq.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/btkvtbkjvr.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/buvybgyrjq.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/ceekrvrqun.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/cixyicpfab.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/cmaxltlfup.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/cyhcwiurlc.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/danylhhdgj.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/dsqueryfuo.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/ehdmzixppv.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/eqetydlosh.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/exvhwgmdlb.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/fcookcabdq.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/fiadhbqubq.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/fipycnkgwy.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/fmjmvoqpcr.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/fwdicjwypr.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/fzbbtjbvvn.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/gfeqmnlhag.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/gjeuxqkrar.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/gntggzyyfd.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/hdkoazfkyp.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/hjftnvetqg.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/hmxwtlsynr.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/hnqfyjshvx.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/hpawwwqvol.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/hrvmalcxuj.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/hwpaplyqhk.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/imnhbrfssx.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/ioxuxmfbkg.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/itnzppbkkk.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/jmzrmuhvww.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/jpcwbxgxxl.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/juvrncbnyx.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/klcihcidiz.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/kpkijolsly.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/kqifdekjcd.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/kqszggouud.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/lecprxkcto.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/lklxajlyma.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/lmnxfdalgv.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/lxqqslnigl.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/megcssjtsv.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/mfnviojsbr.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/mysaueborh.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/nardyrfrpn.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/ncbuzkwrow.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/nlnkuxuyeg.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/nlydwouapu.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/pfhqheoqze.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/pfszoajlfa.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/priwzlpqnj.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/ptnfomgzsi.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/ptvngsxwch.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/pvbvgeelez.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/qcjyxlvmot.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/qokampinxg.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/qzrvfqbbgs.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/rduchmrmah.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/rfusdvcbsr.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/rijdzdqzfy.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/rlpbraiyyr.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/rpiwjohdjo.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/rwgswrgozf.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/sfektqircc.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/sgwwibfmdy.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/shftxcvnba.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/snpgziqdsc.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/stwfigklrq.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/szuxpfoijt.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/tyqjfhqnxy.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/udwsdpoulh.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/uizgcwrdux.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/uldcmavimn.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/upnhvbgfel.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/uybbqzvpuh.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/vfajdjrork.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/vltgatezpd.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/vncszknvvd.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/vrzdpzyyps.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/wibvdrikci.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/wlyxtcyvqi.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/wsflkdppbc.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/wuumfjhjia.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/xmwgpzqfuc.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/ybynlsdsmf.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/yffmdtnuxg.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/yzytzovmkq.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/zazgwhptol.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/zesjooktfg.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/train/Sugar beet/zzajjpacta.png",
+      4
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xguwzbbzwk.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/oswkkowqvz.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/qcrkaeslvl.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/dtdslbefyx.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/yiileyjjhe.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/nlludoykla.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/cnheaqhxqt.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/rzzjknapjs.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/grzdqhgeak.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/uvtvmblvjo.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/jcilzpibbz.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/yibnafoaxf.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/spdgdkcepq.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ejtlwirher.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/dfgbjqnati.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/gnpsxzmtyc.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/klpnpjyivp.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/yxisbqyscm.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ussouonjgd.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xuokqkhztn.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ccsndfakoa.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/lqexozcwho.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/tnbvirxswd.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/fvztcrugqu.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/wetxmsnrzw.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xszjzdswpb.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/uqxrxhzswk.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/nfobdshfgw.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/vyotleojfd.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/uoxvlwbdwx.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/opceozfkju.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/jguxobbjmt.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/qokljrzywp.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/hczobzsedt.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/kxjmbmkeln.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/luxewyqcsh.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/fckyfnwrys.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/eneslicrsf.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ffjlphxiuu.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/fyfubgduqt.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/vtkdbolatn.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/owyschkqbe.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/pomucvhlfv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/wjawzyfooy.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/fvamzmlieq.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/texadqxftk.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ntzysdkdix.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/nwrkywehcy.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/pedubxpgdt.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xcvoiwqvcg.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/behrxwzueb.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/yepdzaiaib.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/owbizztxio.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/nrnriwuejd.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/jkqngvlewv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/qabrdzczqv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/kikggejczw.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/bfgtphhmiu.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/kudsenexjy.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/zalxfcspuw.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/eoonmblmys.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/kgkrsiaqvp.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/bddyvdvkgo.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/vzdumodmix.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/mvkdsviofo.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/wwswkbrcoq.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/qtjddsbodz.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xonkpltokc.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ltezzmzali.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/yhfihoroja.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/biwpjwytdz.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/eivyqukhbm.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/rvfmmxhwiz.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/kqwtvzaojh.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/copzwrcqpp.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/gxnltnusrw.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/tkztxnbzii.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/klaxtxwzpy.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ibwiahxzjd.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/bjogjvvgoo.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ikqxkgqcoe.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/tywabsvqra.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xomnxcytvu.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/gydhgjmbeu.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/pvhcgpwxmh.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/gqaqxfsrjm.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/qtijdvholg.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/kvddwpydof.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/vfqjxktqla.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/bbtaboqkyy.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/wnriletlub.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/acmbgjflct.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/axckzqattx.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/vpbmhakghw.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/mfomxojopt.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/bcftvziwoc.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/dhuxgfcbyw.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/centurrxas.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/byagcjezqs.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/egpzdxqvpd.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/rnhghabnja.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/zohdvivbam.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/oczlkbzzex.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/zyannmjnzp.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ashctxuyff.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/otxsimogas.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/hdyiqjujhu.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/pugdpqkpds.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/fveomjdzuo.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/sriaeshyfk.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/kwskdnjgxc.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/aijmdaocym.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/yrwjmfhwry.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/bodktpofui.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/zuwhjhacws.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/mtwprfngsm.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/dcujdmvsic.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/pmzasfyhcf.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/fuqyhdpdtd.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/dantaresqw.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/rysjkwilea.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/rozjkntalf.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/szkvxeczgx.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/mslovezast.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/rjnqfhkkgg.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/azlgnuwzcc.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/dkkudibscv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ablzkpojla.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/lryxdoxxwt.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/lwvfwbtvrh.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/kzimmhgkpz.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/juwtbqhsyo.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/nppwjyjmij.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/jkgkgynekg.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/esqiikafkg.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/lzxpeiohkd.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/lxgzskpnwx.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/luqiohnxce.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/bcgxgybctb.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ytsulvbzxv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/fonhdnueip.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/afhcnytjtd.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/twoizkzkuo.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/wevwmedvob.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/yuztpjtmed.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/smuxpsnmfu.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/hbxgyftyqv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/pffbrwnwpk.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/cmfxlbnrbp.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/vynrynkwkm.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ghypwdbcff.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/irjbsiqtgs.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/mcjydfzolz.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ropkdhzrzm.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/lhpvqttjie.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/rligefteug.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/txiwvlakgu.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/dmavvtqoxt.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/urwemzusdg.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/gophqculko.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/tgbzqodhlx.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/iyxxzvnlxh.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/dwpvnaiokv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/tmbhykykjg.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/wxjxmffeed.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/drzdqzpgwe.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/onavlwurkq.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/kenccrblre.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/phgwpwvqkb.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/osnuizbvjn.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/tmkjfxxvhn.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ahoyeyvosg.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/glsgvqoesy.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/zujctolcqc.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/wbxkuxvlen.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/qtwvmpwqxr.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/pjobdwurhq.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ekhgcopiiq.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/qeprgfljaz.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/vzgwwruqdb.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ujulzbekwm.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xvazcpzjle.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/rgbtbzkxkf.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/rygkcdbrrv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/nwrwawtrzv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/iaduingcvp.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/vnhtiyawpu.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/fpejmnedvr.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/uuahfhgvmw.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/armpwctjip.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/dtabkfemaz.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/jahcddjvyr.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/bvaepccduw.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/mmymoutzib.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ocylpkhemv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/hwbvvzkutf.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/fuyezvysvn.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/thqeyspstv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/sltboitadp.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/syxzopexip.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/vlhpmsqcqz.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ojfuceyusu.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/tcsghsibwv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/lrbysstomm.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/zzeoefhzlm.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/apjrnavrnr.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/kdczyuuixb.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/mzxykzxxle.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/jndsujvhje.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/zhjkpmuikc.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/hyqphcberu.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/kaquxmovvp.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/knumhcaapr.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/nxejmhjgoh.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/cgujptuaec.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/jbjauzxtxb.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/hkxtyipzxz.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/vbritqqjow.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xftmznmtxv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/cvzjjgusqp.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ewyctucfck.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/zlhzobehcl.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/bptnacusgf.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/pdeaibhxiu.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/fhltslmfzk.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/czjycoucuh.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/jvayshwqgd.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xlhwjcbbex.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xwgxsdrayz.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/znbfvhnfjm.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ldkwmgoqic.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/bxrgvlrzfv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/mtivrcuxex.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/wxwuwujcto.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/abkieurfrr.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/mrxgthconc.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/oxqakwendg.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/thrjzetcko.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/kqlxakbfwp.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/krriqxtudt.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/kpvmarefih.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ydcurwxqsf.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/dnbibfgxoh.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/moixwcewua.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ztrphrqhxy.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/uiivossmor.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xusjgbcmxp.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/cslwurbopz.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/jovmavvkba.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/hiaajmpnox.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/jjowhulavb.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/zuxbncifsg.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/eafcccjbiv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/lyctbsbcbl.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ulzmjrmejy.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/pjtqzmwfrc.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/dnqcuwdaau.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/jhlgxwaoff.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/fmtacmhggf.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xdsgngldrv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/qkowmghhek.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/idftsblvbq.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/qwuletixys.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/lzyykebgdd.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/aupdlpczgg.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/niwsouxwfj.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/lcczpgzriz.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/nebzokaudm.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/rdnrdirudn.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/sdwynlrqzf.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/igdnbxckll.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/pafikvrdaw.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/tjagllgitn.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/fnrhbxjjbo.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ipmvpmkgxr.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/vmoutndlat.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/nxwdfjcuad.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/feetokipby.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/dckfmdcvny.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/hyjituyuiy.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xymchwgcll.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/gcacdntvms.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/spxktyikhl.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/gmwjzjoxrw.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/txtftbejxr.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/tsqgcquzat.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/nwhwzzyhei.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/gcpedilmtt.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/fjbfszdasp.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xxfkdrrkkj.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/sjilqfbtun.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ftkmtdinit.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/vylpdviiec.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ectziftnbc.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/hwcpqtbrfq.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ajjwrhipgh.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/gjkrjbymlp.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/drjoqyztny.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/asgkdhflws.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/kjxxhgggcm.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/arkzcnxddq.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/axzjvqaozv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xhirnjphug.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/mmcpkyltny.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xxicyapkdf.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/mafbnskkjo.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/rojhnoqhlm.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/cmgnglzbdi.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ntknpvveuj.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/uorwegqbec.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/gcqqvzqict.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/jwgnqgrzih.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/eqepsdeimh.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xxjwjnkdug.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/svzxubipqx.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/mrlozvtega.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/mhldplqjif.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/gmlsvsjxeu.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/czrhjufatu.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/oxktdmivjg.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/dxwxzokznk.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/mjwwgfewpf.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ubafvuikug.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/cszvtqcjyf.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/izqyjccxms.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/pospvdbklv.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/gpptwfwhsq.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/sjcuqgcvcx.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/bugmoniqro.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/epcnkrotto.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/jxlipyulat.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/sskmtqouuq.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/rnrgskjbjb.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/nljofyfoyq.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/jxrwesyrlx.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/slgxqupkbo.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/mdoyjybwyg.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/fgptseabcb.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/outenevxze.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/jufrtlrlvi.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/pcixnxyvex.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/vaabqcsdcy.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/xcjokssbnw.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/stcmijhsih.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/lpsryofhmi.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/fbesmagcov.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/oywnbldthm.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/rljccdnghl.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/rjgffomcoj.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/pregoqnfqj.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/skvswklmwr.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/mtubjqnsnj.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ywlhaaosgy.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/tnjvlrcjgr.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/tzypetkbgn.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/rvalvyscrd.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/lprugjkwze.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/lynsyiemxe.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ojdocbynpn.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/hffnddlswm.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/wylutunhmi.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/vpnabgqcnl.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/oeahuykhjg.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/metgklthvp.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/lbmooerxyh.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/nsdnlsidwk.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/omtfyppxsf.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/gbcldustxa.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/jcpfoqgpwg.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/zyzmjbpqhe.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/kmdvdjjrja.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/nnqyqntaab.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/ehukpgpqcg.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/qhhkpfaulm.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/uyjeuqjlhe.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/polmbggkqh.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/yyyxkgoayc.png",
+      -1
+    ],
+    [
+      "dataset-for-task2/dataset-for-task2/test/snsexnbdik.png",
+      -1
+    ]
+  ],
+  "test_ids": [
+    "xguwzbbzwk.png",
+    "oswkkowqvz.png",
+    "qcrkaeslvl.png",
+    "dtdslbefyx.png",
+    "yiileyjjhe.png",
+    "nlludoykla.png",
+    "cnheaqhxqt.png",
+    "rzzjknapjs.png",
+    "grzdqhgeak.png",
+    "uvtvmblvjo.png",
+    "jcilzpibbz.png",
+    "yibnafoaxf.png",
+    "spdgdkcepq.png",
+    "ejtlwirher.png",
+    "dfgbjqnati.png",
+    "gnpsxzmtyc.png",
+    "klpnpjyivp.png",
+    "yxisbqyscm.png",
+    "ussouonjgd.png",
+    "xuokqkhztn.png",
+    "ccsndfakoa.png",
+    "lqexozcwho.png",
+    "tnbvirxswd.png",
+    "fvztcrugqu.png",
+    "wetxmsnrzw.png",
+    "xszjzdswpb.png",
+    "uqxrxhzswk.png",
+    "nfobdshfgw.png",
+    "vyotleojfd.png",
+    "uoxvlwbdwx.png",
+    "opceozfkju.png",
+    "jguxobbjmt.png",
+    "qokljrzywp.png",
+    "hczobzsedt.png",
+    "kxjmbmkeln.png",
+    "luxewyqcsh.png",
+    "fckyfnwrys.png",
+    "eneslicrsf.png",
+    "ffjlphxiuu.png",
+    "fyfubgduqt.png",
+    "vtkdbolatn.png",
+    "owyschkqbe.png",
+    "pomucvhlfv.png",
+    "wjawzyfooy.png",
+    "fvamzmlieq.png",
+    "texadqxftk.png",
+    "ntzysdkdix.png",
+    "nwrkywehcy.png",
+    "pedubxpgdt.png",
+    "xcvoiwqvcg.png",
+    "behrxwzueb.png",
+    "yepdzaiaib.png",
+    "owbizztxio.png",
+    "nrnriwuejd.png",
+    "jkqngvlewv.png",
+    "qabrdzczqv.png",
+    "kikggejczw.png",
+    "bfgtphhmiu.png",
+    "kudsenexjy.png",
+    "zalxfcspuw.png",
+    "eoonmblmys.png",
+    "kgkrsiaqvp.png",
+    "bddyvdvkgo.png",
+    "vzdumodmix.png",
+    "mvkdsviofo.png",
+    "wwswkbrcoq.png",
+    "qtjddsbodz.png",
+    "xonkpltokc.png",
+    "ltezzmzali.png",
+    "yhfihoroja.png",
+    "biwpjwytdz.png",
+    "eivyqukhbm.png",
+    "rvfmmxhwiz.png",
+    "kqwtvzaojh.png",
+    "copzwrcqpp.png",
+    "gxnltnusrw.png",
+    "tkztxnbzii.png",
+    "klaxtxwzpy.png",
+    "ibwiahxzjd.png",
+    "bjogjvvgoo.png",
+    "ikqxkgqcoe.png",
+    "tywabsvqra.png",
+    "xomnxcytvu.png",
+    "gydhgjmbeu.png",
+    "pvhcgpwxmh.png",
+    "gqaqxfsrjm.png",
+    "qtijdvholg.png",
+    "kvddwpydof.png",
+    "vfqjxktqla.png",
+    "bbtaboqkyy.png",
+    "wnriletlub.png",
+    "acmbgjflct.png",
+    "axckzqattx.png",
+    "vpbmhakghw.png",
+    "mfomxojopt.png",
+    "bcftvziwoc.png",
+    "dhuxgfcbyw.png",
+    "centurrxas.png",
+    "byagcjezqs.png",
+    "egpzdxqvpd.png",
+    "rnhghabnja.png",
+    "zohdvivbam.png",
+    "oczlkbzzex.png",
+    "zyannmjnzp.png",
+    "ashctxuyff.png",
+    "otxsimogas.png",
+    "hdyiqjujhu.png",
+    "pugdpqkpds.png",
+    "fveomjdzuo.png",
+    "sriaeshyfk.png",
+    "kwskdnjgxc.png",
+    "aijmdaocym.png",
+    "yrwjmfhwry.png",
+    "bodktpofui.png",
+    "zuwhjhacws.png",
+    "mtwprfngsm.png",
+    "dcujdmvsic.png",
+    "pmzasfyhcf.png",
+    "fuqyhdpdtd.png",
+    "dantaresqw.png",
+    "rysjkwilea.png",
+    "rozjkntalf.png",
+    "szkvxeczgx.png",
+    "mslovezast.png",
+    "rjnqfhkkgg.png",
+    "azlgnuwzcc.png",
+    "dkkudibscv.png",
+    "ablzkpojla.png",
+    "lryxdoxxwt.png",
+    "lwvfwbtvrh.png",
+    "kzimmhgkpz.png",
+    "juwtbqhsyo.png",
+    "nppwjyjmij.png",
+    "jkgkgynekg.png",
+    "esqiikafkg.png",
+    "lzxpeiohkd.png",
+    "lxgzskpnwx.png",
+    "luqiohnxce.png",
+    "bcgxgybctb.png",
+    "ytsulvbzxv.png",
+    "fonhdnueip.png",
+    "afhcnytjtd.png",
+    "twoizkzkuo.png",
+    "wevwmedvob.png",
+    "yuztpjtmed.png",
+    "smuxpsnmfu.png",
+    "hbxgyftyqv.png",
+    "pffbrwnwpk.png",
+    "cmfxlbnrbp.png",
+    "vynrynkwkm.png",
+    "ghypwdbcff.png",
+    "irjbsiqtgs.png",
+    "mcjydfzolz.png",
+    "ropkdhzrzm.png",
+    "lhpvqttjie.png",
+    "rligefteug.png",
+    "txiwvlakgu.png",
+    "dmavvtqoxt.png",
+    "urwemzusdg.png",
+    "gophqculko.png",
+    "tgbzqodhlx.png",
+    "iyxxzvnlxh.png",
+    "dwpvnaiokv.png",
+    "tmbhykykjg.png",
+    "wxjxmffeed.png",
+    "drzdqzpgwe.png",
+    "onavlwurkq.png",
+    "kenccrblre.png",
+    "phgwpwvqkb.png",
+    "osnuizbvjn.png",
+    "tmkjfxxvhn.png",
+    "ahoyeyvosg.png",
+    "glsgvqoesy.png",
+    "zujctolcqc.png",
+    "wbxkuxvlen.png",
+    "qtwvmpwqxr.png",
+    "pjobdwurhq.png",
+    "ekhgcopiiq.png",
+    "qeprgfljaz.png",
+    "vzgwwruqdb.png",
+    "ujulzbekwm.png",
+    "xvazcpzjle.png",
+    "rgbtbzkxkf.png",
+    "rygkcdbrrv.png",
+    "nwrwawtrzv.png",
+    "iaduingcvp.png",
+    "vnhtiyawpu.png",
+    "fpejmnedvr.png",
+    "uuahfhgvmw.png",
+    "armpwctjip.png",
+    "dtabkfemaz.png",
+    "jahcddjvyr.png",
+    "bvaepccduw.png",
+    "mmymoutzib.png",
+    "ocylpkhemv.png",
+    "hwbvvzkutf.png",
+    "fuyezvysvn.png",
+    "thqeyspstv.png",
+    "sltboitadp.png",
+    "syxzopexip.png",
+    "vlhpmsqcqz.png",
+    "ojfuceyusu.png",
+    "tcsghsibwv.png",
+    "lrbysstomm.png",
+    "zzeoefhzlm.png",
+    "apjrnavrnr.png",
+    "kdczyuuixb.png",
+    "mzxykzxxle.png",
+    "jndsujvhje.png",
+    "zhjkpmuikc.png",
+    "hyqphcberu.png",
+    "kaquxmovvp.png",
+    "knumhcaapr.png",
+    "nxejmhjgoh.png",
+    "cgujptuaec.png",
+    "jbjauzxtxb.png",
+    "hkxtyipzxz.png",
+    "vbritqqjow.png",
+    "xftmznmtxv.png",
+    "cvzjjgusqp.png",
+    "ewyctucfck.png",
+    "zlhzobehcl.png",
+    "bptnacusgf.png",
+    "pdeaibhxiu.png",
+    "fhltslmfzk.png",
+    "czjycoucuh.png",
+    "jvayshwqgd.png",
+    "xlhwjcbbex.png",
+    "xwgxsdrayz.png",
+    "znbfvhnfjm.png",
+    "ldkwmgoqic.png",
+    "bxrgvlrzfv.png",
+    "mtivrcuxex.png",
+    "wxwuwujcto.png",
+    "abkieurfrr.png",
+    "mrxgthconc.png",
+    "oxqakwendg.png",
+    "thrjzetcko.png",
+    "kqlxakbfwp.png",
+    "krriqxtudt.png",
+    "kpvmarefih.png",
+    "ydcurwxqsf.png",
+    "dnbibfgxoh.png",
+    "moixwcewua.png",
+    "ztrphrqhxy.png",
+    "uiivossmor.png",
+    "xusjgbcmxp.png",
+    "cslwurbopz.png",
+    "jovmavvkba.png",
+    "hiaajmpnox.png",
+    "jjowhulavb.png",
+    "zuxbncifsg.png",
+    "eafcccjbiv.png",
+    "lyctbsbcbl.png",
+    "ulzmjrmejy.png",
+    "pjtqzmwfrc.png",
+    "dnqcuwdaau.png",
+    "jhlgxwaoff.png",
+    "fmtacmhggf.png",
+    "xdsgngldrv.png",
+    "qkowmghhek.png",
+    "idftsblvbq.png",
+    "qwuletixys.png",
+    "lzyykebgdd.png",
+    "aupdlpczgg.png",
+    "niwsouxwfj.png",
+    "lcczpgzriz.png",
+    "nebzokaudm.png",
+    "rdnrdirudn.png",
+    "sdwynlrqzf.png",
+    "igdnbxckll.png",
+    "pafikvrdaw.png",
+    "tjagllgitn.png",
+    "fnrhbxjjbo.png",
+    "ipmvpmkgxr.png",
+    "vmoutndlat.png",
+    "nxwdfjcuad.png",
+    "feetokipby.png",
+    "dckfmdcvny.png",
+    "hyjituyuiy.png",
+    "xymchwgcll.png",
+    "gcacdntvms.png",
+    "spxktyikhl.png",
+    "gmwjzjoxrw.png",
+    "txtftbejxr.png",
+    "tsqgcquzat.png",
+    "nwhwzzyhei.png",
+    "gcpedilmtt.png",
+    "fjbfszdasp.png",
+    "xxfkdrrkkj.png",
+    "sjilqfbtun.png",
+    "ftkmtdinit.png",
+    "vylpdviiec.png",
+    "ectziftnbc.png",
+    "hwcpqtbrfq.png",
+    "ajjwrhipgh.png",
+    "gjkrjbymlp.png",
+    "drjoqyztny.png",
+    "asgkdhflws.png",
+    "kjxxhgggcm.png",
+    "arkzcnxddq.png",
+    "axzjvqaozv.png",
+    "xhirnjphug.png",
+    "mmcpkyltny.png",
+    "xxicyapkdf.png",
+    "mafbnskkjo.png",
+    "rojhnoqhlm.png",
+    "cmgnglzbdi.png",
+    "ntknpvveuj.png",
+    "uorwegqbec.png",
+    "gcqqvzqict.png",
+    "jwgnqgrzih.png",
+    "eqepsdeimh.png",
+    "xxjwjnkdug.png",
+    "svzxubipqx.png",
+    "mrlozvtega.png",
+    "mhldplqjif.png",
+    "gmlsvsjxeu.png",
+    "czrhjufatu.png",
+    "oxktdmivjg.png",
+    "dxwxzokznk.png",
+    "mjwwgfewpf.png",
+    "ubafvuikug.png",
+    "cszvtqcjyf.png",
+    "izqyjccxms.png",
+    "pospvdbklv.png",
+    "gpptwfwhsq.png",
+    "sjcuqgcvcx.png",
+    "bugmoniqro.png",
+    "epcnkrotto.png",
+    "jxlipyulat.png",
+    "sskmtqouuq.png",
+    "rnrgskjbjb.png",
+    "nljofyfoyq.png",
+    "jxrwesyrlx.png",
+    "slgxqupkbo.png",
+    "mdoyjybwyg.png",
+    "fgptseabcb.png",
+    "outenevxze.png",
+    "jufrtlrlvi.png",
+    "pcixnxyvex.png",
+    "vaabqcsdcy.png",
+    "xcjokssbnw.png",
+    "stcmijhsih.png",
+    "lpsryofhmi.png",
+    "fbesmagcov.png",
+    "oywnbldthm.png",
+    "rljccdnghl.png",
+    "rjgffomcoj.png",
+    "pregoqnfqj.png",
+    "skvswklmwr.png",
+    "mtubjqnsnj.png",
+    "ywlhaaosgy.png",
+    "tnjvlrcjgr.png",
+    "tzypetkbgn.png",
+    "rvalvyscrd.png",
+    "lprugjkwze.png",
+    "lynsyiemxe.png",
+    "ojdocbynpn.png",
+    "hffnddlswm.png",
+    "wylutunhmi.png",
+    "vpnabgqcnl.png",
+    "oeahuykhjg.png",
+    "metgklthvp.png",
+    "lbmooerxyh.png",
+    "nsdnlsidwk.png",
+    "omtfyppxsf.png",
+    "gbcldustxa.png",
+    "jcpfoqgpwg.png",
+    "zyzmjbpqhe.png",
+    "kmdvdjjrja.png",
+    "nnqyqntaab.png",
+    "ehukpgpqcg.png",
+    "qhhkpfaulm.png",
+    "uyjeuqjlhe.png",
+    "polmbggkqh.png",
+    "yyyxkgoayc.png",
+    "snsexnbdik.png"
+  ],
+  "train_count": 500,
+  "rotations": [
+    0,
+    180
+  ],
+  "features": 4608,
+  "normalization": "imagenet",
+  "zip_bytes": 385170263,
+  "foreground": true
+}

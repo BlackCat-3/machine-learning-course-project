@@ -1,0 +1,14 @@
+{
+  "selection_basis": "lowest_user_reported_public_rmse",
+  "public_rmse": 14.20909,
+  "rank_at_report": 21,
+  "reported_by": "user",
+  "reported_date": "2026-10-24",
+  "independently_verified": false,
+  "submission_file": "task3_fovea/outputs/improvement_20261024/submission_improved.csv",
+  "path_relative_to": "workspace_root",
+  "submission_sha256": "20d24c207d73e8ef0af3de589e9e3becd0416b14c8b30c02068815451f136a8b",
+  "local_oof_rmse": 16.334263567891036,
+  "feedback_file": "task3_fovea/outputs/improvement_20261024/online_feedback_improved.json",
+  "note": "This is a local record only; no Kaggle final-submission selection was changed."
+}

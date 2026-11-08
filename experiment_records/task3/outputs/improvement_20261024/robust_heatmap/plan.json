@@ -1,0 +1,20 @@
+{
+  "seeds": [
+    43,
+    44
+  ],
+  "folds": 4,
+  "epochs": 40,
+  "size": 448,
+  "candidates": [
+    "robust_only",
+    "robust_baseline_mean"
+  ],
+  "gate": {
+    "relative_rmse_reduction": 0.1,
+    "minimum_improved_folds": 3
+  },
+  "validation_note": "Same model-selection folds as baseline; not an independent test.",
+  "training": "ResNet34; lower backbone LR; EMA; gamma/lighting/blur; 100x coordinate MSE",
+  "refit": "same two seeds; all80; median chosen epoch across folds for each seed"
+}

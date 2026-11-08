@@ -1,0 +1,14 @@
+{
+  "resnet18_detail": {
+    "no_maxpool": {
+      "old": false,
+      "new": true
+    }
+  },
+  "resnet34": {
+    "architecture": {
+      "old": "resnet18",
+      "new": "resnet34"
+    }
+  }
+}

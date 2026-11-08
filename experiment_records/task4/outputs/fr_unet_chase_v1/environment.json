@@ -1,0 +1,8 @@
+{
+  "python": "3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:21:58) [MSC v.1929 64 bit (AMD64)]",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.4.2",
+  "Pillow": "12.2.0",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+}

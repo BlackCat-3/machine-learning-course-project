@@ -1,0 +1,5 @@
+{
+  "single_head_oof": 0.9177648530350705,
+  "bagging_oof": 0.9134967963938821,
+  "description": "Each outer heldout fold evaluated by a mean of four heads trained on inner subsets only."
+}

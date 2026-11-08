@@ -1,0 +1,6 @@
+{
+  "torch": "2.11.0+cu128",
+  "numpy": "2.4.2",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "cuda": "12.8"
+}

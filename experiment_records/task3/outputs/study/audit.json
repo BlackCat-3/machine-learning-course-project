@@ -1,0 +1,204 @@
+{
+  "passed": true,
+  "state": "passed",
+  "checked_at_utc": "2026-10-24T11:10:38.168439+00:00",
+  "checks": [
+    "manifest_and_original_images_labels",
+    "heatmap_fold0_run_checkpoint_predictions",
+    "heatmap_fold1_run_checkpoint_predictions",
+    "heatmap_fold2_run_checkpoint_predictions",
+    "heatmap_fold3_run_checkpoint_predictions",
+    "regression_fold0_run_checkpoint_predictions",
+    "regression_fold1_run_checkpoint_predictions",
+    "regression_fold2_run_checkpoint_predictions",
+    "regression_fold3_run_checkpoint_predictions",
+    "oof_coverage_metrics_and_fixed_candidate_selection",
+    "full_data_refits_model_sources_and_submission"
+  ],
+  "failures": [],
+  "pending": [],
+  "evidence": {
+    "data": {
+      "train_count": 80,
+      "test_count": 20,
+      "fold_counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "exact_duplicate_groups": [
+        [
+          39,
+          77
+        ]
+      ]
+    },
+    "heatmap_fold0": {
+      "best_epoch": 5,
+      "completed_epochs": 80,
+      "metrics": {
+        "rmse": 55.03074396534931,
+        "rmse_x": 63.355691197256235,
+        "rmse_y": 45.19758794092411
+      },
+      "train_count": 60,
+      "validation_count": 20,
+      "checkpoint_sha256": "a9ab62c734a1e529a99c3abd43be6f49a1d5e778f40263cd1352fe919a68b26d"
+    },
+    "heatmap_fold1": {
+      "best_epoch": 19,
+      "completed_epochs": 80,
+      "metrics": {
+        "rmse": 9.363168864903649,
+        "rmse_x": 6.8387163214655455,
+        "rmse_y": 11.338863323099142
+      },
+      "train_count": 60,
+      "validation_count": 20,
+      "checkpoint_sha256": "b11fabd1dd40116d1e8672665ee6986d8f95e3c63fb6fdcdb06f7053264080fb"
+    },
+    "heatmap_fold2": {
+      "best_epoch": 23,
+      "completed_epochs": 80,
+      "metrics": {
+        "rmse": 17.52285015008854,
+        "rmse_x": 17.37860537381987,
+        "rmse_y": 17.66591718609467
+      },
+      "train_count": 60,
+      "validation_count": 20,
+      "checkpoint_sha256": "664c40a32dd382669d773c360e5908460a1d4aaaef5984bafc7d02b8e8cba5e0"
+    },
+    "heatmap_fold3": {
+      "best_epoch": 5,
+      "completed_epochs": 80,
+      "metrics": {
+        "rmse": 14.904370823695508,
+        "rmse_x": 15.387795059316495,
+        "rmse_y": 14.40473194866627
+      },
+      "train_count": 60,
+      "validation_count": 20,
+      "checkpoint_sha256": "273fdff0b280bdc3a2ad41ec7b778f740e2e652142261203e77c5d106885abdb"
+    },
+    "regression_fold0": {
+      "best_epoch": 47,
+      "completed_epochs": 80,
+      "metrics": {
+        "rmse": 34.32581958694272,
+        "rmse_x": 39.94153980324333,
+        "rmse_y": 27.589802079330152
+      },
+      "train_count": 60,
+      "validation_count": 20,
+      "checkpoint_sha256": "3dbe66103f28dd25399d7f29e2036d0095d535dec37b586cf17eb2976026c190"
+    },
+    "regression_fold1": {
+      "best_epoch": 80,
+      "completed_epochs": 80,
+      "metrics": {
+        "rmse": 31.097434889239878,
+        "rmse_x": 32.419044367980966,
+        "rmse_y": 29.717107457622937
+      },
+      "train_count": 60,
+      "validation_count": 20,
+      "checkpoint_sha256": "c362406edac3891a0e7aec23ff74f957ad82d85b3a38c59bd6c2cc5b1f71955f"
+    },
+    "regression_fold2": {
+      "best_epoch": 39,
+      "completed_epochs": 80,
+      "metrics": {
+        "rmse": 31.88485937624013,
+        "rmse_x": 35.41669812500902,
+        "rmse_y": 27.909604239530147
+      },
+      "train_count": 60,
+      "validation_count": 20,
+      "checkpoint_sha256": "1535871d5b8c9ff05a60a6a9f716c06571fb9bf3e86332bf223dcd3826f88594"
+    },
+    "regression_fold3": {
+      "best_epoch": 29,
+      "completed_epochs": 80,
+      "metrics": {
+        "rmse": 51.91440009014405,
+        "rmse_x": 54.90601040907046,
+        "rmse_y": 48.73951060893146
+      },
+      "train_count": 60,
+      "validation_count": 20,
+      "checkpoint_sha256": "2a9d578a37c2fc01b51c7298c967d223dacea3d687ef6c249eab7ff926234110"
+    },
+    "selection": {
+      "selected": "equal_mean",
+      "recomputed_metrics": {
+        "heatmap": {
+          "rmse": 30.187920844293064,
+          "rmse_x": 33.9098503739476,
+          "rmse_y": 25.937293178338663
+        },
+        "regression": {
+          "rmse": 38.26572076012685,
+          "rmse_x": 41.57924219098444,
+          "rmse_y": 34.63664806830281
+        },
+        "equal_mean": {
+          "rmse": 28.153703785912086,
+          "rmse_x": 32.154138366137595,
+          "rmse_y": 23.481342799359645
+        }
+      },
+      "oof_coverage_per_architecture": {
+        "heatmap": {
+          "records": 80,
+          "count_per_record": 1
+        },
+        "regression": {
+          "records": 80,
+          "count_per_record": 1
+        }
+      },
+      "refit_epochs": {
+        "heatmap": 12,
+        "regression": 43
+      }
+    },
+    "full_heatmap_seed43": {
+      "train_count": 80,
+      "validation_count": 0,
+      "epochs": 12,
+      "checkpoint_epoch": 12,
+      "checkpoint_sha256": "1f2ed353bdcd01ebf5e3905c71c8139a890c7ee964a39c253c3d04cebaedde70"
+    },
+    "full_heatmap_seed44": {
+      "train_count": 80,
+      "validation_count": 0,
+      "epochs": 12,
+      "checkpoint_epoch": 12,
+      "checkpoint_sha256": "ffa86aadf719292a567360c1e78d21e7aad20fbc3e2001611c22051a14cdc138"
+    },
+    "full_regression_seed43": {
+      "train_count": 80,
+      "validation_count": 0,
+      "epochs": 43,
+      "checkpoint_epoch": 43,
+      "checkpoint_sha256": "67e08721e9af4dc6b12a23b714f4df6237f1a00bb26b146b504775f3469ce56c"
+    },
+    "full_regression_seed44": {
+      "train_count": 80,
+      "validation_count": 0,
+      "epochs": 43,
+      "checkpoint_epoch": 43,
+      "checkpoint_sha256": "3c08c1a2397d62a6ca7468ce2c9cf8237f712a9d270430d652d00d2f1d1eb75a"
+    },
+    "submission": {
+      "rows": 40,
+      "test_images": 20,
+      "models_in_equal_mean": 4,
+      "sha256": "a76ad7db2a9e8b78b4680bcb1630e930a8b57d1651c45d79cc8fc9dbe863377d",
+      "maximum_csv_mean_absolute_difference": 0.0
+    }
+  },
+  "scope": "Saved artifact consistency audit, not an independent rerun of model inference or an online score verification."
+}
